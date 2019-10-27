@@ -1,0 +1,56 @@
+{
+  "name": "reach-field-maps",
+  "description": "REACH Field Maps",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Maxym Malynowsky <maxym.malynowsky@reach-initiative.org>",
+  "scripts": {
+    "build": "rm -rf .cache && rm -rf public && gatsby build",
+    "build-deploy": "node data-download.js && node data-size.js && gatsby build",
+    "deploy": "yarn build && netlify deploy",
+    "git": "yarn build && git push && git checkout master && git merge develop && git push && git checkout develop",
+    "start": "gatsby develop",
+    "network": "gatsby develop -H 0.0.0.0",
+    "serve": "yarn build && gatsby serve",
+    "format": "prettier --write 'src/**/*.{js,ts,jsx,tsx}'",
+    "lint": "tsc && eslint --fix 'src/**/*.{js,ts,jsx,tsx}'",
+    "upgrade-all": "./upgrade-all.sh && yarn upgrade"
+  },
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "gatsby": "^2.16.5",
+    "gatsby-image": "^2.2.29",
+    "gatsby-plugin-google-analytics": "^2.1.23",
+    "gatsby-plugin-manifest": "^2.2.23",
+    "gatsby-plugin-netlify": "^2.1.22",
+    "gatsby-plugin-offline": "^3.0.16",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-sass": "^2.1.20",
+    "gatsby-plugin-sharp": "^2.2.32",
+    "gatsby-plugin-typescript": "^2.1.15",
+    "gatsby-source-filesystem": "^2.1.33",
+    "gatsby-source-graphql": "^2.1.20",
+    "gatsby-transformer-sharp": "^2.2.23",
+    "graphql": "^14.5.8",
+    "mapbox-gl": "^1.4.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.5.1",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/impact-initiatives/reach-field-maps"
+  }
+}
