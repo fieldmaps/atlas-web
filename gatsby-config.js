@@ -28,17 +28,19 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-offline',
       options: {
-        globPatterns: [
-          '**/*.{js,css,html}',
-          '**/*/page-data.json',
-          'manifest.json',
-          'manifest.webmanifest',
-          'data/**/*',
-          'fonts/**/*',
-        ],
-        globIgnores: ['idb-keyval-iife.min.js'],
-        maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
-        offlineGoogleAnalytics: true,
+        workboxConfig: {
+          globPatterns: [
+            '**/*.{js,css,html}',
+            'manifest.json',
+            'manifest.webmanifest',
+            'page-data/*/**',
+            'data/**/*',
+            'fonts/**/*',
+          ],
+          globIgnores: ['idb-keyval-iife.min.js'],
+          maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
+          offlineGoogleAnalytics: true,
+        },
       },
     },
     {
