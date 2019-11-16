@@ -3,11 +3,11 @@ require('dotenv').config();
 const https = require('https');
 const fs = require('fs');
 
-const id = process.env.AWS_ID;
-const bucket = 'field-maps.reach-info.org';
-const region = 'eu-west-1';
+const id = process.env.S3_FOLDER;
+const bucket = 'fieldmaps-data';
+const region = 'eu-central-1';
 
-const srcPath = `https://s3-${region}.amazonaws.com/${bucket}/files/${id}/`;
+const srcPath = `https://s3-${region}.amazonaws.com/${bucket}/atlas/${id}/`;
 const destPath = 'static/data/';
 
 const downloadFile = name => {
