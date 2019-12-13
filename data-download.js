@@ -4,26 +4,29 @@ const https = require('https');
 const fs = require('fs');
 
 const id = process.env.S3_FOLDER;
-const bucket = 'fieldmaps-data';
-const region = 'eu-central-1';
 
-const srcPath = `https://s3-${region}.amazonaws.com/${bucket}/atlas/${id}/`;
+const srcPath = `https://data.fieldmaps.io/atlas-2/${id}/`;
 const destPath = 'static/data/';
 
 const downloadFile = name => {
-  const file = fs.createWriteStream(destPath + name + '.json');
-  https.get(srcPath + name + '.json', response => response.pipe(file));
+  const file = fs.createWriteStream(destPath + name + '.geojson');
+  https.get(srcPath + name + '.geojson', response => response.pipe(file));
 };
 
 if (!fs.existsSync(destPath)) fs.mkdirSync(destPath);
 downloadFile('admin0');
 downloadFile('admin1');
 downloadFile('admin2');
-downloadFile('camps');
+downloadFile('admin3');
+downloadFile('admin4');
+downloadFile('airports');
+downloadFile('education-facilities');
+downloadFile('financial-services');
+downloadFile('health-facilities');
 downloadFile('lakes');
-downloadFile('marshlands');
-downloadFile('parks');
+downloadFile('protected-areas');
+downloadFile('railways');
 downloadFile('rivers');
 downloadFile('roads');
+downloadFile('sea-ports');
 downloadFile('settlements');
-downloadFile('undArea');

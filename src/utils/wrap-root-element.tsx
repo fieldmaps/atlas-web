@@ -7,6 +7,12 @@ interface Props {
 }
 
 const WrapRootElement = ({ element }: Props) =>
-  navigator.serviceWorker.controller ? element : <SwInstalling />;
+  window.location.hostname !== 'localhost' &&
+  window.location.hostname !== '127.0.0.1' &&
+  !navigator.serviceWorker.controller ? (
+    <SwInstalling />
+  ) : (
+    element
+  );
 
 export default WrapRootElement;

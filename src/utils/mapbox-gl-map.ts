@@ -1,4 +1,3 @@
-import style from './mapbox-gl-style';
 import {
   onClick,
   onDoubleClick,
@@ -10,13 +9,41 @@ interface State {
   map: any;
 }
 
+const layers = [
+  'settlements-1',
+  'settlements-2',
+  'settlements-3',
+  'settlements-4',
+  'settlements-5',
+  'settlements-6',
+  'education-facilities-1',
+  'education-facilities-2',
+  'health-facilities-1',
+  'health-facilities-2',
+  'financial-services-1',
+  'financial-services-2',
+  'airports-1',
+  'airports-2',
+  'sea-ports-1',
+  'sea-ports-2',
+];
+
+const icons = ['health', 'education', 'finance', 'airport', 'sea-port'];
+
+const addPointer = (layer, map) => {
+  map.on('mouseenter', layer, () => setPointer(map));
+  map.on('mouseleave', layer, () => unsetPointer(map));
+};
+
 const getMap = (mapDiv: HTMLDivElement, setState: Function) => {
   import('mapbox-gl/dist/mapbox-gl.js').then(mapboxgl => {
+    mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js');
     const map = new mapboxgl.Map({
       container: mapDiv,
-      style,
-      bounds: process.env.GATSBY_BOUNDS.split(','),
+      style: '/styles/settlements.json',
       doubleClickZoom: false,
+      bounds: process.env.GATSBY_BOUNDS.split(','),
+      hash: true,
     });
     const nav = new mapboxgl.NavigationControl();
     map.addControl(nav, 'top-right');
@@ -28,18 +55,13 @@ const getMap = (mapDiv: HTMLDivElement, setState: Function) => {
     );
     map.on('click', ({ point }) => onClick({ mapboxgl, map, point }));
     map.on('dblclick', ({ point }) => onDoubleClick({ mapboxgl, map, point }));
-    map.on('mouseenter', 'settlements-1', () => setPointer(map));
-    map.on('mouseenter', 'settlements-2', () => setPointer(map));
-    map.on('mouseenter', 'settlements-3', () => setPointer(map));
-    map.on('mouseenter', 'settlements-4', () => setPointer(map));
-    map.on('mouseenter', 'settlements-5', () => setPointer(map));
-    map.on('mouseenter', 'settlements-6', () => setPointer(map));
-    map.on('mouseleave', 'settlements-1', () => unsetPointer(map));
-    map.on('mouseleave', 'settlements-2', () => unsetPointer(map));
-    map.on('mouseleave', 'settlements-3', () => unsetPointer(map));
-    map.on('mouseleave', 'settlements-4', () => unsetPointer(map));
-    map.on('mouseleave', 'settlements-5', () => unsetPointer(map));
-    map.on('mouseleave', 'settlements-6', () => unsetPointer(map));
+    layers.forEach(layer => addPointer(layer, map));
+    icons.forEach(icon => {
+      map.loadImage(`/icons/${icon}.png`, (error, image) => {
+        if (error) throw error;
+        if (!map.hasImage(icon)) map.addImage(icon, image);
+      });
+    });
     setState((state: State) => ({ ...state, map }));
   });
 };

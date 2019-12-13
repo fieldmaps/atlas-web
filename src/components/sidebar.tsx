@@ -3,19 +3,14 @@ import React, { useState, useEffect } from 'react';
 interface State {
   camps: any;
   input: string;
-  settlements: any;
+  features: any;
 }
 
 const componentDidMount = (setState: Function) => {
-  // fetch('/data/camps.json')
-  //   .then(response => response.json())
-  //   .then(({ features }) =>
-  //     setState((state: State) => ({ ...state, camps: features })),
-  //   );
-  fetch('/data/settlements.json')
+  fetch('/data/settlements.geojson')
     .then(response => response.json())
     .then(({ features }) =>
-      setState((state: State) => ({ ...state, settlements: features })),
+      setState((state: State) => ({ ...state, features })),
     );
 };
 
@@ -29,7 +24,7 @@ const onClick = (map, feature) => {
 };
 
 const Sidebar = ({ map }) => {
-  const [state, setState] = useState({ camps: [], input: '', settlements: [] });
+  const [state, setState] = useState({ camps: [], input: '', features: [] });
   useEffect(() => componentDidMount(setState), []);
   return (
     <section className="section field-maps-sidebar">
@@ -40,26 +35,28 @@ const Sidebar = ({ map }) => {
               className="input"
               type="text"
               onChange={e => onChange(e, setState)}
-              placeholder={`Search ${process.env.GATSBY_NAME_SHORT}`}
+              placeholder="Search settlements"
             />
           </p>
         </div>
         <ul className="field-maps-search-list">
           {state.input.length >= 3
-            ? state.settlements
+            ? state.features
                 .filter(item =>
-                  item.properties.n
-                    .toLowerCase()
-                    .includes(state.input.toLowerCase()),
+                  item.properties.name
+                    ? item.properties.name
+                        .toLowerCase()
+                        .includes(state.input.toLowerCase())
+                    : false,
                 )
-                .map((settlement, index) => (
+                .map((feature, index) => (
                   <li key={index}>
                     <button
                       className="button is-white is-fullwidth justify-content-start"
                       type="button"
-                      onClick={() => onClick(map, settlement)}
+                      onClick={() => onClick(map, feature)}
                     >
-                      {settlement.properties.n}
+                      {feature.properties.name}
                     </button>
                   </li>
                 ))

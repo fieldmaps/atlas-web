@@ -2,21 +2,27 @@ const fs = require('fs');
 
 const destPath = 'static/data/';
 
-const getFilesizeInBytes = name => fs.statSync(destPath + name + '.json').size;
+const getFilesizeInBytes = name =>
+  fs.statSync(destPath + name + '.geojson').size;
 const sumNumbers = (acc, cur) => acc + cur;
 
 const fileSizes = [
   getFilesizeInBytes('admin0'),
   getFilesizeInBytes('admin1'),
   getFilesizeInBytes('admin2'),
-  getFilesizeInBytes('camps'),
+  getFilesizeInBytes('admin3'),
+  getFilesizeInBytes('admin4'),
+  getFilesizeInBytes('education-facilities'),
+  getFilesizeInBytes('financial-facilities'),
+  getFilesizeInBytes('health-facilities'),
   getFilesizeInBytes('lakes'),
-  getFilesizeInBytes('marshlands'),
-  getFilesizeInBytes('parks'),
+  getFilesizeInBytes('protected-areas'),
+  getFilesizeInBytes('railways'),
   getFilesizeInBytes('rivers'),
   getFilesizeInBytes('roads'),
+  getFilesizeInBytes('sea-ports'),
   getFilesizeInBytes('settlements'),
-  getFilesizeInBytes('undArea'),
+  getFilesizeInBytes('undetermined-areas'),
 ];
 
 const totalSize = fileSizes.reduce(sumNumbers, 0);

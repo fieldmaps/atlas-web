@@ -21,9 +21,21 @@ yarn add \
 
 yarn add --dev \
   @babel/core \
+  @types/react \
+  @typescript-eslint/eslint-plugin \
+  @typescript-eslint/parser \
+  babel-eslint \
   dotenv \
   eslint \
+  eslint-config-react-app \
+  eslint-plugin-flowtype@3.x \
+  eslint-plugin-import \
+  eslint-plugin-jsx-a11y \
+  eslint-plugin-react \
+  eslint-plugin-react-hooks@1.x \
   node-sass \
   prettier \
   typescript \
   webpack
+
+yarn upgrade
