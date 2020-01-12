@@ -4,31 +4,12 @@ import {
   setPointer,
   unsetPointer,
 } from './mapbox-gl-actions';
+import style from '../config/settlements';
+import { layers, icons } from '../config/names';
 
 interface State {
   map: any;
 }
-
-const layers = [
-  'settlements-1',
-  'settlements-2',
-  'settlements-3',
-  'settlements-4',
-  'settlements-5',
-  'settlements-6',
-  'education-facilities-1',
-  'education-facilities-2',
-  'health-facilities-1',
-  'health-facilities-2',
-  'financial-services-1',
-  'financial-services-2',
-  'airports-1',
-  'airports-2',
-  'sea-ports-1',
-  'sea-ports-2',
-];
-
-const icons = ['health', 'education', 'finance', 'airport', 'sea-port'];
 
 const addPointer = (layer, map) => {
   map.on('mouseenter', layer, () => setPointer(map));
@@ -40,9 +21,10 @@ const getMap = (mapDiv: HTMLDivElement, setState: Function) => {
     mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js');
     const map = new mapboxgl.Map({
       container: mapDiv,
-      style: '/styles/settlements.json',
+      style,
       doubleClickZoom: false,
       bounds: process.env.GATSBY_BOUNDS.split(','),
+      pitchWithRotate: false,
       hash: true,
     });
     const nav = new mapboxgl.NavigationControl();

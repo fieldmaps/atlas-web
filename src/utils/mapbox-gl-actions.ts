@@ -1,3 +1,5 @@
+import { layers } from '../config/names';
+
 const getType = type => {
   if (typeof type === 'number') {
     switch (type) {
@@ -32,26 +34,7 @@ const getPcode = pcode => {
 };
 
 export const onClick = ({ mapboxgl, map, point }) => {
-  const features = map.queryRenderedFeatures(point, {
-    layers: [
-      'settlements-1',
-      'settlements-2',
-      'settlements-3',
-      'settlements-4',
-      'settlements-5',
-      'settlements-6',
-      'education-facilities-1',
-      'education-facilities-2',
-      'health-facilities-1',
-      'health-facilities-2',
-      'financial-services-1',
-      'financial-services-2',
-      'airports-1',
-      'airports-2',
-      'sea-ports-1',
-      'sea-ports-2',
-    ],
-  });
+  const features = map.queryRenderedFeatures(point, { layers });
   if (features.length) {
     const { lat, lng } = map.unproject(point);
     const feature = features[0];
