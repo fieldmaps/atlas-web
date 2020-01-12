@@ -30,3 +30,4 @@ downloadFile('rivers');
 downloadFile('roads');
 downloadFile('sea-ports');
 downloadFile('settlements');
+downloadFile('undetermined-areas');
