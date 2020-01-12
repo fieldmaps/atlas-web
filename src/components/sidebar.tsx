@@ -27,7 +27,7 @@ const Sidebar = ({ map }) => {
   const [state, setState] = useState({ camps: [], input: '', features: [] });
   useEffect(() => componentDidMount(setState), []);
   return (
-    <section className="section field-maps-sidebar">
+    <section className="field-maps-sidebar">
       <div className="container box">
         <div className="field field-maps-search-input">
           <p className="control">
@@ -35,7 +35,7 @@ const Sidebar = ({ map }) => {
               className="input"
               type="text"
               onChange={e => onChange(e, setState)}
-              placeholder="Search settlements"
+              placeholder="&#x1f50d;settlements"
             />
           </p>
         </div>
