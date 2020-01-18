@@ -5,7 +5,7 @@ import {
   unsetPointer,
 } from './mapbox-gl-actions';
 import style from '../config/settlements';
-import { layers, icons } from '../config/names';
+import { layers } from '../config/names';
 
 interface State {
   map: any;
@@ -23,7 +23,6 @@ const getMap = (mapDiv: HTMLDivElement, setState: Function) => {
       container: mapDiv,
       style,
       doubleClickZoom: false,
-      bounds: process.env.GATSBY_BOUNDS.split(','),
       pitchWithRotate: false,
       hash: true,
     });
@@ -38,12 +37,6 @@ const getMap = (mapDiv: HTMLDivElement, setState: Function) => {
     map.on('click', ({ point }) => onClick({ mapboxgl, map, point }));
     map.on('dblclick', ({ point }) => onDoubleClick({ mapboxgl, map, point }));
     layers.forEach(layer => addPointer(layer, map));
-    icons.forEach(icon => {
-      map.loadImage(`/icons/${icon}.png`, (error, image) => {
-        if (error) throw error;
-        if (!map.hasImage(icon)) map.addImage(icon, image);
-      });
-    });
     setState((state: State) => ({ ...state, map }));
   });
 };

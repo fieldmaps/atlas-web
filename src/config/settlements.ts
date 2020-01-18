@@ -3,51 +3,28 @@ import filters from './filters';
 
 const style = {
   version: 8,
-  glyphs: '/fonts/{fontstack}/{range}.pbf',
+  sprite: window.location.origin + '/sprites/atlas/sprite',
+  glyphs: window.location.origin + '/fonts/{fontstack}/{range}.pbf',
+  bounds: process.env.GATSBY_BOUNDS.split(','),
   sources: {
-    admin0: { type: 'geojson', data: '/data/admin0.geojson' },
-    admin1: { type: 'geojson', data: '/data/admin1.geojson' },
-    admin2: { type: 'geojson', data: '/data/admin2.geojson' },
-    admin3: { type: 'geojson', data: '/data/admin3.geojson' },
-    admin4: { type: 'geojson', data: '/data/admin4.geojson' },
-    airports: { type: 'geojson', data: '/data/airports.geojson' },
-    'sea-ports': { type: 'geojson', data: '/data/sea-ports.geojson' },
-    'health-facilities': {
-      type: 'geojson',
-      data: '/data/health-facilities.geojson',
-    },
-    'financial-services': {
-      type: 'geojson',
-      data: '/data/financial-services.geojson',
-    },
-    'education-facilities': {
-      type: 'geojson',
-      data: '/data/education-facilities.geojson',
-    },
-    lakes: { type: 'geojson', data: '/data/lakes.geojson' },
-    'protected-areas': {
-      type: 'geojson',
-      data: '/data/protected-areas.geojson',
-    },
-    rivers: { type: 'geojson', data: '/data/rivers.geojson' },
-    roads: { type: 'geojson', data: '/data/roads.geojson' },
-    settlements: { type: 'geojson', data: '/data/settlements.geojson' },
-    'undetermined-areas': {
-      type: 'geojson',
-      data: '/data/undetermined-areas.geojson',
+    fieldmaps: {
+      type: 'vector',
+      tiles: [window.location.origin + '/tiles/{z}/{x}/{y}.pbf'],
     },
   },
   layers: [
     {
       id: 'protected-areas',
-      source: 'protected-areas',
+      source: 'fieldmaps',
+      'source-layer': 'protectedareas',
       type: 'fill',
       paint: { 'fill-color': '#DAE3D9' },
     },
     {
       filter: ['==', 'type', 'wetland'],
       id: 'wetlands',
-      source: 'lakes',
+      source: 'fieldmaps',
+      'source-layer': 'lakes',
       type: 'fill',
       paint: { 'fill-color': '#B6DAE7' },
     },
@@ -57,13 +34,15 @@ const style = {
         'line-color': '#94CCDC',
         'line-width': { stops: stops.rivers, base: 2 },
       },
-      source: 'rivers',
+      source: 'fieldmaps',
+      'source-layer': 'rivers',
       type: 'line',
     },
     {
       filter: ['==', 'type', 'water'],
       id: 'lakes',
-      source: 'lakes',
+      source: 'fieldmaps',
+      'source-layer': 'lakes',
       type: 'fill',
       paint: { 'fill-color': '#56B3CD' },
     },
@@ -75,7 +54,8 @@ const style = {
         'line-gap-width': 1,
         'line-width': { stops: stops.roadsPrimary, base: 2 },
       },
-      source: 'roads',
+      source: 'fieldmaps',
+      'source-layer': 'roads',
       type: 'line',
     },
     {
@@ -85,7 +65,8 @@ const style = {
         'line-color': '#F69E61',
         'line-width': { stops: stops.roadsSecondary, base: 2 },
       },
-      source: 'roads',
+      source: 'fieldmaps',
+      'source-layer': 'roads',
       type: 'line',
     },
     {
@@ -96,12 +77,14 @@ const style = {
         'line-dasharray': [2, 2],
         'line-width': { stops: stops.roadsTertiary, base: 2 },
       },
-      source: 'roads',
+      source: 'fieldmaps',
+      'source-layer': 'roads',
       type: 'line',
     },
     {
       id: 'admin0',
-      source: 'admin0',
+      source: 'fieldmaps',
+      'source-layer': 'admin0',
       type: 'line',
       paint: {
         'line-color': 'black',
@@ -110,7 +93,8 @@ const style = {
     },
     {
       id: 'undetermined-areas',
-      source: 'undetermined-areas',
+      source: 'fieldmaps',
+      'source-layer': 'undeterminedareas',
       type: 'line',
       paint: {
         'line-color': 'black',
@@ -120,7 +104,8 @@ const style = {
     },
     {
       id: 'admin1',
-      source: 'admin1',
+      source: 'fieldmaps',
+      'source-layer': 'admin1',
       type: 'line',
       paint: {
         'line-color': 'black',
@@ -129,7 +114,8 @@ const style = {
     },
     {
       id: 'admin2',
-      source: 'admin2',
+      source: 'fieldmaps',
+      'source-layer': 'admin2',
       type: 'line',
       paint: {
         'line-color': 'black',
@@ -141,10 +127,10 @@ const style = {
       minzoom: stops.seaPorts1[1][0],
       layout: {
         'icon-allow-overlap': true,
-        'icon-image': 'sea-port',
-        'icon-size': 0.03,
+        'icon-image': 'ferry-15',
       },
-      source: 'sea-ports',
+      source: 'fieldmaps',
+      'source-layer': 'seaports',
       type: 'symbol',
     },
     {
@@ -156,7 +142,8 @@ const style = {
         'circle-stroke-width': 1,
         'circle-stroke-color': 'rgba(255, 255, 255, 0.9)',
       },
-      source: 'sea-ports',
+      source: 'fieldmaps',
+      'source-layer': 'seaports',
       type: 'circle',
     },
     {
@@ -165,10 +152,10 @@ const style = {
       minzoom: stops.airports1[1][0],
       layout: {
         'icon-allow-overlap': true,
-        'icon-image': 'helipad',
-        'icon-size': 0.03,
+        'icon-image': 'heliport-15',
       },
-      source: 'airports',
+      source: 'fieldmaps',
+      'source-layer': 'airports',
       type: 'symbol',
     },
     {
@@ -177,10 +164,10 @@ const style = {
       minzoom: stops.airports1[1][0],
       layout: {
         'icon-allow-overlap': true,
-        'icon-image': 'airport',
-        'icon-size': 0.03,
+        'icon-image': 'airport-15',
       },
-      source: 'airports',
+      source: 'fieldmaps',
+      'source-layer': 'airports',
       type: 'symbol',
     },
     {
@@ -192,7 +179,8 @@ const style = {
         'circle-stroke-width': 1,
         'circle-stroke-color': 'rgba(255, 255, 255, 0.9)',
       },
-      source: 'airports',
+      source: 'fieldmaps',
+      'source-layer': 'airports',
       type: 'circle',
     },
     {
@@ -200,10 +188,10 @@ const style = {
       minzoom: stops.financialServices1[1][0],
       layout: {
         'icon-allow-overlap': true,
-        'icon-image': 'finance',
-        'icon-size': 0.03,
+        'icon-image': 'bank-15',
       },
-      source: 'financial-services',
+      source: 'fieldmaps',
+      'source-layer': 'financialservices',
       type: 'symbol',
     },
     {
@@ -215,7 +203,8 @@ const style = {
         'circle-stroke-width': 1,
         'circle-stroke-color': 'rgba(255, 255, 255, 0.9)',
       },
-      source: 'financial-services',
+      source: 'fieldmaps',
+      'source-layer': 'financialservices',
       type: 'circle',
     },
     {
@@ -223,10 +212,10 @@ const style = {
       minzoom: stops.educationFacilities1[1][0],
       layout: {
         'icon-allow-overlap': true,
-        'icon-image': 'education',
-        'icon-size': 0.025,
+        'icon-image': 'school-15',
       },
-      source: 'education-facilities',
+      source: 'fieldmaps',
+      'source-layer': 'educationfacilities',
       type: 'symbol',
     },
     {
@@ -238,7 +227,8 @@ const style = {
         'circle-stroke-width': 1,
         'circle-stroke-color': 'rgba(255, 255, 255, 0.9)',
       },
-      source: 'education-facilities',
+      source: 'fieldmaps',
+      'source-layer': 'educationfacilities',
       type: 'circle',
     },
     {
@@ -246,10 +236,10 @@ const style = {
       minzoom: stops.healthFacilities1[1][0],
       layout: {
         'icon-allow-overlap': true,
-        'icon-image': 'health',
-        'icon-size': 0.025,
+        'icon-image': 'hospital-15',
       },
-      source: 'health-facilities',
+      source: 'fieldmaps',
+      'source-layer': 'healthfacilities',
       type: 'symbol',
     },
     {
@@ -261,7 +251,8 @@ const style = {
         'circle-stroke-width': 1,
         'circle-stroke-color': 'rgba(255, 255, 255, 0.9)',
       },
-      source: 'health-facilities',
+      source: 'fieldmaps',
+      'source-layer': 'healthfacilities',
       type: 'circle',
     },
     {
@@ -274,7 +265,8 @@ const style = {
         'circle-stroke-width': 1,
         'circle-stroke-color': 'rgba(255, 255, 255, 0.9)',
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'circle',
     },
     {
@@ -287,7 +279,8 @@ const style = {
         'circle-stroke-width': 1,
         'circle-stroke-color': 'rgba(255, 255, 255, 0.9)',
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'circle',
     },
     {
@@ -300,7 +293,8 @@ const style = {
         'circle-stroke-width': 1,
         'circle-stroke-color': 'rgba(255, 255, 255, 0.9)',
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'circle',
     },
     {
@@ -313,7 +307,8 @@ const style = {
         'circle-stroke-width': 1,
         'circle-stroke-color': 'rgba(255, 255, 255, 0.9)',
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'circle',
     },
     {
@@ -325,7 +320,8 @@ const style = {
         'circle-stroke-width': 1,
         'circle-stroke-color': 'rgba(255, 255, 255, 0.9)',
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'circle',
     },
     {
@@ -337,7 +333,8 @@ const style = {
         'circle-stroke-width': 1,
         'circle-stroke-color': 'rgba(255, 255, 255, 0.9)',
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'circle',
     },
     {
@@ -354,7 +351,8 @@ const style = {
         'text-halo-color': 'rgba(255, 255, 255, 0.9)',
         'text-halo-width': 1.5,
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'symbol',
     },
     {
@@ -371,7 +369,8 @@ const style = {
         'text-halo-color': 'rgba(255, 255, 255, 0.9)',
         'text-halo-width': 1.5,
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'symbol',
     },
     {
@@ -388,7 +387,8 @@ const style = {
         'text-halo-color': 'rgba(255, 255, 255, 0.9)',
         'text-halo-width': 1.5,
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'symbol',
     },
     {
@@ -405,7 +405,8 @@ const style = {
         'text-halo-color': 'rgba(255, 255, 255, 0.9)',
         'text-halo-width': 1.5,
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'symbol',
     },
     {
@@ -422,7 +423,8 @@ const style = {
         'text-halo-color': 'rgba(255, 255, 255, 0.9)',
         'text-halo-width': 1.5,
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'symbol',
     },
     {
@@ -438,12 +440,14 @@ const style = {
         'text-halo-color': 'rgba(255, 255, 255, 0.9)',
         'text-halo-width': 1.5,
       },
-      source: 'settlements',
+      source: 'fieldmaps',
+      'source-layer': 'settlements',
       type: 'symbol',
     },
     {
       id: 'undetermined-areas-text',
-      source: 'undetermined-areas',
+      source: 'fieldmaps',
+      'source-layer': 'undeterminedareas',
       type: 'symbol',
       layout: {
         'text-field': '{name}',
@@ -462,7 +466,8 @@ const style = {
     },
     {
       id: 'admin2-text',
-      source: 'admin2',
+      source: 'fieldmaps',
+      'source-layer': 'admin2',
       type: 'symbol',
       layout: {
         'text-field': '{name}',
@@ -481,7 +486,8 @@ const style = {
     },
     {
       id: 'admin1-text',
-      source: 'admin1',
+      source: 'fieldmaps',
+      'source-layer': 'admin1',
       type: 'symbol',
       layout: {
         'text-field': '{name}',
@@ -512,7 +518,8 @@ const style = {
         'text-halo-color': 'rgba(255, 255, 255, 0.9)',
         'text-halo-width': 1.5,
       },
-      source: 'admin0',
+      source: 'fieldmaps',
+      'source-layer': 'admin0',
       type: 'symbol',
     },
   ],

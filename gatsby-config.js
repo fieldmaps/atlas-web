@@ -37,6 +37,7 @@ module.exports = {
             'data/**/*',
             'fonts/**/*',
             'icons/**/*',
+            'tiles/**/*',
           ],
           globIgnores: ['idb-keyval-iife.min.js'],
           maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,

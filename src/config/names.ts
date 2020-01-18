@@ -1,12 +1,3 @@
-export const icons = [
-  'airport',
-  'education',
-  'finance',
-  'health',
-  'helipad',
-  'sea-port',
-];
-
 export const layers = [
   'settlements-1',
   'settlements-2',
