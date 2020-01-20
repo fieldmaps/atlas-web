@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { csvParse } from 'd3-dsv';
 
 interface State {
   camps: any;
@@ -7,11 +8,11 @@ interface State {
 }
 
 const componentDidMount = (setState: Function) => {
-  fetch('/data/settlements.geojson')
-    .then(response => response.json())
-    .then(({ features }) =>
-      setState((state: State) => ({ ...state, features })),
-    );
+  fetch('/data/settlements.csv')
+    .then(response => response.text())
+    .then(rows => {
+      setState((state: State) => ({ ...state, features: csvParse(rows) }));
+    });
 };
 
 const onChange = (e: React.FormEvent<HTMLInputElement>, setState: Function) => {
@@ -20,7 +21,7 @@ const onChange = (e: React.FormEvent<HTMLInputElement>, setState: Function) => {
 };
 
 const onClick = (map, feature) => {
-  map.flyTo({ center: feature.geometry.coordinates, zoom: 12 });
+  map.flyTo({ center: [feature.X, feature.Y], zoom: 12 });
 };
 
 const Sidebar = ({ map }) => {
@@ -43,8 +44,8 @@ const Sidebar = ({ map }) => {
           {state.input.length >= 3
             ? state.features
                 .filter(item =>
-                  item.properties.name
-                    ? item.properties.name
+                  item.name
+                    ? item.name
                         .toLowerCase()
                         .includes(state.input.toLowerCase())
                     : false,
@@ -56,7 +57,7 @@ const Sidebar = ({ map }) => {
                       type="button"
                       onClick={() => onClick(map, feature)}
                     >
-                      {feature.properties.name}
+                      {feature.name}
                     </button>
                   </li>
                 ))

@@ -1,18 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 
 import SEO from '../components/seo';
-import Sidebar from '../components/sidebar';
-import MapboxGlMap from '../components/mapbox-gl-map';
 
-const IndexPage = () => {
-  const [state, setState] = useState({ map: null });
-  return (
-    <div className="field-maps-flex-container">
-      <SEO title="Home" />
-      <MapboxGlMap setState={setState} />
-      <Sidebar map={state.map} />
-    </div>
-  );
+const componentDidMount = () => {
+  window.location.assign('https://fieldmaps.io');
 };
 
-export default IndexPage;
+const HomePage = () => {
+  useEffect(() => componentDidMount(), []);
+  return <SEO title="Home" />;
+};
+
+export default HomePage;

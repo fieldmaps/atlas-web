@@ -1,5 +1,6 @@
 yarn add \
   bulma \
+  d3-dsv \
   gatsby \
   gatsby-image \
   gatsby-plugin-google-analytics \
