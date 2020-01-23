@@ -76,5 +76,7 @@ yarn-error.log
 
 # data files
 static/data/
+static/fonts/
+static/sprites/
+static/styles/
 static/tiles/
-data-total-json.ts

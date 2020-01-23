@@ -29,7 +29,7 @@ const getMap = (
     mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js');
     const map = new mapboxgl.Map({
       container: mapDiv,
-      style: '/styles/settlements/ssd.json',
+      style: 'https://atlas.fieldmaps.io/styles/default/ssd.json',
       bounds: pageContext.bounds,
       doubleClickZoom: false,
       pitchWithRotate: false,
