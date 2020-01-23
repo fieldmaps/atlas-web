@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-import appTotal from '../../data-total-app';
-import jsonTotal from '../../data-total-json';
-
 const componentDidMount = (setState: Function) => {
   setInterval(() => {
     navigator.storage.estimate().then(({ usageDetails }) => {

@@ -24,7 +24,3 @@ export const onServiceWorkerUpdateFound = () => {
 
 export const onServiceWorkerUpdateReady = () =>
   navigate(window.location.pathname);
-
-export const wrapRootElement = ({ element }) => (
-  <WrapRootElement element={element} />
-);
