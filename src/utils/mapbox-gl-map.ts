@@ -12,7 +12,7 @@ interface State {
 
 interface PageContext {
   bounds: number[];
-  setRTLTextPlugin: boolean;
+  slug: string;
 }
 
 const addPointer = (layer, map) => {
@@ -26,10 +26,10 @@ const getMap = (
   pageContext: PageContext,
 ) => {
   import('mapbox-gl/dist/mapbox-gl.js').then(mapboxgl => {
-    mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js');
+    mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js', null, true);
     const map = new mapboxgl.Map({
       container: mapDiv,
-      style: 'https://atlas.fieldmaps.io/styles/default/ssd.json',
+      style: `/styles/${pageContext.slug}/default.json`,
       bounds: pageContext.bounds,
       doubleClickZoom: false,
       pitchWithRotate: false,

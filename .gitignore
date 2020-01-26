@@ -80,3 +80,5 @@ static/fonts/
 static/sprites/
 static/styles/
 static/tiles/
+static/tiles-limit/
+static/tiles-no-limit/

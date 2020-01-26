@@ -3,6 +3,7 @@ yarn add \
   d3-dsv \
   gatsby \
   gatsby-image \
+  gatsby-plugin-force-trailing-slashes \
   gatsby-plugin-google-analytics \
   gatsby-plugin-manifest \
   gatsby-plugin-netlify \
@@ -18,15 +19,17 @@ yarn add \
   mapbox-gl \
   react \
   react-dom \
-  react-helmet
+  react-helmet \
+  workbox-window
 
 yarn add --dev \
   @babel/core \
   @types/react \
+  @types/react-helmet \
+  @types/workbox-window \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser \
   babel-eslint \
-  dotenv \
   eslint \
   eslint-config-react-app \
   eslint-plugin-flowtype@3.x \
@@ -37,6 +40,7 @@ yarn add --dev \
   node-sass \
   prettier \
   typescript \
-  webpack
+  webpack \
+  workbox-build
 
 yarn upgrade

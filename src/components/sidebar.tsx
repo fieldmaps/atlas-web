@@ -7,8 +7,8 @@ interface State {
   features: any;
 }
 
-const componentDidMount = (setState: Function) => {
-  fetch('/data/settlements.csv')
+const componentDidMount = (setState: Function, slug: string) => {
+  fetch(`/search/${slug}/default.csv`)
     .then(response => response.text())
     .then(rows => {
       setState((state: State) => ({ ...state, features: csvParse(rows) }));
@@ -21,12 +21,12 @@ const onChange = (e: React.FormEvent<HTMLInputElement>, setState: Function) => {
 };
 
 const onClick = (map, feature) => {
-  map.flyTo({ center: [feature.X, feature.Y], zoom: 12 });
+  map.flyTo({ center: [feature.x, feature.y], zoom: 12 });
 };
 
-const Sidebar = ({ map }) => {
+const Sidebar = ({ map, slug }) => {
   const [state, setState] = useState({ camps: [], input: '', features: [] });
-  useEffect(() => componentDidMount(setState), []);
+  useEffect(() => componentDidMount(setState, slug), [slug]);
   return (
     <section className="field-maps-sidebar">
       <div className="container box">
@@ -36,7 +36,7 @@ const Sidebar = ({ map }) => {
               className="input"
               type="text"
               onChange={e => onChange(e, setState)}
-              placeholder="&#x1f50d;settlements"
+              placeholder="&#x1f50d;"
             />
           </p>
         </div>

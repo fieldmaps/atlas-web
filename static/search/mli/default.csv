@@ -1,0 +1,4963 @@
+x,y,name
+-11.0519,14.2769,Mamassita
+-8.0003,12.6493,Bamako
+-3.0087,16.7719,Tombouctou
+-0.0412,16.2788,Gao
+-5.6777,11.3165,Sikasso
+-11.4379,14.4434,Kayes
+-5.4601,12.387,Koutiala
+-6.0686,13.6859,Markala
+-8.0313,13.5773,Kolokani
+-7.5561,12.8646,Koulikoro
+-10.8342,13.8089,Bafoulabé
+-10.8482,13.7606,Mahina
+-2.9851,16.7071,Kabara
+-3.2463,14.4963,Arou
+-2.7861,15.851,Bambara-Maoundé
+-8.3399,12.3819,Sibi
+-4.6223,13.7546,Nogouna
+-4.6108,13.8046,Kobasso
+-4.5303,13.8486,Diabolo
+-4.8983,13.2991,San
+-4.5902,13.2868,Tominian
+3.0225,15.4221,Andéramboukane
+1,15,Labézanga
+-0.8488,16.1447,Doro
+-1.6993,15.2827,Hombori
+-1.6986,15.0219,Boumboum
+-2.953,15.0069,Douentza
+2.9695,19.9542,Tinzaouatine
+-8.4139,11.9415,Kangaba
+-8.3568,12.0743,Bourognina
+-8.2934,12.1723,Nankela Bugu
+-3.3894,14.3413,Ydeli Na
+-3.3455,14.3826,Tireli
+-3.2928,14.4659,Gogoli
+-3.276,14.4665,Guina
+-3.3102,14.468,Sangha
+-3.2671,14.4768,Ibi
+-3.2437,14.5071,Kondou
+-3.2191,14.5302,Youga Dogourou
+-3.2204,14.5366,Youga Piri
+-3.5963,14.1492,Kani Kombole
+-3.5657,14.1614,Tely
+-3.5496,14.1718,Valia
+-3.4942,14.2173,Yabatalou
+-3.4372,14.2775,Guimini
+-4.0636,14.2856,Somadougou
+-4.0133,14.2535,Balaguiné
+-3.6561,14.3549,Docoumbo
+-4.0917,14.3628,Youre
+-4.0826,14.3295,Hamdallyé
+-3.7745,14.9102,Bima
+-4.3008,13.8684,Paradougou
+-4.1172,14.1144,Bougouni-Daga
+-4.1058,14.1655,Bounguel
+-4.0705,14.2432,Mandio
+-3.6009,14.4005,Kalibombo
+-3.5861,14.4393,Boro
+-3.5878,14.4758,Benndiéli
+-3.5662,14.5196,Koundiala
+-3.5484,14.5779,Andia
+-3.5396,14.6214,Sogodougou
+-3.5104,14.6758,Kendie
+-3.4879,14.7432,Nomb
+-3.424,14.8943,Dogani
+-3.3525,14.9585,Kongoro
+-3.3594,14.9677,Nombol
+-3.369,15.0434,Demparé
+-3.3651,15.0489,Kiro
+-3.3493,15.0739,Bogowel
+-3.4877,15.1343,Bouaré
+-3.3429,15.1476,Gniminama
+-4.0796,14.5586,Takoti
+-3.921,14.7495,Sare Soma
+-4.0818,14.4058,Soufouroulaye
+-3.9093,14.8513,Takoutal
+-6.012,14.1441,Ngalamadjankora
+-5.9976,14.1564,Moussawéré
+-6.0618,14.0432,Siribala Coura
+-6.0512,14.0823,Laminibougou
+-6.0536,14.0743,Choualawéré
+-6.0487,14.0915,Minimana
+-6.0995,13.6904,Sarakala
+-6.0925,13.8715,Zanfina
+-6.2048,14.2356,Ngodla
+-6.1206,14.2149,Benkorokawéré
+-6.1113,14.2069,Abdulayekawéré
+-6.1211,14.2261,Benkorofulawéré
+-6.1016,14.2126,Diarrakawéré
+-6.0841,14.2138,Sambawéré
+-6.0996,14.2227,Chiwéré
+-6.02,14.2375,Molodo-centre
+-6.0356,14.2718,Quinze-ans-bougou
+-5.9175,14.5471,Sikawérémoussa
+-5.9302,14.5197,Dabakan
+-5.8985,14.6163,Dianbé
+-6.022,14.6855,Diabaly
+-5.8278,14.6396,Songa
+-6.7591,12.9192,Konobougou
+-7.1463,12.7523,Binko
+-7.7659,12.5874,Kobalakoro
+-6.0668,14.2516,Molodo 2
+-6.0511,14.248,Falémougou
+-5.9592,14.3077,sans-nom-14
+-4.0191,14.4938,Kowa
+-7.9347,12.4985,Cola
+-7.9385,12.4691,Banakoro
+-3.3,13.4167,Bladi
+-1.502,14.7243,Kobou
+-1.5465,15.0513,Kirnya
+-11.3662,14.3755,Medine
+-9.1913,14.5418,Diema
+0.9904,20.2582,Amachach
+-8.0295,12.7384,Dérébougou
+-8.0123,12.669,Minkoungo
+-7.9903,12.6786,Sicoro
+-8.0401,12.666,Le Lido
+-8.0447,12.6534,Koulouninko
+-7.9055,12.6713,Titibougou
+-7.911,12.6129,Yirimandio
+-8.0401,12.5233,Kabala
+-7.8239,12.6278,Kobala
+-7.8318,12.6343,Kogninimi
+-7.8941,12.6559,Sabalibougou
+-7.847,12.6446,Dougourakoro
+-7.3089,12.7352,wolodo
+-7.1467,12.7515,Tingolé
+-6.3605,13.3811,Segou sekoro
+-5.105,13.1391,Saman Koura
+-4.3981,13.8364,Tonbonka
+-5.532,13.2049,Teriya Bugu
+-2.9112,16.8583,sans-nom-15
+-2.9118,16.7283,sans-nom-16
+-2.9286,16.8375,Lekraker
+-2.8689,16.7091,Elakèt
+-2.9676,16.8336,Atula
+-3.0191,16.7186,sans-nom-21
+-4.9244,12.8347,kimparana
+-3.3704,13.935,Adiaganana
+-1.2639,16.0872,Adiora
+-6.3482,23.1514,Agagaktem أغاغاكتم
+-2.5736,15.481,Agawelene
+-2.6842,16.6177,Aglal
+0.9486,16.2545,Aglitarma
+-2.9972,17.0542,Agouni
+0.8549,19.4649,Aguelock
+-2.5056,17.6718,Ahel Chegui
+-2.8529,17.1976,Ahel-Boukou
+-6.9801,14.8674,Akor
+-1.7899,15.5355,Akotaf Oska
+-8.7405,15.2269,Allahina
+0.0275,17.2792,Amagor
+-0.4137,17.2545,Amakal Kalane
+1.3047,15.4176,Amalaoulaou
+1.2416,17.7215,Amassine
+-11.7904,14.5861,Ambidedi Poste
+-4.2109,15.5122,Ambiri-Habe
+0.6029,18.0459,Anéfis
+0.5068,15.6639,Ansongo
+-11.5863,14.9647,Aourou
+-3.3745,16.3798,Arham
+-2.5544,17.8741,Arouagene
+-3.9513,14.2596,Baboye
+-8.0661,10.6613,Bada
+-11.4734,15.3764,Bafarara
+-8.7594,12.1867,Balamassala
+-1.4035,17.0349,Bamba-Poste
+-9.1076,13.7486,Bambaran
+-7.2696,14.3177,Banadjougou
+-3.227,14.6432,Banakane
+-7.4465,13.5485,Banamba
+-8.6491,13.6446,Banankoulou
+-6.5245,12.0992,Banco
+-11.5079,14.493,Bangassi
+-4.3537,15.2859,Banguita
+-3.595,16.0442,Banikane
+-3.5232,14.0776,Bankass
+0.3251,15.8172,Bara
+-4.5928,13.5995,Baramandougou
+-3.3697,13.6258,Baye
+-6.4079,12.4751,Beleko Soba
+-11.6349,14.1593,Bendougou
+-2.5267,16.8395,Ber
+-3.0544,14.7354,Berdosso
+-11.5892,15.539,Bilikoïté
+-3.731,16.7376,Bintagoungou
+-4.9743,22.981,Bir Chali بئر شالي
+-4.9928,12.5364,Bobola-Zangasso
+-11.876,14.8289,Boko Diomby
+-9.1974,13.5202,Bokoroni
+-5.9281,14.4244,Bolibana
+-8.9163,13.6167,Bomboty
+-3.0058,14.134,Bondo
+-2.2211,15.0769,Boni
+-3.3546,14.9513,Borko
+-7.5127,14.0094,Boron
+-2.665,18.5391,Bou Djebbeha
+-9.5075,13.0886,Boudofo
+-5.5223,13.3316,Bougan
+2.2573,20.0185,Boughessa
+-7.7962,12.3092,Bougoula
+-7.4834,11.4194,Bougouni
+-8.4275,15.0801,Boulal
+-5.2787,15.1148,Boulel
+-1.7098,14.8601,Boundou-Herou
+-3.3334,16.3667,Bourem Sidi Amar
+-0.3468,16.9575,Bourem
+-2.8515,16.6904,Bourem-Inaly
+-5.9362,13.5068,Boussin
+-8.0935,14.9106,Boutika
+2.6574,16.9489,Chamanamas
+-1.397,17.4672,Cherifene Arbakoira
+2.7078,19.1476,Chibil Ifourgoumissen
+-2.4897,16.2983,Chichane Ouest
+-0.3755,19.4393,D'Ag Assil Issil
+-9.3987,12.9678,Daféla
+-3.721,17.5319,Dag Anga
+-2.0198,17.7068,Dag Mohamed Aly
+-3.1004,17.3641,Dag Toutta
+-3.6238,17.1075,Dag-Mana
+-5.8993,14.9172,Dagabory
+-0.2509,16.8119,Dagha
+-2.7781,16.1928,Daka Ali
+-2.689,16.0319,Daka Fifo
+-2.6708,16.0756,Daka
+-12.0157,14.29,Dakassenou
+-2.6403,15.1053,Dallah
+-3.1788,14.7335,Damada
+-8.4145,14.1582,Dampacoura
+-3.5445,14.3982,Dandoli
+-3.1362,16.4651,Dangha
+-8.0634,15.1499,Dankel
+-6.4279,14.2577,Daouna
+-3.2581,14.779,Deh
+-4.9567,14.3526,Dia
+-10.2509,14.4715,Diakon
+-11.4914,14.4647,Diala-Banlieu
+-10.3499,13.7807,Dialakan
+-10.1617,14.2054,Dialan
+-3.6264,13.7407,Diallassagou
+-3.9753,14.8225,Diamabacourou
+-6.0746,13.6719,Diamarabougou
+-11.2625,14.0866,Diamou
+-3.9414,13.9964,Diangassagou
+-3.0805,14.586,Diankabou
+-4.9472,15.2005,Diaweli
+-12.2006,14.4572,Diboli
+-8.2768,14.7157,Digan
+-6.3128,13.5011,Digani
+-7.6689,14.9995,Dilly
+-3.6175,14.0281,Dimbal-Habbe
+-2.2449,14.4507,Dinangourou
+-9.5029,14.1234,Dindako
+-6.7949,12.4864,Dioïla
+-10.0961,14.8623,Dioka
+-3.2347,15.3265,Diona
+-4.7736,14.6126,Diondori
+-10.8782,15.075,Diongaga
+-2.587,14.8599,Dionki
+-7.0405,11.9161,Dionsala
+-5.8314,13.689,Dioro
+-7.4188,10.6299,Diossan
+-8.5661,14.5378,Dioumara Koussata
+-5.82,13.4324,Diouna
+-2.7403,14.3156,Dioungani-Peulh
+-10.9268,14.2443,Dioungo
+-5.2513,14.8252,Dioura
+0.2784,16.3428,Djebock
+-1.9494,14.5439,Djoulouna
+-4.4313,15.1684,Dogo
+-10.9406,15.0125,Dogofry
+-6.0296,14.7798,Dogofryba K12
+-6.0026,12.1406,Dogoni
+-8.2769,12.7608,Dombila
+-0.415,15.8126,Dorey
+-7.4899,14.2031,Dossorola
+-3.1596,17.6496,Douaya
+-7.9855,14.2175,Doubabougou
+-8.2541,14.1725,Doubala
+-6.1156,13.8152,Dougabougou Koroni
+-3.6192,16.4256,Doukouria
+-6.2071,13.9279,Doura
+-11.194,15.3843,El Gueleita الكليتا
+-2.9778,22.0323,El Ghetara
+-5.6254,21.2883,El Ksaib
+-2.1754,19.2478,El Mraiti
+-6.385,24.7482,El Mzereb
+-3.6347,16.781,Essakane
+1.1758,18.7536,Essouk السوق
+-7.1836,12.5662,Falako
+-7.9325,14.5983,Fallou
+-5.1306,14.3052,Famsala
+-10.4164,15.0056,Fanga
+-4.4465,13.527,Fangasso
+-8.896,14.2935,Farabana
+-11.288,12.0398,Farindinia
+-5.1544,13.604,Folomana
+-0.0752,16.5046,Forgho Sonrhai
+-1.0838,15.964,Foulanes
+-9.4765,12.9001,Founia Moriba
+-4.8399,15.3892,Fraction Lalladji
+-4.5115,14.0121,Gagna
+-2.9833,13.692,Gakou
+-11.8421,14.6133,Gakoura Rive Droite
+-0.033,16.9753,Gaminakoira
+-3.182,16.5074,Garbakoira
+-4.1689,16.4678,Gargando
+-4.6117,15.4694,Gathi-Loumo
+-4.6522,13.9114,Gomitogo
+-8.2741,14.4273,Gomitra
+-2.9043,14.5703,Gondo-Gourou-Dogon
+-5.7967,11.5314,Gongasso
+-9.2486,14.0865,Gonkourou
+-10.7577,15.1056,Gory Diafounou
+-1.3095,15.8179,Gossi
+-11.8109,14.3338,Gouka
+-7.4547,14.9895,Goumbou
+-11.3012,14.5619,Goumera
+-3.6636,16.4169,Goundam
+-10.3669,14.0399,Goundara
+-7.0199,10.6071,Gouranko
+-1.9254,16.8777,Gourma-Rharous
+-9.1395,14.8288,Groumera
+-9.3206,14.2595,Guemoukouraba
+-8.2453,13.5035,Guihoyo
+-7.1044,15.4527,Guirel
+-3.2461,16.2229,Haibongo
+-11.2692,15.0746,Hamou
+-3.7258,16.5875,Hangabera
+0.1318,15.995,Haoussa-Foulane
+-5.1605,16.5625,Hel Check Hamed
+-11.3522,13.6229,Horokoto
+2.7161,18.8476,Ibhawane
+1.1464,17.3824,Ichamaratene
+2.2786,17.3175,Icherifen
+-1.155,20.4741,Ichourad
+0.9432,17.0072,Idarfane
+-1.8142,17.3769,Idnane
+0.7597,15.6594,Idourfane
+-2.6109,15.6357,Iforgas Mohamed
+1.2982,17.0469,Igawelene
+0.761,16.7422,Ikadeyane
+3.478,16.3222,Ikanabassane
+-0.9601,15.7302,Ikawalatenes
+0.7769,17.2369,Ilokane Samit
+0.4699,16.9779,Imagrane Tikli
+2.241,17.419,Imagrane
+0.1025,15.4335,Imrad I
+-4.5997,16.8221,In Amazzag
+-2.6157,22.235,In Dagouber
+1.5276,15.8686,In Delimane
+-1.9668,20.0736,In Echai
+3.8406,18.6462,In Tamat
+1.8664,17.8277,In Tebezas
+-0.1191,20.8984,In Techerene
+2.8495,16.3712,In Telle
+-1.2336,19.3461,Inabag
+-2.1528,15.6419,Inadiatafane
+2.2161,19.6643,Iradjanatene
+2.2495,18.2475,Irayakane
+-9.8529,14.6982,Kabakoro
+-9.6477,15.1264,Kadiaba Kadiel
+-4.4367,14.6519,Kadial
+-11.2662,14.2827,Kakoulou
+2.5001,17.9918,Kal Affala
+1.1078,18.8142,Kal Ahilwat
+1.7163,18.1023,Kal Edjerer
+0.6995,19.3309,Kal Relle Tadjmart
+1.0839,20.0483,Kal Relle
+0.8915,19.8989,Kal Tadhak
+0.7328,20.2477,Kal Tessalit
+-8.0289,12.5722,Kalabancoro
+-11.7514,15.3631,Kalinioro
+-7.4976,14.8571,Kaloumba
+-6.7642,13.6587,Kamiti
+-3.619,14.1427,Kani-Bonzon
+-5.0331,12.221,Karangana
+-3.8144,14.7934,Kargue
+-8.8817,12.9516,Kassaro
+-8.0718,12.7383,Kati
+3.6058,17.2235,Kel Agayok
+2.2839,17.8442,Kel Agueris
+1.9498,16.2567,Kel Aharas
+2.3203,16.3093,Kel Azarh
+0.0072,17.596,Kel Dihane
+1.0107,15.1109,Kel Eguitte
+-1.7416,15.8905,Kel Hassia
+-5.135,16.3936,Kel Mahla
+3.3026,15.6435,Intikorayte
+-1.8645,16.6616,Kel Tachaharte
+-0.9785,17.3735,Kel Tagho
+3.74,16.1963,Kel Taitof
+0.6291,17.373,Kel Takaraghate
+2.2443,15.7867,Kel Teguiwelt
+-2.0171,17.1641,Kel Tinakawat
+-4.4648,17.0934,Kel-Razaf
+-7.353,13.5782,Kiban
+-4.9,12.5011,Kiffosso 1
+-6.0694,13.7012,Kirango
+-3.2473,16.3624,Kirchamba
+-9.4854,13.035,Kita
+-5.5119,13.96,Kokry
+-7.4417,11.425,Kola Sokoro
+-7.2621,14.6152,Kollah
+-3.4418,13.8162,Kologon-Habe
+-5.6866,13.8749,Kolongo
+-3.4761,16.3677,Kondi
+-4.8536,14.5461,Kondo
+-10.8999,14.5777,Koniakary
+-3.3598,14.1293,Koporo Na
+-3.2993,14.2263,Koporo Pen
+-4.8855,14.5343,Kora
+-4.2194,15.6753,Kormou
+-3.0807,14.0698,Koro
+-7.6095,15.3334,Koronga
+-8.725,13.4731,Kotouba
+-4.4934,14.2223,Kouakourou
+-4.4303,14.4161,Koubaye
+-4.8669,14.3942,Koubi
+-11.3702,14.4509,Kouloum
+-3.0054,14.9862,Koumbewel
+-4.69,12.5963,Koumbia
+-8.2903,12.01,Kourouba
+-9.5766,13.8581,Kourouninkoto
+-4.8017,12.1812,Koury
+-5.4639,12.3895,Koutiala
+-9.5513,14.3132,Lambidou
+-12.0549,14.7162,Lany-Tounka
+-4.9642,16.3276,Lerneb
+-8.807,15.4523,M'Bediatt
+-5.7207,12.6655,M'Pessoba
+-6.4265,14.4949,Mabourck El Mana
+-5.3586,13.9619,Ke Macina
+-2.3648,16.7504,Madiakoye
+-4.3935,13.7943,Madiama
+-7.5464,13.7801,Madina Sacko
+-3.0815,14.4007,Madougou-Dogon
+0.9403,15.814,Mamadou Tallatou
+-6.7986,15.4441,Mame-Yadass
+-8.1247,15.4687,Mantionga
+-10.8654,14.5832,Maritoumania
+-6.3441,13.9121,Markabougou
+-6.1575,13.5915,Markanibougou
+-4.9667,13.8458,Matomo Marka
+-6.3247,11.1911,Miniko-Soba
+-2.445,16.7573,Minkiéri
+-5.2682,11.264,Missidougou
+-10.7226,14.8184,Mongoro
+-7.8639,12.6869,Moribabougou
+-5.0432,12.6633,Moribila-Kagoua
+-7.8172,12.5243,Mountougoula
+-4.5992,14.3295,Moura
+-7.4716,14.4687,Mourdiah
+-0.9592,15.3557,N'Daki
+-7.8478,12.6933,N'Gabakoro-Droit
+-6.8711,12.3729,N'Gara
+-5.1417,13.2461,N'Goa
+-3.7177,15.6585,N'Gorkou
+-3.3706,15.6379,N'Gouma
+-5.4786,12.2967,N'Goutjina
+-0.4769,15.5231,N'Tillit
+-6.8622,14.4508,N'Tjibougou
+-11.6085,15.3717,Nagara
+-5.5523,15.2786,Nampala
+-7.2889,15.1713,Nara
+-7.3744,15.4154,Ngoumel
+-2.6247,14.5503,Niaky
+-5.2025,13.0375,Niamana Sobala
+-6.577,11.7961,Niantjila
+-5.991,14.2534,Niono
+-2.3959,15.1753,Nokara
+-5.5169,13.7,Nonongo
+-3.0852,18.4048,Nouagis
+-5.6872,15.4574,Nourani
+-10.462,14.2494,Ossoubidiania
+-10.3765,13.5941,Oualia
+3.1538,16.2216,Ouaritoufoulout
+0.7213,15.1816,Ouattagouna
+-8.0857,12.5455,Ouenzzindougou
+-6.7149,14.2599,Ouerde
+-2.5838,17.2974,Oulad Boxib
+-2.37,18.9161,Oulad-Mahame
+-2.3671,15.4639,Oullad Mellouk
+-4.9069,21.4395,Oumm El Jeyem
+-4.8615,13.5005,Ouolon
+-4.599,14.2796,Uro Modi
+-6.2166,13.4285,Pelengana
+-0.5134,16.2116,Peulguelgobe
+-5.9102,13.8987,Pogo
+-4.4596,16.5924,Razelma
+-6.6782,15.0148,Rekerkaye
+-6.9989,15.1641,Sabary
+-11.7054,13.8916,Sadiola
+-8.1005,14.085,Sagabala
+-6.7275,14.1137,Sagala
+-4.0487,15.6244,Sah
+-3.4593,16.0595,Salakoira
+-6.5468,15.417,Samanko
+-8.2752,15.1903,Sampaka
+-4.0441,14.7033,Sampara
+-6.0037,13.7219,Sansanding
+-5.239,13.7225,Sarro
+-4.9928,13.829,Saye
+-8.3796,13.6946,Sebekoro I
+-6.2929,13.4253,Sebougou
+-10.9727,14.563,Ségala Ndi
+-10.7838,14.0888,Selinkegny
+-5.095,14.971,Semmi
+-11.0622,14.8114,Sero
+-5.4414,12.3522,Sincina
+-8.6594,10.9711,Siradjouba
+-8.5452,14.8603,Sobougou
+-4.0904,14.5381,Socoura
+-6.3479,13.2116,Soignebougou
+-6.1209,14.7414,Sokolo
+-4.9392,14.8113,Sokora
+-3.7671,13.5078,Sokoura
+-8.4414,11.2263,Soloba
+-11.6078,14.5467,Somankidy
+-4.9344,16.0427,Sonima
+-3.4863,14.4403,Soroly
+-3.5021,13.8637,Soubala
+-5.2433,13.8772,Souleye
+-4.3243,15.8437,Soumpi
+-4.2791,14.2303,Soye
+-4.977,13.6,Sy
+2.1055,15.3912,Tabankort
+-0.2586,16.7147,Taboye
+-12.1905,14.757,Tafacirga
+3.7994,17.3058,Tafez Fez
+-4.3988,13.9691,Taga-Tellela
+1.2834,18.1141,Taghat-Mallat
+-0.6931,21.281,Tagnout Chagueret
+-10.4772,15.0368,Takaba
+-2.3234,21.4306,Tamanieret
+-10.8389,15.0701,Tambacara
+-3.1302,15.3365,Tanal
+-0.3401,20.069,Taounnant
+3.5236,15.8544,Taragait Tamout
+0.1171,17.4801,Tarkint
+0.7091,15.4738,Tassiga C-Boura
+-1.2493,21.4628,Tazouikert
+-4.99,23.6072,Teghaza تغازا
+-11.7062,15.2742,Teichibe
+3.8226,17.8431,Temakest
+3.176,17.806,Tenikert
+2.4898,18.451,Tin-Essako
+-3.3291,16.2547,Tienkour
+-10.7587,14.2621,Tigana
+-4.2061,13.8227,Timissa
+0.4123,16.662,Tin Aouker
+0.8902,15.5808,Tin Hama
+-2.7701,17.2852,Tin Tehoune
+1.8312,18.3885,Tin Tersi
+-0.7314,19.6686,Tin Tersi
+-3.6363,16.1323,Tindirma
+-3.3873,15.9509,Tingoura
+-0.5218,19.2283,Tiraraouine
+-5.9989,13.5912,Togou
+-4.3176,13.9341,Tombona
+-4.1155,16.0096,Tondidarou Ouro
+-3.1641,14.8464,Tongo-Tongo
+-3.7491,16.137,Tonka
+-3.709,13.6185,Tori
+-4.8316,17.0289,Tormose Est
+-3.2213,13.92,Toroly
+-7.1799,13.8719,Touba Sylla
+-5.6272,14.4874,Tougou
+-3.7803,16.7236,Toukabangou Tao
+-7.0396,13.6105,Toukoroba
+-10.5672,12.7559,Toumbouding
+-12.0055,13.6816,Tounbouba
+-2.6787,14.1431,Toungourou
+-7.0919,10.9741,Toutiala
+-3.0494,16.6568,Toya
+-8.8569,12.7898,Trolo
+-0.0322,16.1908,Wabaria
+-5.7519,18.61,Werekoura وركورا
+-8.1523,11.1749,Yanfolila
+-2.8845,14.2452,Yoro
+-2.1357,14.2794,Yoro
+-4.7768,12.3528,Yorosso
+-3.1718,14.2776,Youdiou
+-4.2615,15.3706,Youwarou
+-5.5986,11.4075,Zangaradougou
+-4.9027,15.7156,Léré
+-3.99,15.931,Niafunké
+-3.3971,16.2678,Diré
+3.1573,15.9487,Inekar
+2.4,15.9167,Ménaka
+-4.2082,14.4415,Guimbé
+-4.1998,14.4417,Djibitogo
+0.9315,19.7204,Taghlit
+-3.8904,14.9441,Konna
+-4.1906,14.488,Mopti
+-4.9147,14.4583,Ténenkou
+-6.2681,13.4415,Ségou
+-4.8224,14.4977,Sindé-Gorbo
+-4.8125,14.501,Kali
+-4.8107,14.5061,Kolé
+-4.8271,14.5176,Gandé-Gorbo
+-4.8802,14.5184,Néné
+-4.859,14.5366,Kontanga
+-4.8624,14.5622,Niamio
+-4.8844,14.5634,Samina
+-4.8604,14.5873,Djoboèye
+-4.9194,14.6027,Oudouraré
+-4.8489,14.6048,Malangal
+-4.8796,14.6113,Guilé
+-4.8482,14.612,Ndokoèye
+-4.7327,14.6412,Boki
+-4.7363,14.6445,Tianguel
+-4.7459,14.6452,Saré-Toumou
+-4.7145,14.6503,Longuel
+-4.7609,14.6508,Sabéré
+-4.7383,14.6514,Ouro-Boubou
+-4.7162,14.659,Kotiala
+-4.6838,14.6765,Bouta
+-4.7343,14.6799,Diougui-Dimba
+-4.7232,14.6806,Aman-Nangou
+-4.6824,14.6869,Vendé-Bouta
+-4.6721,14.6936,Toguel
+-4.7282,14.6961,Diougui-Maoundé
+-4.9216,14.6986,Dondawel
+-4.6839,14.7112,Koumbé Niasso
+-4.7038,14.7191,Tildé Niasso
+-4.8695,14.717,Paka
+-4.6966,14.7192,Tougara
+-4.6816,14.7713,Kamaka-Débéré
+-4.8495,14.7907,Guélédié
+-4.7614,14.801,Gueneoul
+-4.6895,14.8226,Koubitéra
+-4.6068,14.8985,Koumba-Saré
+-4.6037,14.9049,Koumboulou
+-4.5923,14.9196,Toguéré-Koumbé
+-4.5636,14.9398,Dagada
+-4.6349,14.8007,Kamake-Sébé
+-4.5035,14.9704,Koram
+-4.754,14.3789,Dari
+-4.8599,14.3919,Sanga
+-4.7251,14.4483,Ninga
+-4.7114,14.4699,Seini
+-4.8123,14.4702,Débéré Maoundé
+-4.7904,14.4859,Kéba
+-4.6887,14.5336,Diba-Kona
+-4.6737,14.5618,Sossobé Togoro
+-4.447,13.5037,Batirikui
+-4.4644,13.5158,Kin
+-4.3826,13.5279,Diesso
+-4.4013,13.5431,Donboro
+-4.4423,13.5528,Dimana
+-4.5884,13.5553,Danékui
+-4.5737,13.5897,Tonségué
+-4.4229,13.5949,Mapè
+-4.0849,13.6217,Tassilima
+-4.455,13.622,Bouta
+-4.438,13.6255,Sékélo
+-4.4753,13.6377,Bouani
+-4.4402,13.651,Wènè
+-4.082,13.6643,Téoulé
+-4.4426,13.675,Poromou
+-4.4126,13.6774,Kanga
+-4.3962,13.6835,Bourasso
+-4.3867,13.7118,Kantama
+-4.5018,13.7254,Bougoula
+-4.5133,13.7608,Tako
+-4.368,13.7677,Bouazoulo
+-4.5002,13.7888,Kountaraka
+-4.5316,13.7983,Soala
+-4.3419,13.8169,Siragourou
+-4.3023,13.8581,Touroukoro
+-4.4627,13.9082,Balé
+-4.5542,13.9144,Vélingara
+-4.5581,13.916,Roundé Sirou
+-4.4558,13.9173,Kéra
+-4.5663,13.9182,Fokolore
+-4.5964,13.9258,Kotola
+-4.5688,13.9266,Alamanté
+-4.4517,13.9267,Seïna
+-4.5611,13.9283,Kammraga
+-4.5891,13.9324,Worondjikoi
+-4.5459,13.9394,Gomnikouboi
+-4.6058,13.9399,Sirmou
+-4.5689,13.9555,Sénoussa
+-4.6154,13.9592,Wonon
+-4.6145,13.9703,Wéraka
+-4.3971,13.9838,Koumaga
+-4.0628,14.1539,Fangadougou
+-4.1234,14.1639,Bambarawel
+-4.1117,14.1711,Soukalabougou
+-4.1205,14.1806,Tondaka
+-4.4866,14.221,Ouro-Ankona
+-4.2831,14.2255,Noukouma
+-4.0339,14.23,Modjodjé
+-4.0631,14.2779,Dotobougou
+-4.0005,14.306,Gourel-Bodie
+-4.0552,14.3098,Golobougou
+-4.0761,14.3262,Sitakoro
+-4.0427,14.3306,Karaman
+-4.0655,14.537,Sare-Ma
+-4.046,14.5405,Doundou
+-4.0688,14.5503,Paré
+-4.0472,14.5632,Ngoïna
+-4.036,14.5711,Koubel Gaoundé
+-4.0522,14.573,Simakoro
+-4.043,14.5779,Poupa
+-4.0559,14.5889,Dessere
+-4.0445,14.5936,Koriaouel
+-4.0381,14.6012,Diambadougou
+-4.064,14.6033,Ti
+-4.018,14.61,Iaborki
+-4.0049,14.6178,Niakongo
+-4.0701,14.6228,Dana
+-4.042,14.6234,Saré-Boulo
+-4.0513,14.6267,Sassolou
+-3.9943,14.6286,Sassourou
+-4.0269,14.6322,Dalédougou
+-4.0642,14.6355,Kourouga
+-4.0269,14.6409,Souma
+-4.0168,14.654,Tiaboli Aldiouma
+-4.0375,14.6636,Badio
+-3.9961,14.6721,Moussavel
+-4.0177,14.6789,Saré-Sana
+-4.0287,14.6865,Patia
+-4.0461,14.6879,Sinnré
+0.7465,15.3218,Fafa
+0.7561,15.3438,Elmaki Bentia
+0.7587,15.3514,Bentia
+0.7474,15.4057,Firthindi
+0.741,15.4241,Youni
+-4.1482,16.6556,Goumsagho
+-4.0909,14.1259,Tiokan
+-4.097,14.2507,Moha
+-4.1086,14.2547,Bangaché
+-4.0861,14.4485,Ourmiou
+-4.1121,14.5406,Dianori
+-4.0894,14.5449,Banikani
+-4.106,14.5662,Sokarel
+-4.0859,14.5672,Bakoura
+-4.2943,14.2448,Saré-Demba
+-4.1461,14.2454,Kuna
+-4.2794,14.2594,Taganiagay
+-4.2686,14.263,Sorguéré
+-4.1838,14.2754,Néma
+-4.1419,14.2881,Kologui
+-4.2677,14.2988,Ouro-Mayo
+-4.2659,14.304,Ouro-Amadi
+-4.1013,14.3068,Dio
+-4.233,14.3166,Saré Mala
+-4.2686,14.3174,Poha
+-4.2706,14.3451,Térké
+-4.1935,14.3683,Saré Guita
+-4.2335,14.3754,Déna
+-4.014,14.456,Nianangali
+-4.0298,14.3933,Pigna
+-4.1127,14.5556,Komongalou
+-4.0775,14.5313,Oulilde
+-4.0649,14.5793,Tiamoye
+-4.0463,14.5089,Banguitaba
+-3.9884,14.5271,Bomboukoré
+-3.9981,14.5364,Boumbou Koro
+-4.0125,14.5695,Mamourou
+-3.9907,14.5848,Dongoro
+-4.0783,14.5857,Bobore
+-4.0125,14.5903,Komboko
+-3.9866,14.6085,Samoloye
+-4.08,14.7434,Kona
+-4.0895,14.7498,Saya
+-4.0808,14.757,Komio
+-4.0866,14.7816,Kamaka
+-4.0891,14.7909,Tougel Kadi
+-4.0871,14.8179,Sensé
+-4.0665,14.8432,Sanséladji
+-4.0619,14.856,Batamani
+-3.9995,14.8937,Kotaka
+-4.0396,14.8958,Saré Mama
+-4.007,14.915,Ninga
+-4.0944,14.5174,Sévaré
+-4.5717,14.7471,Oualo
+-4.5537,14.7542,Tenda
+-4.5538,14.7268,Bonga
+-4.42,14.7338,Sare-Faba
+-4.5899,14.781,Tibitaba
+-4.5989,14.7867,Youré
+-4.5176,14.8163,Toguel-Kadi
+-4.5012,14.8344,Koyésouma
+-4.4066,14.8708,Sormé
+-4.3522,14.8788,Koundouba
+-4.3265,14.9193,Kakagnan
+-4.3945,14.803,Tounna
+-4.6259,14.6142,Kala
+-4.6769,14.6402,Tina
+-4.4319,14.6891,Saré Faba
+-4.5382,14.8556,Fokolona
+-4.8108,14.7908,Goudiri
+-4.5434,14.8119,Kana
+-4.4268,14.7574,Sérendou
+-4.8134,14.8006,Tohioukourdé
+-4.4598,13.9933,Tiékorabougou
+-4.276,14.1309,Séguéra
+-4.2376,13.9663,Kouonbaka
+-4.2016,14.0026,Diaba-Allaye
+-4.2412,14.0171,Kaka
+-4.1979,14.0716,Guitovéli
+-4.4182,14.2921,Sanguira
+-4.2882,13.9811,Kounti
+-4.2831,13.9914,Ndobougou
+-4.3308,13.9919,Ndorobougou
+-4.2565,13.9778,Diamonda
+-4.1808,14.0675,Boundaga
+-4.2204,14.1127,Tandaoura
+-4.2301,14.018,Sofara
+-4.2457,14.0428,Montorobougou
+-4.2159,14.2474,Karana
+-4.1929,14.2641,Doubéna
+-4.3718,13.8337,Poromani
+-4.3929,13.8538,Nouna
+-4.3703,13.8675,Talia
+-4.4068,13.7419,Toumadioma
+-4.4616,13.7599,Saron-Tonbo
+-4.4015,13.771,Dougourani
+-4.3691,13.8034,Nérékoro
+-4.3504,13.503,Manboro
+-4.3651,13.6632,Forokouna
+-4.3652,13.6942,Koronina
+-4.0353,13.9827,Balaguira
+-4.0406,14.0771,Korondoli
+-4.3459,13.7353,Kouankouanna
+-4.1643,14.1559,Koufa
+-4.052,14.2106,Koé Lèye
+-4.0507,14.1997,Koé-Do
+-4.0678,14.0083,Siné-Kana
+-4.2533,13.7557,Sissébougou
+-4.0073,14.0705,Wassou
+-4.081,14.0059,Yaro
+-4.3216,13.6412,Pakuizo
+-4.2741,13.8879,Dankéléna
+-4.3187,13.8339,Kan-Nalo
+-4.2771,13.912,Kountaraka
+-4.2604,13.9318,Mansala
+-4.2165,13.8978,Siawi
+-4.2559,14.1181,Dakeoulé
+-4.059,14.2647,Dotobougou
+-4.2592,14.0861,Gnirimara
+-4.2521,14.0707,Kabio
+-4.2079,14.2484,Kemitaga
+-4.2976,14.2048,Kome
+-4.3439,13.9619,Kouonda
+-4.2764,14.0954,Moupa
+-4.3398,14.1332,Mégou
+-4.5303,13.9164,Niala
+-4.432,13.9619,Ouaya
+-4.4292,13.9774,Perla
+-4.2242,14.2649,Saré-Hibé
+-4.3187,14.1355,Saré-Héré
+-4.2676,14.1072,Saré-Koura
+-4.2351,14.2763,Singa
+-4.4795,13.8527,Siné
+-4.3571,13.9922,Togoué
+-4.3488,14.2279,Toumayé
+-4.2023,14.267,Tékétia
+-4.3669,13.9613,Yomi
+-4.3902,13.9413,Baratou
+-0.2206,16.6398,Aljanagounga
+-0.2875,16.6681,Ha
+-0.2909,16.7222,Ouani
+-0.2443,16.669,Zinibon
+-0.2852,16.7702,Dan Nha
+-0.3454,16.841,Abdou Salam
+-0.0992,16.3991,Aguinaouiaoui
+-0.0654,16.1961,Alkamsara
+0.0015,16.164,Arabou
+-0.0797,16.3713,Bartaga
+-0.2866,16.8387,Bia
+-0.0242,16.1882,Bilali Koyra
+-0.3365,16.8213,Boussou Miyou
+-0.0987,16.2668,Chembé
+-0.2997,16.6526,Dan Nha
+-0.1262,16.497,Doumbaria
+-0.1346,16.5189,Doussougou
+-0.2813,16.6397,Farigouré
+-0.1214,16.4674,Forgo
+-0.1186,16.4548,Gabamé
+0.0232,16.1414,Gaouna
+-0.2552,16.8231,Garat
+-0.1008,16.2444,Gorom
+-0.1565,16.5265,Goudèlbaria
+-0.0993,16.213,Gouy
+-0.361,16.8637,Karabassan
+-0.116,16.4312,Korchakari
+-0.0735,16.3229,Koïma
+-0.0992,16.2867,Lobou
+-0.1121,16.4236,Minyo Souba
+0.0348,16.1274,Ouakari
+-0.0919,16.2501,Tarachart
+-0.0885,16.299,Tinel
+-0.0445,16.1937,Tofadafor
+-1.5935,17.014,Abakoïra
+-8.6291,12.0433,Abaladougou Kéniéba
+-5.3333,15.2804,Abdalaye
+-0.3456,16.8406,Abdou Salam
+-3.9443,14.1207,Abdou-Habé
+-11.752,14.9313,Abdoul Sinia
+-3.8541,14.8567,Abdoul-Karimou
+-4.1698,14.0998,Abdoulkarimou
+-4.5751,14.2627,Abdoumagoni
+-4.2272,14.7869,Abdouramane
+-1.5162,15.3189,Abinda
+0.4731,15.6912,Aboulambo
+-2.676,16.0876,Adabaï Mahamoud
+-3.3654,14.1064,Adakaoura
+-6.0504,13.0665,Adamablenkabougouda
+-5.4188,11.1016,Adamabougou
+-3.1111,14.9646,Adia
+-4.173,15.6756,Adiabanda
+-2.3691,16.7925,Adjiba
+-5.3098,15.2959,Adlaye-Sidi
+-3.0298,14.211,Adourakamé
+-3.88,16.0682,Adyanabangou
+-3.561,16.2361,Adyar
+-3.712,16.1014,Adyèngo
+-10.6333,12.0333,Afia
+-11.2073,12.097,Afia
+-1.7669,16.9306,Ag-Ènzali
+-3.0277,16.1219,Agata
+-1.4817,16.9969,Agata
+-4.0093,22.6452,Agorgot أكركت
+-8.25,10.6667,Aguilamina
+-9.2447,15.4808,Ahagala
+-0.3204,16.8026,Ahaman Koïro
+-11.5614,15.3604,Ahel Barké
+-11.6289,15.4073,Ahel Bedji
+-11.6677,15.3751,Ahel Falouté
+-11.6473,15.3617,Ahel Malou
+-11.6293,15.3994,Ahel Meheham
+-4.2344,15.4006,Aka
+-3.5005,16.2223,Akaban
+1.9914,15.353,Akabar
+-0.2636,16.71,Akarankom
+-6.9281,15.4037,Akor Tagdaouss
+-3.4892,16.0585,Akouakiza
+-2.1487,14.4747,Akoumbouro
+-1.5896,15.1732,Alabi
+-3.3936,16.1149,Alafo
+-10.2293,14.6833,Alahiné
+-3.6116,14.2216,Alakanda
+-3.7085,16.695,Alakat
+-2.056,16.8433,Alamba
+-11.7474,13.9982,Alamoutala
+-8.023,14.924,Alasio
+-11.4843,14.3496,Alassanila
+-11.1861,14.6643,Alaïna
+-2.6431,14.3845,Aldouma
+-3.0696,15.8089,Alfandé
+-3.7519,16.6414,Alfo
+-9.0686,15.2569,Ali Oumbark Akouroud
+-6.3118,13.3696,Ali Ouèrè
+-5.0326,13.7447,Aligonsoro
+-3.8906,16.7099,Alkanabangou
+-11.5038,14.4765,Allah-Ina
+-9.4262,13.857,Allahini
+-5.016,14.9349,Almami
+-5.323,14.8305,Almaniana
+-2.849,15.0244,Almi
+-3.6158,15.8279,Alsoundouga
+-3.554,14.8228,Ama
+-2.5299,15.1468,Ama
+-3.8572,16.0252,Ama-Koyra
+-5.7131,13.6426,Amadidiadiéka
+-5.8309,14.7827,Amadilimane
+-3.7331,14.0978,Amadioma
+-4.9243,13.8561,Amadou Ali-Wéré
+-5.786,13.6535,Amadou Bafinnka
+-8.4144,15.1902,Amadou Mama
+-6.091,14.2392,Amadou-Doso Waré
+-4.8948,13.8892,Amadou-Wéré
+-4.9176,13.2306,Amadébougou
+-4.337,16.6438,Amaghanane
+-4.1741,16.7133,Amaghanane
+-7.5363,13.9529,Amakabougou
+-0.1061,16.6053,Amakouladji
+-5.5031,15.3506,Amankobé
+-9.0828,15.0155,Amara oul Ser
+-3.4945,16.2431,Amarosseldabay
+-0.0669,16.4972,Amata
+-5.7671,13.6869,Amatoumouka
+-3.5373,14.7827,Amba
+-2.9707,14.7916,Amba
+-3.5749,15.068,Amba
+-3.6087,14.8529,Ambaguédé
+-3.1199,14.9163,Ambaka
+-3.0532,14.9039,Ambakélé
+-3.6606,14.0065,Ambassa
+-3.5588,14.8073,Ambavel
+-11.7647,14.5832,Ambidédi Rive Gauche
+-11.7572,14.5879,Ambidédi Rive Droite
+-4.2121,15.5148,Ambiri Abé
+-4.2144,15.5201,Ambiri Ouro
+-4.2048,15.4867,Ambiri-Kem
+-7.0034,14.9076,Amdalay
+-3.3695,15.8023,Amedi Niékou
+-11.6883,15.412,Amilalé
+-6.0445,13.531,Ammdalaï
+-3.7471,14.0907,Amo
+-7.3734,15.0307,Amoungaupau
+-3.2584,14.6227,Améré
+-3.3367,13.8246,Ana Kanda
+-2.9365,14.3556,Anagadia
+-3.3709,13.8294,Anagara
+-3.0724,14.4538,Anakadié
+-3.2949,14.0017,Anakaga
+-3.0765,14.5046,Anakanda
+-3.0414,14.4864,Anakila
+-3.5934,15.4932,Anam
+-3.1959,14.3126,Anamoella
+-3.3638,14.1239,Anamouila
+-3.5321,13.8779,Anamouniéla
+-11.4604,13.9066,Anamégho
+-3.1189,14.671,Anana
+-3.0377,14.7864,Anankanda
+-3.335,15.5315,Andagoye
+-3.0509,14.1295,Andakaga
+-3.4023,14.0554,Andiama
+-3.4926,14.4076,Andioubolo
+-3.1578,14.8448,Andji
+-3.1706,16.337,Andjébí
+-3.4007,15.7954,Andoukou
+-3.4571,15.9267,Anfoulgoulaye
+-3.358,16.3633,Angambongo
+-10.2167,12.7,Anguihoro
+-3.6844,15.9682,Ankora
+0.7317,15.2627,Ankoum Myo
+0.7132,15.246,Ankoum
+-3.8978,15.4078,Ankoye
+-3.8381,14.265,Anlouangouala
+-10.3177,14.0891,Ansofry
+-3.0696,14.7562,Antagada
+-3.0619,14.744,Antagadou
+-3.0691,14.7254,Antaka
+0.7327,15.2779,Antam Myo
+0.7142,15.2755,Antam
+-4.0903,13.4459,Antoumadaga
+-3.1636,14.6472,Anté
+-6.5593,14.7454,Aouadi
+-3.4996,15.9407,Aouga
+-2.9844,14.7831,Aouguiné
+-3.7848,15.8848,Aoune
+-4.113,15.3881,Aouoye
+-4.3117,15.5218,Aouré
+-0.362,16.9584,Aouzourou
+0.2137,15.9169,Amey Goura
+-0.0463,16.3799,Batal
+-0.0175,16.3742,Battal
+0.0696,16.0393,Borno
+-0.0203,16.3433,Berrah
+0.1207,15.9648,Dongame
+0.1054,16.0025,Goryo
+-0.0402,16.2347,Guidira
+-0.0206,16.3273,Guintou
+-0.0713,16.2188,Kadji
+0.1111,15.9741,Kardjimé
+0.1609,15.9414,Koissa
+0.0695,16.1037,Marga
+-0.0197,16.3564,Saina goumba jindé
+-0.0247,16.2224,Tabakor
+0.1706,15.9711,Todyel Gargouna
+0.1377,15.954,Tondyakara
+0.1946,15.9387,Wiyebangou
+0.1331,15.9711,Zadam
+0.0817,16.014,Zinda
+0.7628,17.0821,Amasrakad
+0.0708,16.1515,Tacharane
+-7.9705,12.652,Bakaribougou
+-1.945,15.1698,Arbanguèy
+-1.8065,15.2343,Bougueydi
+-1.5615,15.2858,Bilantal
+-3.9312,14.2193,Gamba
+-3.9209,14.2548,Nando
+-12.214,14.5406,Diabou Gou
+-11.2322,12.8407,Kéniéba
+-12.2139,14.5121,Dialambi
+-12.1834,14.5658,Dramané
+-12.1479,14.6219,Fégui
+-12.1656,14.6631,Goundiamou
+-12.1692,14.6885,Fadouga Madina
+-12.2078,14.7208,Sangalou
+-12.0914,14.7327,Kabou
+-12.1239,14.7608,Ségala
+-12.0008,14.6767,Digokory
+-10.8929,15.0284,Diakadromou
+-10.985,14.9928,Kersignané
+-10.9449,14.9898,Dyabougou
+-10.725,15.1255,Yaguiné
+-10.5728,15.1189,Yélimané
+-10.6447,15.1027,Dionkoulané
+-9.374,15.4007,Diandioumé
+-4.1689,14.5994,Togonrogo
+-4.0101,14.7767,Foussi
+-4.0552,14.6926,Soussiguiével
+-4.1027,14.6969,Missira
+-4.0046,14.7285,Foussi
+-4.1764,14.5966,Nimitogo
+-4.0802,14.6831,Tiroguel
+-10.0795,13.5564,Fangala
+-9.9693,13.713,Sonki
+-9.8562,13.808,Kenienife
+-3.5376,14.317,Dioubairou
+-3.5926,14.1924,Djiguibombo
+-3.6012,14.3017,Djombolo
+-3.4322,14.3039,Dourou
+-3.8292,14.3128,Njongono
+-3.5555,14.333,Sibi-Sibi
+-3.5796,14.1931,Ogossogou
+-3.6594,14.2092,Orotouna
+-3.5781,14.245,Daga
+-3.707,14.2931,Doundioulou
+-3.5157,14.3348,Wolo-Wolo
+-3.5274,14.3354,Kolountanga
+-3.442,14.343,Pelou
+-3.4773,14.3611,Védié
+-3.6995,14.406,Songo
+-3.653,14.421,Ndiombo
+-3.7055,14.4665,Tougoumé
+-3.4485,14.271,Konsogoulé
+1.4075,18.4408,Kidal
+-1.4282,17.8455,I-n-Milach
+-5.5999,14.1409,Balibougou
+-5.573,14.1268,Fandiguila
+-5.55,14.1168,Tougouma
+-3.8508,15.0003,Sonkara
+-3.8553,15.0141,Kinani
+-3.8732,15.0557,Kouentza
+-3.8764,15.0635,Diéninkoré
+-3.8892,15.1179,Ouméré
+-3.8635,15.159,Barkinelbi
+-3.8708,15.1896,Doï
+-3.8847,15.203,Sérifiré
+-3.8455,15.2682,Wangala
+-3.7625,15.2763,Gouloumbo
+-3.9127,15.2854,Samakata
+-4.3512,15.6606,Attara
+-4.3433,15.6483,Bia
+-4.2858,15.6617,Sigui
+-4.2855,15.4779,Enghem
+-4.2251,15.5156,Gounouma
+-4.2896,15.62,Mayel Bourgou
+-4.3035,15.6752,Sa Touskel
+-4.2665,15.6862,Ayom
+-4.2634,15.5252,Sounkarou
+-4.1294,14.4407,Diabi
+-4.642,15.7265,Dianké
+-5.394,15.1456,Baba-Dama
+-5.5852,15.2632,Barkérou
+-5.5317,15.1417,Bilali-Sirandou
+-5.5677,15.2389,Boumodi-Maniale
+-5.468,15.0807,Boundou-Boubou
+-5.5973,15.2239,Dianwéli
+-5.547,15.2149,Dounguel-Siloubé
+-5.5338,15.263,Goudourou
+-5.4344,15.1452,Merzamadié
+-5.5144,15.2913,Ndoupa
+-5.5886,15.1918,Rangabé
+-5.5748,15.1488,Toulé
+-5.4054,15.1727,Zamaga
+-4.5364,15.4704,Bandaré
+-5.2501,14.7623,Bangama
+-4.4841,15.1437,Baré
+-5.5286,15.1654,Belel-Bérédié
+-4.9416,14.6187,Bolel-Maoudé
+-5.3617,15.4505,Bona Moussoule
+-5.389,15.4524,Bona-Hamadi
+-5.2298,14.7076,Bougoura
+-5.2558,15.5213,Boukari-Samba
+-5.4819,15.3846,Bourgou-Siratigui
+-5.3347,15.4816,Bouta
+-4.9394,14.6727,Bélé
+-5.1068,14.7674,Danbaka
+-5.5034,15.1648,Diabal
+-5.4883,15.3408,Diaouambe-Fournangue
+-5.2199,14.8896,Diaratoura
+-5.072,14.6679,Diguissiré
+-4.3863,15.4374,Diolli
+-5.2995,15.2369,Diougoul-Karé
+-5.0426,14.7895,Dori
+-5.366,15.3215,Dorongolé
+-4.7665,15.0441,Doungoura
+-5.4305,15.3997,Dounguel-Hamadi-Alfa
+-4.5609,15.2689,Dégué
+-4.4647,15.4268,Erao
+-5.3075,14.8659,Finadji
+-4.508,15.1659,Fétodjié
+-5.257,14.9349,Garadji
+-5.1149,14.5446,Garala
+-4.5337,15.1483,Gogola
+-4.3984,15.354,Gonoba
+-4.524,15.3778,Gounboumba
+-4.4198,15.3513,Kadigué
+-4.5813,15.4736,Kala-Ségui
+-4.9834,14.7582,Kanadji
+-4.4048,15.3931,Kangourou
+-5.3854,15.3696,Karaguilé
+-4.4368,15.4542,Kerbé-Kouna
+-4.4595,15.3872,Kerdial
+-5.4836,15.3633,Kobadi
+-5.3283,14.7414,Koroguiri
+-4.5879,15.372,Koubita
+-5.1661,14.8474,Kounaba
+-5.0359,14.7456,Kourmoussana
+-5.3344,15.4646,Kourou
+-4.5157,15.2662,Laounia
+-4.4607,15.1544,Léoladjié
+-5.5545,15.1825,Manialé-Boué
+-5.2496,15.2373,Matala
+-4.7124,15.0413,Mayel
+-4.3198,15.4057,Mbaradou
+-4.3428,15.3538,Mbouri
+-5.358,15.334,Modi-Sabou
+-4.6579,15.0283,Namé Ara
+-5.5123,15.3301,Ndondi-Tossokel
+-5.5111,15.311,Niakéré-Ndondi
+-5.1427,14.6445,Nientiala
+-4.5566,15.0875,Noukoutou
+-5.0021,14.5386,Ouro
+-4.6048,15.0803,Ouro-Ndia
+-4.4591,15.1714,Ouroundé
+-4.9291,14.6516,Pari
+-5.0217,14.6314,Petal
+-5.2683,15.1846,Pétédiové
+-5.1515,14.6936,Rangabe
+-5.0972,14.7298,Sabérlodé
+-5.2521,14.8954,Sabérlodé
+-5.3445,15.3405,Sagamé
+-4.5134,15.4414,Samanama
+-4.9129,14.6206,Sana
+-4.9119,15.2094,Sananga
+-5.01,14.8113,Sarsanké
+-4.4288,15.1884,Saré-Dina
+-4.5784,15.1585,Saré-Kouya
+-5.4543,15.4091,Sogobara
+-5.0247,14.5624,Somandaga
+-5.319,14.8515,Soribougou
+-5.2794,14.6936,Séti
+-5.2691,14.7582,Takourou
+-4.3967,15.3942,Tana
+-4.9664,14.5656,Tengué
+-5.0636,14.7388,Tiabével
+-4.5576,15.4704,Tiouki
+-5.3799,15.4958,Tislit
+-4.8982,14.6892,Tiénel-Paka
+-5.3834,15.2219,Tolagié
+-4.7217,15.0731,Tomoro
+-5.3064,15.1847,Torifa
+-5.3099,15.5018,Torobé-Ndola
+-4.6098,15.3997,Toulai
+-5.2828,14.873,Téoudi
+-4.5464,15.3956,Wario
+-5.0925,14.6071,Yassalamou
+-4.454,15.0635,Yéré-Yéré
+-6.5325,14.6365,Tablenco
+-4.441,15.5715,Banam
+-4.5035,15.5322,Baoudi
+-4.6139,15.6326,Binké-Salima
+-4.4779,15.5705,Bintié
+-4.5318,15.5378,Bouta
+-4.4477,15.758,Chakara
+-4.6094,15.6848,Dar-el-Salam
+-4.5822,15.7893,Diartou
+-4.4422,15.5046,Diondo
+-4.6142,15.5033,Dirmadio
+-4.7272,15.6837,Diélimaka
+-4.4392,15.663,Diéna
+-4.4961,15.7292,Faka
+-4.3615,15.5228,Fallou
+-4.522,15.8051,Fammsara
+-4.5486,15.6967,Filiki
+-4.4106,15.6203,Gouréye
+-4.5225,15.7803,Kawinza
+-4.4503,15.7358,Kifo
+-4.5141,15.8216,Kokonto
+-4.6749,15.5235,Kora
+-4.385,15.6605,Koïra
+-4.6148,15.5486,Lanadiéri
+-4.5894,15.6393,Mbahé
+-4.5357,15.6301,Nanbi
+-4.766,15.6647,Niantié
+-4.565,15.6308,Nyenye
+-4.5134,15.6948,Oré Séno
+-4.4838,15.6146,Oumaré
+-4.4076,15.663,Pirso
+-4.3779,15.4978,Roubéré
+-4.3946,15.5603,Sakamara
+-4.5479,15.7504,Sanbani
+-4.58,15.434,Sélengourou
+-4.441,15.6346,Simassi
+-4.6156,15.5976,Sogui
+-4.6325,15.5193,Sokodéma
+-4.4547,15.6136,Sompina
+-4.4857,15.5375,Sonkali
+-4.7396,15.6955,Tirna
+-4.5372,15.5958,Téhindé
+-4.3179,15.4406,Yogoro
+-5.2077,15.5387,Tindo-Zaïma
+-5.9765,14.3732,Ndébougou
+-5.4777,15.5649,El Sérabo
+-4.1383,15.3874,Bamangaye
+-4.1004,15.6082,Banga
+-4.1915,15.7306,Béma
+-4.039,15.604,Dako Bambara
+-4.0435,15.5984,Dako-Malinké
+-4.1467,15.419,Diongoro
+-4.0644,15.5981,Diougouna
+-4.1212,15.4007,Doma
+-4.1848,15.6984,Douokou
+-4.0784,15.6303,Ergam
+-4.1315,15.6284,Gadia
+-4.1435,15.5873,Goré
+-4.0903,15.5967,Noumabougou
+-4.1785,15.6294,Owa
+-3.8457,15.8806,Tandadji
+-4.1188,15.3778,Woro
+-4.2433,14.4871,Saré-Séni
+-4.1291,14.4008,Ségué
+-4.1596,14.464,Taikiri
+-4.2755,14.3652,Tondougou
+-4.0874,14.4754,Barbé
+-4.2822,14.4301,Daka-Koma
+-4.3102,14.4175,Toumoure
+-4.2608,14.4457,Ngomi
+-4.1949,14.5149,Charlotville
+-4.4076,14.3942,YongoSiré
+-4.3906,14.3892,Sinnguino
+-4.3765,14.3347,Sahonna
+-4.4006,14.3368,Diamala
+-4.4029,14.3296,Fangaré Daka
+-4.3974,14.3561,Lourdé Balé
+-4.266,14.2773,Saré-Katie
+-4.3749,14.4104,Dakabori
+-4.2001,14.5328,Namara
+-4.2101,14.5279,Kobaka
+-4.212,14.5421,Nantaka
+-4.4406,14.7508,Sormé
+-4.4311,14.6768,Simio
+-3.9202,14.9689,Dianlokai
+-3.9549,14.925,Koubi
+-4.1932,14.7558,Sévéri
+-4.1735,14.6644,Némendé
+-4.3373,14.8438,Payonna
+-4.1567,14.6936,Kara-Sirou
+-4.1996,14.5898,Touroumou
+-4.1373,14.7363,Kapio
+-4.1928,14.6149,Fakardé
+-4.1437,14.7013,Ouandiaka
+-4.1874,14.7497,Daka-Baba
+-4.1789,14.6402,Diamina
+-4.1458,14.6089,Sina
+-4.1847,14.7198,Benté
+-4.152,14.7312,Ouro-Daiébé
+-4.1863,14.678,Pouti
+-4.2623,14.808,Noga
+-7.3233,15.0761,Niemakore
+-7.3564,14.983,Toujoua
+-7.3048,15.0647,Belebougou
+-7.3877,14.9349,Dabaye
+-7.2867,15.0968,Tassirima
+-6.6919,14.6417,Guire
+-3.8165,15.8846,Bakanilabi
+-3.7756,15.8718,Dioukaina
+-3.7222,15.8469,Gaye-Toulel
+-3.7842,15.8643,Kekeye
+-3.6851,15.8477,Konga
+-3.7025,15.8628,Salakoira
+-3.6961,15.8232,Saraféré
+-3.8319,15.8673,Sirifila
+-3.774,15.8313,Timba
+-6.1037,13.6049,Tiguindola
+-6.0708,13.5341,Maniabougou
+-6.0619,13.5549,Zanabougou
+-6.0973,13.5127,Fokala
+-6.0938,13.619,Banbougouainkoro
+-6.0631,13.5243,Ammdalia
+-6.1169,13.6006,Soumadougou
+-6.0338,13.7165,Thio
+-6.0055,13.5395,Kamawéré
+-6.0786,13.5467,Nanblabougou
+-6.0389,13.6812,Baka
+-6.014,13.6918,Tié
+-5.8716,13.6606,Komine
+-6.0458,13.6325,Kobabougou
+-6.0281,13.623,Dianina
+-6.0453,13.6412,Mbébougou
+-6.0825,13.6484,Tiongoni
+-6.0894,13.6323,Bambougou
+-6.1084,13.5929,Soumadougou
+-6.0231,13.5092,Pandia
+-3.8978,15.4824,Fanabougou
+-3.8989,15.5153,Gonda
+-3.8755,15.1361,Kobi
+-8.2847,15.3759,Gassambaro
+-9.168,14.775,Kamico
+-2.7208,16.7232,Bellasao Djinguina
+-2.7674,16.6949,Bori
+-2.4923,16.7232,Bougouni
+-2.6144,16.7337,Milala
+-9.5406,14.0614,Seroume
+-9.5532,13.9923,Guetala
+-9.724,14.5119,Dalibéra
+-9.8505,14.2997,Diéoura
+-9.5137,14.545,Diangounté-Camara
+-9.6154,14.1001,Kobokoto
+-9.8265,14.14,Sefeto
+-9.5292,14.6372,Fangoumba
+-9.498,14.1884,Mountan Kagoro
+-9.5959,14.507,Wataga
+-9.8161,14.5197,Bougoutintin
+-9.7243,14.1368,Karega
+-9.5984,14.1058,Sorongolé
+-5.7471,14.2781,Siraouma
+-5.9961,14.7886,Ndoukala
+1.0454,21.1885,الخليل El Khalil
+1.262,19.4075,Arherebba
+-6.0455,14.9108,Kourmangoubé
+-6.1332,14.8133,Diadia
+-6.1333,14.6059,Kandyourou
+-6.0265,14.7363,Kogoni
+-6.2187,14.8263,Koloni
+-6.0028,14.6561,Kourouma
+-6.1907,14.8081,Séguindara
+-3.174,16.4466,Korya
+-3.1567,16.5051,Sakoyra
+-3.1264,16.5049,Samdiar
+-5.8962,14.8154,Massabougou
+-5.8493,14.8095,Tiarabougou
+-3.783,15.3934,Korientzé
+-5.9375,14.6881,Bossi-Tomo
+-5.9217,14.6688,Ngolobani
+-5.8852,14.7356,Tiekéré
+-5.8706,14.7233,Barikoro
+-5.9662,14.7182,Roundé-Madi
+-5.88,14.764,Wéré-Oro
+-5.9767,14.4366,Ringandé
+-5.9184,14.4488,Kanassako
+-5.9872,14.3514,Médina
+-5.9562,14.3247,San-Niona
+-5.9614,14.3086,San-San
+-5.9773,14.3974,Siango
+-5.9828,14.4571,Siguinnvonsé
+-3.7544,15.4215,Bagui
+-3.7144,15.438,Ngorodian
+-5.7621,12.9494,Bla
+-6.0612,14.6965,Dyabali Koura
+-3.8673,14.7638,Bobovel
+-2.9337,15.0844,Tombori
+-7.6437,13.5343,Sirakoroba
+-7.7217,14.2408,Tallan
+-7.5966,14.8487,Tomikoro
+-10.8038,15.1217,Goumbi
+-10.8142,15.1256,Diomakha
+-10.8012,15.0937,Sanbaga
+-10.813,15.0924,Koméoulou
+-10.9151,15.0984,Guinanour
+-10.9483,15.1547,Sorofa
+-10.9706,15.1826,Kardidi
+-10.6961,15.1955,Bidadji
+-10.3799,15.0105,Tango
+-10.7987,14.9227,Waloguéla
+-10.6044,14.9762,Yaguiné Banda
+-10.789,14.9212,Bangassi
+-10.7051,14.9028,Sakaradji
+-10.5297,15.081,Makana
+-5.9618,14.8205,Tomoni 1
+-5.9573,14.8103,Tomoni 2
+-3.5534,15.6579,Djiba
+-3.5393,15.65,Koma
+-3.6002,15.6566,Namatié
+-3.6172,15.6284,Sassi
+-3.6307,15.6943,Tionga
+-7.7161,14.9182,Dembadiawara
+-2.8297,16.0044,Oro Mourou
+-4.0338,15.313,Gourao
+-5.0185,14.1393,Diafarabé
+-5.9856,14.5136,Gounando
+-5.9776,14.4172,Tenogo
+-5.9885,14.4947,Tigabougou
+-4.1427,15.906,Dabi
+-4.1262,15.8975,Gombatou
+-10.8971,13.8285,Batasso
+-7.3498,15.3525,Ngouma Dama
+-6.8446,14.8812,Boudjiguire
+-7.3132,15.2859,Mousba
+-7.3765,15.3718,Ngoumél Marad
+-7.3153,15.2385,Mabrouk
+-7.3381,15.4358,Noun-Ourdy
+-7.0387,15.4088,Mbeuryeu
+-7.0392,15.4617,Seye
+-7.1467,15.2292,Cheudeum
+-7.0867,15.282,Guéneibé
+-7.0497,15.3703,Takomiat
+-9.228,15.2656,Tourougoumbé
+-6.0709,14.7882,Sinko Rangaba
+-5.9888,14.4765,Kéléguémogo
+-5.9897,14.4818,Riziam
+-5.9807,14.3679,Diord
+-5.9836,14.2468,Kouya
+-5.9313,14.2683,Kouyakoura
+-5.9612,14.2739,Nango
+-6.0161,14.2876,Sériwala
+-7.2618,15.2081,Toumoudrane
+-7.2399,15.2096,Debaye
+-6.0338,14.1312,Banabougou
+-6.0319,14.1581,Kalamadyankoro
+-6.097,14.0858,Boala Waré
+-5.9775,14.1418,Kolodougou
+-6.0691,14.1006,Lamin-Waré
+-5.9586,14.1897,Ntiékorabougou
+-6.1067,14.0432,Siribala
+-6.0373,14.0303,Fyébougou
+-6.0585,13.9624,Massala
+-6.0861,13.8467,Niogou
+-6.1055,13.8861,Sissako
+-6.0473,13.9915,Soualani
+-6.0867,13.9596,Yaya Ouèrè
+1.0848,19.1704,Tadjnout
+0.3226,17.8478,Tabankort
+0.9987,19.0683,Télabit
+-4.9889,14.15,Barkédaga
+-4.9983,14.2225,Diakéra
+-4.9285,14.1387,Diohou
+-5.0146,14.1612,Kara
+-4.8886,14.1697,Nouhoun-Bozo
+-4.9058,14.1757,Nouhoun-Peuhl
+-3.1846,14.6805,Bana-Kané
+-3.0626,14.7933,Bargué
+-3.1043,14.69,Benndé
+-3.1099,14.6828,Bédié
+-3.1804,14.6705,Daga
+-3.1741,14.7384,Daga-Daga
+-3.0932,14.7744,Dalékanda
+-3.1575,14.8387,Dangadié
+-3.2091,14.8668,Daouli
+-3.1021,14.682,Dianga
+-3.1667,14.7068,Dianganda
+-3.1975,14.6467,Diangau
+-3.1731,14.7421,Dimbou
+-3.2047,14.6462,Dimmbélé
+-3.1014,14.8358,Doloum
+-3.1329,14.8223,Doundé
+-3.1093,14.7495,Dourou
+-3.1501,14.8495,Déguénéda
+-3.1415,14.8624,Déguénédou
+-3.1761,14.6813,Gadé
+-3.2135,14.6491,Guiné
+-3.1485,14.8936,Guébata
+-3.1552,14.8344,Guéné
+-3.1824,14.669,Indell
+-3.1518,14.6867,Kaméli
+-3.1996,14.6579,Kanda
+-3.0342,14.7942,Kono
+-3.1763,14.6724,Kouédoumbo
+-3.1078,14.6901,Mandé
+-3.1773,14.7394,Matanga
+-3.1785,14.7384,Mori
+-3.0284,14.8197,Namakoro
+-3.1767,14.7322,Némé
+-3.0819,14.894,Obé
+-3.0919,14.872,Ogodiamba
+-3.1634,14.8321,Ogoure
+-3.1833,14.6656,Omna
+-3.0251,14.8079,Pergassaye
+-3.088,14.7408,Pélinga
+-3.1377,14.7472,Sadégué
+-3.0575,14.7429,Saou
+-3.1384,14.8779,Saoura-Ambilé
+-3.1589,14.8861,Saoura-Koum
+-3.1421,14.906,Saoura-Si
+-3.0524,14.7612,Simmdé
+-3.047,14.8664,Soroli
+-3.1721,14.7476,Séméli
+-3.1111,14.8601,Sémélé-Tanga
+-3.1708,14.7334,Taïloda
+-3.1062,14.718,Temmbodié
+-3.1051,14.9077,Temmbokou
+-3.0817,14.8125,Tolo
+-3.1146,14.6925,Tombogo
+-3.199,14.8886,Tombori
+-3.1893,14.8955,Toumbali
+-3.1673,14.8482,Tédié
+-3.1886,14.662,Téguédiou
+-3.0254,14.8538,Wakara
+-1.6908,15.3349,Nassouma
+-1.677,15.3466,Gonta
+-1.7414,15.3623,Tondibongo
+-1.7529,15.3653,Hondé
+-3.2754,14.988,Bara
+-3.1978,15.0089,Chognolou
+-3.2272,14.956,Dagani
+-3.1207,14.9928,Dembéré
+-3.092,14.9423,Dioni
+-2.9686,14.9185,Diéribana
+-3.2501,15.0783,Doumpara
+-2.9693,14.9673,Fadiari
+-2.9417,14.9797,Fombori
+-3.0022,14.9871,Hassa-Karba
+-3.281,14.9952,Kidibili
+-3.1961,15.0403,Korabéri
+-3.0342,14.9861,Koubel-Koundia
+-3.1003,14.9627,Lamordi
+-3.1549,15.0088,Mongui
+-3.2685,15.0241,Namaré
+-3.2879,15.0357,Namaré
+-3.3,15.0001,Noumbol
+-3.122,14.9512,Néré
+-3.0649,14.928,Ourkia
+-3.0735,14.9709,Ourodou
+-3.0126,14.9171,Pangana
+-3.0214,14.9263,Panganin
+-3.0058,14.9081,Pangasso
+-3.0798,14.9514,Pelé-Koumbolé
+-3.2801,14.969,Samari
+-2.9856,14.9893,Sèné
+-3.1223,15.0013,Tabako
+-3.1924,14.9423,Temmba
+-4.7315,14.2107,Diougouni
+-4.6973,14.2461,Makamé
+-3.0283,15.1047,Bondokoli
+-3.1034,15.0377,Dimitéro
+-3.0106,15.1051,Débéré
+-3.0761,15.0272,Siba
+-3.0802,15.0329,Sinda
+-4.5658,14.272,Daguéré Digani
+-4.5756,14.289,Digani
+-4.6165,14.311,Gossiri
+-4.6252,14.291,Mountou
+-4.6318,14.3013,Tossa
+-4.6395,14.2807,Wandjiré
+-2.5785,15.1076,Bamguel
+-2.5713,15.1383,Baraoussi
+-2.6307,15.0886,Boumban
+-2.5947,15.1163,Bousauma
+-2.7416,15.0896,Danza
+-2.8982,14.899,Dianvéli Kèssèl
+-2.8948,15.0234,Dirimbé
+-2.886,14.8817,Djimé
+-2.7896,15.0623,Gono
+-2.6561,15.0918,Kolongo
+-2.915,15.0728,Oualo
+-4.7142,14.1454,Djétinga
+-4.6189,14.2268,Kolenzé
+-4.6987,14.1575,Toya
+-4.591,14.1393,Yonga-Bozo
+-4.6018,14.145,Yonga-Foulbé
+-4.4906,14.1058,Lanaoué
+-4.5051,14.1502,Monga
+-4.4585,14.1411,Méou
+-4.5264,14.1986,Pora-Bozo
+-4.5365,14.2052,Pora-Somono
+-4.4102,14.1608,Nantinoré
+-3.1014,14.6442,Togo Taye
+-3.0649,14.6842,Bamba-Tenndé
+-2.2499,15.0788,Bandaga
+-2.9563,14.8524,Béni Diakanda
+-2.9469,14.8538,Béni
+-3.0865,14.662,Daga
+-2.9175,14.8742,Dianvèli Maoundé
+-2.8546,14.9165,Douma
+-3.1087,14.6488,Déguéré
+-2.2449,15.0696,Ela Boni
+-2.9165,14.8447,Gamni
+-3.0182,14.7436,Kilimmba
+-3.0616,14.674,Komboko
+-3.0931,14.6458,Koudianga
+-2.2255,15.1033,Missirata
+-2.9141,14.8282,Okoyéri
+-2.8654,14.8973,Orotaka
+-2.9761,14.8021,Pèrgué
+-3.0939,14.6773,Péjema
+-3.0031,14.7535,Sogou
+-2.2644,14.8599,Sèrma
+-2.644,14.8561,Toula
+-3.1057,14.6691,Yrébann
+-4.5106,14.266,Daïma
+-4.5481,14.4216,Gourem
+-4.4531,14.3554,Kélloye
+-4.5643,14.4032,Lalovi-Ngoti
+-4.4927,14.2878,Makadié
+-4.543,14.4154,Ngouréma Faya
+-4.5459,14.4161,Ngouréma-Bakouré
+-2.4487,15.0252,Dyamaga
+-2.1171,15.1024,Gai
+-2.3444,15.0754,Guittiram
+-2.1897,15.07,Koya Imla
+-2.4116,15.0266,Koyo
+-2.1769,15.0844,Loro Habe
+-2.1732,15.0863,Loro
+-2.1824,15.0934,Loro-Younga
+-2.4137,15.014,Nemguéne
+-2.4105,15.0555,Ogui
+-2.0742,15.0642,Ouro Hamdi
+-2.1609,15.1078,Ouro Nguérou
+-2.1492,15.1073,Piringa
+-2.444,15.0076,Tandi
+-2.1391,15.0921,Youna
+-4.3047,15.1075,Tanéréjié
+-1.9219,15.109,Arabangui
+-2.1597,15.0076,Bebi
+-2.0598,15.1161,Dagama
+-1.7036,15.1714,Dara
+-1.9109,15.1689,Diamtoukoulé
+-2.0669,15.1111,Gandébalo
+-2.0677,15.0908,Grimari-Diouambé
+-2.0491,15.0859,Guimari
+-2.0195,15.1186,Hamdi Ba
+-1.9196,15.1573,Hoandi
+-2.0216,15.1713,Ouro Fassi
+-2.01,15.1178,Ouro-Koladé
+-1.9819,15.1261,Ourokoymankobé
+-1.9825,15.1352,Simbi
+-2.0498,15.0283,Tabi
+-1.92,15.118,Tionbou
+-1.7319,15.1704,Tièmbourou
+-2.0824,15.0061,Toupéré
+-2.0452,15.1467,Tyama
+-2.0673,14.9991,Téga
+-2.0257,15.0908,Yorbou
+-4.3184,14.9419,Ouro-Alfaka
+-3.0594,14.4639,Binédama
+-3.0962,14.4598,Dorou
+-2.9861,14.5033,Endèm
+-3.0753,14.5639,Kadiavéré
+-3.0544,14.5329,Kindé
+-2.9225,14.5161,Kobadié
+-2.882,14.5247,Nguiroga
+-3.0773,14.4583,Orokamba
+-3.0868,14.4431,Simérou
+-3.0714,14.5401,Sourinndé
+-3.0848,14.4906,Soye
+-3.0803,14.5243,Séguémara
+-1.7392,15.0926,Boundou Soué
+-1.7612,15.1163,Boussigui
+-1.6956,15.1283,Dossou
+-1.7347,15.1101,Douna
+-1.7121,15.1155,Kobou
+-4.3877,14.9592,Bilé Dembéré
+-4.2993,14.977,Tieidé
+-4.229,15.0171,Ouro-Dialloubé
+-3.0791,14.3427,Banikani
+-2.9708,14.3967,Boré
+-3.0519,14.43,Diennsagou
+-3.093,14.3568,Domblossogou
+-3.0312,14.3989,Gangouroubouro
+-2.9648,14.4138,Gawa
+-2.9043,14.4118,Karakindjé
+-2.9664,14.3751,Kasawa
+-3.0019,14.3857,Kassawa
+-3.019,14.454,Kenngué
+-2.9833,14.4552,Mantéou
+-3.0395,14.4326,Naye
+-3.116,14.3671,Pourali
+-2.9624,14.3414,Tanouma
+-3.0238,14.3496,Yaguémé
+-3.0256,14.2987,Bandé
+-3.0554,14.3092,Barapiré
+-3.0493,14.18,Dana
+-3.0648,14.1894,Danadourou
+-2.9936,14.279,Domni
+-3.0602,14.3246,Goudiodourou
+-3.0309,14.2354,Kamokoro
+-3.0654,14.2115,Léré
+-3.1397,14.3058,Nahabéné
+-3.1211,14.3353,Nangdourou
+-3.1207,14.2232,Ogodourou
+-2.9708,14.3149,Ogotèné
+-3.059,14.2505,Ourokou
+-3.1071,14.2696,Patin
+-3.0813,14.2925,Samanagoro
+-3.139,14.3425,Sanaoro
+-3.113,14.2399,Souan
+-3.1258,14.3228,Sédourou
+-3.0749,14.2395,Ségouma-Sogou
+-2.9989,14.3147,Tantoumo
+-3.1292,14.203,Tourou
+-3.0491,14.28,Yassi
+-2.9197,14.2958,Yoroupée
+-1.5571,15.2789,Dakabiba
+-1.5586,15.2704,Dakafiountou
+-1.5274,15.2589,Dakakouko
+-0.4833,15.6333,Dindé
+-1.5075,15.1206,Douni
+-1.5642,15.1832,Dèmbéré ti-n-Alabi
+-1.5541,15.2449,Foulankriyaba
+-1.6016,15.2594,Galou Déo
+-1.6164,15.2585,Galou Sadié
+-1.6107,15.2563,Galou
+-1.0778,16.8775,I-n-Tadeïné
+-0.74,16.7747,Kalessouk
+-1.5862,15.2509,Maygoubou
+-1.5659,15.233,Ouami
+-1.4822,16.65,Ouinardene
+-1.5834,15.4237,Sambangou
+-1.5155,15.1863,Tilèya
+-1.5376,15.3347,Timbadior
+-1.5473,15.235,Timbsèy
+-1.2931,15.058,Tin Dialali
+-1.6218,15.1878,Wari
+-2.5189,15.1992,Banga
+-2.6829,15.2109,Boula
+-2.5834,15.2082,Bounti
+-2.4862,15.1775,Dondouli
+-2.4024,15.2372,Dounda
+-2.5174,15.2032,Gana
+-2.373,15.2188,Gogoro
+-2.4733,15.1995,Gordala-Aiga
+-2.7489,15.2107,Kikara
+-2.3844,15.1986,Lougui
+-2.5119,15.2288,Tila
+-2.5393,15.2377,Bounti
+-2.4705,15.2449,Féridin
+-2.4298,15.1566,Kikiri
+-2.4506,15.2248,Kormi
+-2.4401,15.1921,Kéri
+-2.6866,15.0315,Kéréna
+-2.5338,15.066,Nani
+-2.45,15.127,Omga
+-2.4519,15.1435,Siguiri
+-2.7141,15.0183,Ségué Taka
+-2.4648,15.1958,Tanga
+-2.5266,15.1126,Torobani
+-2.5076,15.2208,Toua
+-2.455,15.152,Tyoumguel
+-2.7115,15.007,Tébi Maoundé
+-2.745,14.9881,Tébi Toumbo
+-3.2108,14.4119,Bormon
+-3.2329,14.4367,Boumbou
+-3.2209,14.2738,Béréli
+-3.2294,14.3399,Goudiadourou
+-3.2656,14.291,Ogobéné
+-3.1476,14.4131,Sorou
+-3.1837,14.3504,Tagourou
+-3.2363,14.319,Tanoa
+-3.1853,14.3683,Tenndiou
+-3.7375,15.3249,Tié Kouraré
+-3.7508,15.3314,Messéna
+-1.8119,15.3765,Banè Bandia
+-1.7281,15.2743,Barkoussi
+-1.7178,15.4144,Bella
+-1.8599,15.3278,Boubanki
+-1.7481,15.2737,Bèrbèy
+-1.7006,15.3538,Damsosso
+-1.7983,15.4392,Dimamou
+-1.8389,15.3938,Doumbi
+-2.1561,15.3099,Drougama
+-1.8215,15.3797,Fatafali
+-1.803,15.2297,Garmi
+-1.9268,15.322,Gouélèy
+-1.7334,15.2811,Kantakin
+-1.7037,15.2454,Kissin
+-1.6548,15.2982,Kobahi
+-1.8334,15.3809,Kourmi
+-1.7852,15.378,Koykoyra
+-1.8589,15.45,Léguilégui
+-1.7259,15.3659,Narki
+-1.7907,15.2509,Ngaghoy
+-1.7819,15.3507,Samangolo
+-2.0779,15.295,Sossa
+-2.0449,15.3656,Tina Erdan
+-1.6413,15.2685,Tkiri
+-1.6812,15.2386,Toundourou
+-1.8303,15.4064,Toupéré
+-1.744,15.2445,Walam
+-1.8305,15.0077,Dougousa
+-1.8697,14.9962,Fété Noti
+-1.5981,15.0399,Gaganba
+-1.7228,15.0178,Gassèy Diamé
+-1.8026,15.0193,Issoua
+-1.7504,15.0127,Oussoua
+-1.664,15.0249,Sarabango
+-1.8729,14.975,Sébéndourou
+-1.6732,15.028,Téna
+-4.2665,15.0208,Gobé
+-4.2931,15.0507,Tmino
+-3.8101,15.4463,Noradji
+-5.7593,10.554,Kadiolo
+-8.3632,13.7502,Sebekoro 2
+-8.4208,13.6749,Tiokombougou Ouest
+-8.4159,13.6734,Tiokombougou Est
+-4.0918,14.4958,Tiaboli-Sévaré
+-3.0491,14.7368,Berda
+-2.973,14.2345,Dangaténé
+-3.0496,14.7376,Diounol
+-3.2866,14.1841,Don
+-3.1892,14.1816,Douna
+-3.2915,14.2555,Déri
+-3.0533,14.1446,Ené
+-3.2732,14.2595,Goro
+-2.8262,14.2711,Gourti
+-3.2401,14.169,Guéourou
+-3.0693,14.7252,Kassa
+-3.033,14.7336,Kikénaga
+-3.2483,14.2428,Kombo-Ogourou
+-3.1794,14.2118,Ogodenngou
+-3.2618,14.2001,Oropa
+-3.1593,14.1601,Pomboro-Dodiou
+-3.1248,14.1452,Péné
+-2.9408,14.2426,Sabéré
+-3.2224,14.2189,Samani
+-3.0766,14.7344,Santaba
+-3.1899,14.1374,Sassougo
+-3.0775,14.1519,Ségnébéné
+-3.0115,14.7086,Tanhali
+-2.9902,14.2175,Torou
+-1.8652,14.6162,Banay
+-2.1058,14.5878,Bangadié
+-1.9758,14.8862,Dioumdiouréré
+-1.7722,14.8626,Godowaré
+-1.9529,14.9754,Guéddérou
+-2.0265,14.8724,Issey
+-1.6687,14.6768,Moniékana
+-1.7781,14.6527,Niangassagou
+-1.8928,14.8736,Péto Kobi
+-1.8395,14.7693,Sardina
+-1.8544,14.8765,Tiguila
+-2.0765,14.8592,Toulévèndou
+-1.8374,14.6221,Toïkana
+-2.1605,14.6261,Yirma
+-1.7649,14.8913,Yogododji
+-4.4672,13.6776,Konio-Marka
+-3.6138,14.997,Batouma
+-3.8313,14.836,Bombori
+-3.7938,14.6534,Boudou
+-3.7304,14.8548,Boui
+-3.7607,14.7982,Bounou
+-3.6136,14.7817,Béri
+-3.7214,14.7968,Damagari
+-3.8038,14.8463,Dani-Ouro
+-3.8074,14.8356,Dani-Saré
+-3.8696,14.6745,Dantiandé
+-3.8649,14.7724,Dari
+-3.8794,14.8648,Dianvéli
+-3.7805,14.7937,Digari
+-3.7628,14.7851,Diéni
+-3.6589,14.7726,Djigui
+-3.787,14.8224,Doro
+-3.6983,14.8066,Dougo
+-3.6008,14.8167,Dégui
+-3.7432,14.6912,Emmbari
+-3.8267,14.7753,Goumbo
+-3.6765,14.8366,Gourari
+-3.6822,14.8044,Guimari
+-3.8338,14.7605,Kayel-Toupel
+-3.8086,14.8896,Koko
+-3.7138,14.8512,Korenndiou
+-3.5022,14.8699,Koutoumel
+-3.6968,14.7619,Kéti
+-3.7815,14.788,Madougou
+-3.7882,14.8821,Molinntakou-Ouro
+-3.7746,14.8771,Molinntakou-Saré
+-3.7918,14.788,Namagué
+-3.7793,14.8052,Niana
+-3.6422,14.8261,Ninngo
+-3.9136,14.7798,Niénagou
+-3.7347,14.7062,Néfari
+-3.8624,14.8352,Néma
+-3.697,14.7371,Néou
+-3.8378,14.7967,Ouro-Nguéou
+-3.895,14.7897,Papara
+-3.5192,14.8693,Pouti
+-3.9203,14.7777,Sambéré
+-3.8961,14.9245,Sanabougou
+-3.8766,14.9539,Sandigui
+-3.5139,14.8392,Sangali
+-3.8153,14.7114,Sangou
+-3.9087,14.7693,Saré-Déra
+-3.8337,14.7986,Saré-Nguéou
+-3.9114,14.9035,Senndégué
+-3.7266,14.6779,Sisongo
+-3.7089,14.693,Sokari
+-3.6429,14.7298,Somé
+-3.5054,14.8342,Ségo
+-3.8387,14.8658,Sémina-Kourou
+-3.7575,14.7336,Sémo
+-3.6459,14.8104,Tanga
+-3.5687,14.8208,Tapou
+-3.8596,14.9714,Timé
+-3.5933,14.8068,Toumba
+-3.8831,14.6648,Tépavial
+-3.6515,14.7279,Téta
+-3.8459,14.6812,Velingara
+-3.4649,16.228,Bingata
+-3.5079,16.1608,Dongo
+-3.4447,16.1918,El Oualadji
+-3.4417,16.2119,Gayrama
+-3.5135,16.1575,Guézou-Haoussa
+-3.4907,16.1381,Kongoïber
+-3.3413,16.1362,Sibagabéri
+-3.8849,14.7095,Sim
+-3.8898,15.308,Baré Sémé
+-3.9005,15.2139,Daramane
+-3.6987,15.0538,Dounkoye
+-3.9328,15.2369,Déra
+-3.467,15.1405,Falembougou
+-3.2853,15.191,Govi
+-3.7138,15.0819,Guélingouma
+-3.6738,15.2021,Kéningo
+-3.8109,15.2727,Kérétogo
+-3.4657,15.1446,Madina
+-3.2651,15.3239,Madougou
+-3.441,15.152,Manko
+-3.7496,15.3398,Mousso Kouraré
+-3.4461,15.1571,Niongolo
+-3.2873,15.244,Sansani
+-3.9487,15.2614,Sendégué
+-3.2637,15.2197,Tireré
+-3.9218,15.2173,Tondimina
+-3.5971,15.1799,Tèye
+-3.6084,15.1277,Wari
+-3.2605,15.3469,Youna
+-4.7833,15.5667,Dafi
+-4.4476,15.4469,Dikinia
+-4.2321,15.6261,Djissikina
+-4.4715,15.6523,Doundé
+-4.196,15.3806,Débéré
+-4.205,15.386,Fitobé
+-4.2145,15.3914,Férobé
+-4.3418,15.6438,Gaoudèye
+-4.8198,15.7288,Gatié-Djirma
+-4.6692,15.5276,Goungo
+-4.5379,15.5033,Kampa Kouna
+-4.3036,15.439,Lélel
+-4.5761,15.435,Manguina
+-4.2611,15.3793,Omboloré
+-4.3906,15.6967,Saré-Dina
+-4.2054,15.6287,Sio
+-4.1995,15.3827,Sobé
+-4.3244,15.5651,Wanam
+-3.8232,15.3344,Banibo
+-3.8693,15.3757,Doko
+-3.7957,15.3954,Dombia
+-3.9827,15.3897,Dégué Dégué
+-4.0092,15.3654,Fatomare
+-4.0094,15.4596,Gangan
+-3.9708,15.4637,Gobi
+-4.039,15.4687,Gomoye
+-4.0227,15.3849,Goumni
+-3.9853,15.4649,Gounki
+-4.0197,15.307,Gourao Bozo
+-4.0279,15.3027,Gourao Foulbé
+-4.0747,15.3518,Guindio Saré
+-4.0713,15.3483,Guindio-Ouro
+-3.9626,15.438,Inguéri
+-4.017,15.3979,Karma
+-4.0793,15.4675,Kokoro
+-4.0012,15.3817,Kounda
+-3.7947,15.3862,Kéra
+-3.8435,15.345,Massama
+-4.0702,15.4607,Milali
+-4.0838,15.4561,Modioko
+-4.131,15.3611,Sanbéri
+-3.853,15.354,Sangui
+-3.9616,15.4553,Saré Mamani
+-3.8952,15.3826,Siti
+-3.9301,15.4101,Tango
+-3.8667,15.4086,Toungouna Sakéré
+-4.1699,15.4623,Aranga
+-4.114,15.4885,Baba Goungou
+-4.1309,15.4538,Bandoukouré
+-4.0702,15.4921,Dakombo
+-4.2179,15.5476,Diam Koko
+-4.0779,15.4873,Diataka
+-4.1011,15.5966,Guédia
+-4.2149,15.5733,Kabé
+-4.1024,15.5065,Kom
+-4.1473,15.4987,Kossombo
+-4.2403,15.5726,Mamako
+-4.0896,15.5071,Nambo
+-4.0944,15.5127,Niama
+-4.1826,15.5179,Saré-Dina
+-4.2727,15.547,Sinngama
+-4.132,15.4681,Sourou Nanaré
+-4.2443,15.5193,Tinguiri
+-4.1593,15.4559,Wonoba
+-4.178,15.5205,Yongona
+-4.1837,15.5209,Yongouriel
+-3.9913,15.515,Banfoula
+-3.6842,15.5486,Bordouga
+-3.8005,15.4465,Bougourinké Saré
+-3.7904,15.4476,Bougourinké-Ouro
+-3.6375,15.5564,Bourou
+-3.5316,15.4494,Dari
+-3.6049,15.5844,Dialigui
+-4.0918,15.5488,Diam Véli
+-3.6362,15.4392,Dimango
+-4.1185,15.5234,Diomou
+-3.8351,15.4405,Dissoré
+-3.8379,15.483,Dofina
+-3.2756,15.5034,Dorovel
+-3.242,15.4126,Doumpa
+-3.4028,15.4761,Déri
+-3.3042,15.5072,Enguirdé
+-3.8424,15.4963,Famsaré
+-3.9433,15.5118,Fao
+-4.0121,15.5132,Goummewal
+-3.3644,15.5049,Guérouel
+-3.855,15.5315,Idiéi
+-4.0274,15.5327,Issèye
+-3.7268,15.4863,Kalifaré
+-3.163,15.474,Karsani
+-3.4367,15.4734,Kokoro
+-3.7707,15.5152,Kongo
+-3.667,15.5464,Koroba
+-3.6485,15.5731,Koudiougouré
+-3.6272,15.5842,Kowa
+-3.801,15.4907,Marésire
+-3.913,15.4652,Mindié
+-3.4261,15.4154,Ouoro
+-3.2206,15.4528,Ouro-Diam-Allah
+-3.3173,15.4164,Pédia
+-4.0313,15.5127,Roundé-Gouar
+-3.7068,15.5237,Sankourabougou
+-3.8651,15.4829,Saré Feré Dofina
+-3.8801,15.5176,Saré-Abé
+-3.8028,15.5157,Sissabougou
+-3.6895,15.54,Souboundou
+-3.7439,15.5281,Souli
+-3.5941,15.4238,Sountèye
+-4.112,15.5511,Sourou Bongo
+-3.5405,15.4611,Sénoré
+-3.4967,15.4632,Takouti
+-4.1359,15.5503,Tanga
+-4.1438,15.522,Telkel
+-4.0082,15.5387,Tiel-Baro
+-4.0387,15.4899,Toga
+-3.8289,15.4488,Toungouna Kongo
+-3.7735,15.4799,Wolo
+-4.0962,15.8231,Angira
+-4.0369,15.7253,Asi
+-3.8468,15.582,Barou
+-3.9577,15.6912,Biro
+-3.7456,15.5797,Bouria Maradji
+-3.7143,15.683,Bouria-Bamangal
+-3.9337,15.5901,Boéfa
+-3.3733,15.5905,Béba
+-3.4788,15.5601,Daba
+-3.7764,15.5655,Dafi
+-4.043,15.6888,Dakala Bougou
+-3.8403,15.6537,Dara
+-3.9231,15.6111,Dari-Sélouma
+-3.4864,15.5064,Dempaba
+-3.481,15.4905,Dendia
+-4.0414,15.6708,Diamandio
+-3.6004,15.4757,Diangamaré
+-3.7801,15.6084,Diendiem
+-4.107,15.6732,Diogui Ouro
+-4.1026,15.6732,Diogui-Saré
+-3.8749,15.64,Diékounadibougou
+-3.8745,15.6045,Djibara
+-3.6559,15.6031,Djinango
+-4.01,15.674,Donbira
+-3.6749,15.6796,Dounga
+-3.4888,15.5351,Débiavi
+-3.3883,15.579,Endelle
+-4.1162,15.7003,Garou
+-3.9966,15.6971,Gogona
+-3.6152,15.5322,Kabou
+-3.45,15.5333,Kabou
+-4.009,15.7642,Kalifaré
+-3.6664,15.6599,Kanamé
+-3.5841,15.6206,Kayo
+-3.7175,15.6358,Kolonsongo
+-4.0188,15.7527,Koma
+-3.7476,15.559,Konaré
+-3.4749,15.6063,Koram
+-3.9805,15.6069,Koronbogo
+-3.8078,15.649,Kourou
+-3.8956,15.6397,Koétao
+-3.7289,15.5975,Maradji
+-4.0617,15.7423,Margou
+-3.764,15.6578,Marsiré
+-3.8539,15.6196,Masse-Toumaré
+-3.9256,15.6194,Missi-Ouro
+-3.9339,15.6251,Missi-Sara
+-3.7182,15.5551,Nam
+-3.9395,15.6742,Nawel
+-3.4851,15.5862,Naïki
+-4.116,15.7638,Ndourfou
+-3.9621,15.6413,Ninngo
+-3.6481,15.5251,Nokobougou
+-3.8153,15.6086,Obom
+-3.8727,15.5961,Ongom
+-3.8623,15.6475,Oré-Séno-Dara
+-3.3941,15.6006,Ouro-Balbossi
+-3.9984,15.6762,Ouro-Boubou
+-3.5486,15.5787,Roundé Bakilfa
+-3.9242,15.6413,Saka
+-3.5941,15.627,Samanabougou
+-3.446,15.5276,Samanguéraye
+-3.8864,15.6772,Sangui
+-3.5687,15.516,Saré Demba
+-3.5781,15.5033,Saré Mamari
+-3.9475,15.5535,Saré-Bané
+-3.99,15.644,Saré-Massi
+-4.0427,15.5762,Saré-Paté
+-4.0198,15.6408,Saré-Sabilé
+-3.5288,15.5398,Seno Leki
+-3.5626,15.4872,Sirabougou
+-3.9811,15.6534,Sogo Sara
+-3.9851,15.6572,Sogo-Ouro
+-3.6461,15.6364,Sokoura
+-4.105,15.7032,Sokoura
+-3.6354,15.5033,Sorobougou
+-4.0034,15.7584,Sounga Loré
+-3.802,15.5926,Séri
+-3.6677,15.5743,Séwol
+-3.8258,15.5797,Séwol
+-3.8541,15.598,Takana
+-4.0814,15.698,Takou-Tala
+-3.6455,15.4794,Tambéni
+-3.9507,15.6058,Tiergona
+-3.7315,15.6852,Toba
+-3.4495,15.6015,Toguéré Boki
+-3.5394,15.4997,Tolaye
+-4.1011,15.7839,Tonguel
+-4.013,15.6979,Tougounan
+-4.0619,15.6908,Yado
+-3.9919,15.69,Youmaïré
+2.1829,16.4866,Inkadewane
+2.2196,16.1029,Tin Fadimata
+-3.5443,15.7919,Biritanga
+-3.3065,15.7325,Bougoudi
+-3.2977,15.7805,Bouraïmaka Bodoro
+-3.3215,15.8102,Bouraïmaka Tiafori
+-3.3628,15.7144,Boya
+-3.3801,15.6663,Béloua
+-3.5601,15.7017,Dabara
+-3.5,15.7642,Dang
+-3.7141,15.7101,Dangal
+-3.3801,15.7365,Diaye Bokar Saïdou
+-3.3505,15.7766,Diaye Maoundé
+-3.3037,15.7732,Diaye Oré Séno
+-3.3395,15.7932,Dionkoura
+-3.4719,15.7589,Djiguinaré
+-3.5841,15.7641,Djingaram
+-3.2933,15.6836,Doundé-Alkaya
+-3.3923,15.7806,Doungoudie
+-3.399,15.7047,Dounguel
+-3.5646,15.7482,Famakouma
+-3.5903,15.7898,Farch
+-3.4089,15.6619,Fassoré
+-3.4921,15.633,Goudié
+-3.7243,15.7251,Goungaré
+-3.5177,15.7466,Goungui
+-3.4997,15.6874,Gouya
+-3.461,15.6238,Karma
+-3.374,15.6625,Kossinn
+-3.5509,15.6257,Koundioum
+-3.4223,15.7816,Kégui
+-3.2814,15.639,Labou
+-3.4438,15.7362,Niadoumba
+-3.2117,15.6606,Oré-Vendou
+-3.4524,15.6773,Ouakéré
+-3.3793,15.6623,Oura-Késil
+-3.2802,15.773,Ouro Afomomanga
+-3.304,15.6089,Ouro Issa
+-3.5985,15.718,Ouro-Esso
+-3.4189,15.6315,Poé
+-3.2604,15.7219,Rouna
+-3.5804,15.8047,Roundé
+-3.4467,15.6363,Sakal
+-3.4979,15.6402,Saraféré Merignan
+-3.4766,15.8015,Saré Bana
+-3.3182,15.6604,Sigara
+-3.3408,15.6472,Ségué
+-3.621,15.7252,Séré Touba
+-3.574,15.7275,Tiarguiniba
+-3.4488,15.7587,Tiékawal
+-3.4048,15.7697,Tiékoural Fagoume
+-3.5161,15.7919,Tiékoye
+-3.6816,15.7487,Toguéré-Maïrou
+-3.2662,15.7435,Tongomadji
+-3.3337,15.798,Torodi
+-3.6772,15.7286,Wabi
+-3.6349,15.7262,Wango
+-5.4038,14.2514,Nano
+-2.6584,16.0046,Daga
+-2.7203,16.015,Daka Dyérévé
+-2.6614,16.0399,El Barka
+-2.7008,16.0817,Fèrhiba
+-2.6499,15.9709,Laborar
+-2.7163,15.981,Malébé
+-2.7362,15.9875,Malébé
+-2.6962,15.976,Ouro Goundiré
+-2.7273,16.0718,Sorkitan
+-2.7043,16.0291,Séko-Ratao
+-2.663,15.9426,Tenguéré
+-2.6163,16.0934,Titoulaouin
+-4.975,14.0139,Ouana-Boulou
+-4.6633,13.979,Djimatogo
+-3.783,15.6908,Bakafé
+-3.7667,15.7167,Bilalbankoré
+-3.8207,15.7842,Doumbou
+-3.8001,15.7872,Filennza
+-3.7813,15.7881,Filenza Bakou
+-3.8451,15.7104,Fountali
+-3.804,15.7153,Godiorio
+-3.8346,15.7231,Gogoré
+-3.8422,15.8049,Komoko
+-3.7773,15.7352,Kévariré
+-3.751,15.7796,Ngaïna
+-3.8149,15.6819,Ngoye
+-3.7069,15.7707,Oré Aya
+-3.8541,15.74,Oré Séno
+-3.7356,15.706,Toumpa
+-3.7649,15.7474,Toungoura
+-3.811,15.7295,Velndou
+-4.697,14.0161,Toumi-Diaka
+-4.6241,14.029,Doundéré
+-4.0773,15.868,Baniaga Tchéba
+-4.391,15.7987,Baniaga
+-3.9859,15.9901,Baniaqa-Tchel
+-4.2372,15.7419,Dianguéla
+-4.1018,15.9577,Dienngo
+-4.1556,15.7866,Diou
+-4.2805,15.7341,Doua
+-4.3309,15.8216,Farana
+-4.3599,15.7797,Gamba
+-4.0925,15.986,Gaoudel
+-4.489,15.7512,Guéléwé
+-4.2481,15.767,Guéma
+-4.245,15.8695,Kassoum
+-4.1743,15.8646,Komou
+-4.0864,15.9036,Korienzé Aoussa
+-4.2368,15.8448,Kourouba
+-4.0214,15.9992,Mangourou
+-4.3321,15.792,Mankara
+-4.2459,15.8476,Mékoré
+-4.0439,15.9703,Ngoro
+-4.3802,15.743,Nguessa
+-4.1624,15.9949,Niodougo
+-4.1266,15.9364,Nounou
+-4.2127,15.7808,Sébi
+-4.1932,15.8823,Talfi
+-4.15,16.1333,Tamsirt
+-4.1138,15.8521,Waki
+-3.6206,15.7755,Arkodia
+-3.5791,15.9015,Aïoum
+-3.9534,15.994,Babadinngo
+-4.0439,15.809,Babi
+-3.8625,15.8242,Ban
+-3.9305,15.8259,Bandé
+-3.9556,15.7337,Baraka
+-4.0213,15.8438,Batouma
+-3.8776,15.8581,Béka
+-3.5957,15.9178,Dari
+-3.8542,15.9238,Dibara
+-3.7828,15.9325,Djibar
+-3.4954,15.9262,Djibé
+-3.8906,15.8213,Doua
+-3.9458,15.7144,Dounguel
+-3.5347,15.9391,Dounguel
+-3.8228,15.9553,Fadoulllaye
+-3.9072,15.7666,Gagalati
+-3.8719,15.7948,Galilalo
+-3.5089,15.8258,Garnati
+-3.7351,15.8691,Gaye-Habéré
+-3.7307,15.9725,Gofé
+-3.6824,15.8591,Goudïouguil
+-4.026,15.8966,Goumbo
+-3.5758,15.9492,Gounambougou
+-3.9575,15.906,Goundam-Tokossel
+-3.7543,15.9086,Gouokoure
+-3.6356,15.8135,Guédié
+-3.8619,15.9212,Indiem
+-3.8669,15.9359,Iro
+-3.9736,15.8423,Kalandié
+-3.9676,15.7241,Kam
+-3.5436,15.9081,Kaya
+-3.5294,15.826,Kiri
+-3.8959,15.855,Kobadji
+-3.8842,15.7037,Kobé
+-3.9319,15.8523,Kogui
+-3.9869,15.8688,Kokoye
+-3.4981,15.9536,Kolé Djadjé Issa
+-3.8075,15.983,Konfina
+-3.6528,15.8638,Koté-Amadou Moussa
+-3.666,15.852,Koufa
+-3.899,15.7347,Koukourou
+-3.8638,15.7838,Koumaïra
+-3.7053,15.961,Koyam
+-3.6156,15.9459,Koïba
+-3.8943,15.7937,Lélel
+-3.9199,15.9426,Mandiébougou
+-3.7352,15.8263,Mbétou
+-3.5255,15.9249,Missila
+-3.8267,15.8258,Moundiadé
+-3.5387,15.9564,Namadel
+-3.8994,15.8748,Ngorobougou
+-3.9168,15.9779,Ngourouné
+-3.6378,15.9207,Ojo
+-4.013,15.8131,Oufou
+-3.8333,15.8,Ouro Nguéou
+-3.6882,15.9343,Ouro-Eni
+-3.6393,15.9686,Saké
+-3.7447,15.9374,Sam
+-3.6472,15.9862,Sanaloubé
+-3.8914,15.8754,Saré Amadi
+-4.0416,15.8641,Sibo
+-4.0642,15.8404,Siboné
+-3.8755,15.9695,Sinngo
+-3.6968,15.9136,Séké
+-3.592,15.926,Tanné
+-3.5718,15.8319,Tanéré
+-3.9232,15.9105,Tiangara
+-3.7898,15.8061,Tiaye
+-3.725,15.9113,Tinndim
+-3.941,15.7566,Tioli
+-3.7045,15.8211,Tisi
+-3.9583,15.9315,Tomi
+-3.9864,15.8175,Tondo
+-3.4709,15.9403,Toulel
+-3.9577,15.7881,Wako
+-3.6589,15.967,Yadia
+-3.4608,15.0381,Tiboki
+-3.4428,15.0441,Ourolinga
+-3.4425,15.0495,Koringa
+-3.442,15.0564,Tchokou
+-3.4439,15.059,Ena
+-4.3553,13.5983,Bouossohui
+-3.2482,15.8669,Algoa Manéri
+-3.8036,16.0818,Arabébé
+-3.3397,15.8783,Arsi Belladé
+-3.3381,15.8571,Arsi Foulbé
+-3.7277,16.234,Assobol
+-3.7131,16.1855,Atta
+-3.6652,16.0787,Baddyano
+-3.6452,16.0337,Bakou
+-3.5597,16.0169,Bangadarya-Abadyouma
+-3.7898,16.1648,Bankani
+-3.7277,16.1685,Banyéga
+-3.395,15.8723,Bokoko
+-2.7354,15.9258,Bounyoukou
+-2.8488,15.8039,Daka Amadou Dyalé
+-2.7834,16.0078,Daka-Bara
+-3.2234,15.8519,Delegoaï
+-3.0034,15.7956,Diadiouma
+-2.7889,15.9849,Djoubouloumbé
+-3.7137,16.2688,Dongoy-Samou
+-3.4539,15.8318,Doundéguessé
+-3.6892,16.145,Dyadyébi
+-3.6559,16.009,Débéouel-Galaga
+-3.5834,15.9459,Fita
+-2.7768,15.9706,Foko
+-3.7824,16.0238,Ganga
+-3.5892,15.8782,Garaoundou
+-3.6207,16.011,Garou
+-2.797,16.0065,Godjiré
+-3.6695,16.0419,Guia
+-3.6836,16.1023,Guindegatamar
+-3.8044,16.1899,Guindégata
+-3.7644,16.0945,Guindégata-Koyratao
+-3.0512,15.7973,Guélével
+-3.9477,16.1863,I-n-Talassa
+-3.5169,15.9734,Inndio
+-3.635,16.0782,Kaba
+-3.9222,16.1744,Kalantassiri
+-3.9128,16.174,Kalaoussa
+-2.646,15.8544,Kalzangoye
+-3.154,15.792,Kanioumé
+-3.7102,16.2045,Karango
+-3.7262,16.1158,Kati
+-2.6794,15.8428,Kaykay
+-3.6778,16.0263,Kobé
+-3.6526,16.0481,Kossanbangou
+-2.7125,15.8185,Koyra-Koumna
+-3.8968,16.0708,Koérétago
+-3.6408,16.1035,Madina
+-3.1967,15.8414,Madou
+-3.7209,16.2794,Mékoré
+-3.4378,15.8208,Naouré Balol
+-3.8032,16.0347,Ndyorné
+-3.4781,15.8712,Nguélobaré
+-3.7216,16.0191,Ouanko
+-3.2708,15.8271,Ouro Amadi Issa
+-3.2872,15.8195,Ouro Bougué
+-3.7052,16.0203,Ouro-Aram
+-3.6022,16.0756,Ourobé
+-3.722,16.0396,Paouri
+-3.4845,15.8843,Saré Sana
+-3.6537,16.1815,Saya
+-3.6883,16.0848,Sèrouel
+-2.8995,15.7891,Tayfo
+-3.1803,15.8462,Tiléré
+-3.9051,16.1713,Tinntare
+-3.5962,15.9815,Toga
+-3.8028,16.0867,Tombia
+-3.6451,16.266,Tondigamé
+-3.5569,15.9959,Toundouma
+-3.2822,15.8504,Tounkararou
+-3.6931,16.1243,Tyéne
+-3.8159,16.1307,Tèndé
+-3.6779,16.0055,Yadyo
+1.1752,19.4242,abeïbara
+-3.0432,15.8887,Boli
+-2.9923,15.8999,Daka Djouga
+-2.9973,15.8838,Daka Moamdoudou
+-2.8535,15.8958,Daka-Bonyokou
+-2.8513,15.8854,Daka-Kondyo
+-2.9399,15.9026,Daka-Koro
+-2.8712,15.9169,Daka-Paté
+-3.0112,15.8722,Dakakoro
+-3.1034,16.031,Doundé-Bamba
+-2.9707,15.892,Débé Foumba
+-2.9607,15.9837,Gouni
+-3.1032,15.872,Lissa
+-3.151,16.0878,Mati
+-3.1122,16.0721,Naoua
+-3.1958,16.0616,Ouraldé
+-3.1346,15.8711,Soundoko
+-3.0945,16.0782,Torkya
+-4.3069,16.618,Deylouba Débé
+-4.3385,16.612,Issinsa
+-4.3287,16.618,Tadjidjit
+-4.3628,16.6357,Ti-n-Ouartene
+-4.2972,16.6215,Timallalene
+-4.353,16.6081,Tédeini
+-2.8014,15.198,Banikani
+-2.9272,14.9539,Bom
+-2.8616,15.1583,Gapeti
+-2.8236,15.1931,Mounyou
+-2.9288,14.9664,Sokoroto
+-2.7815,15.2077,Yemni
+-3.4385,14.8703,Bellé
+-3.2621,14.8965,Dia
+-3.2006,14.9151,Enndéguem
+-3.2651,15.0449,Ibissa
+-3.2687,14.8891,Kïlo
+-3.394,14.9088,Mennti-Soubi
+-3.3978,14.9085,Menti-Kindi
+-3.3944,14.9686,Mélo
+-3.4805,15.0489,Onto
+-3.438,14.9003,Siri
+-3.3077,15.0354,Soukl
+-3.288,14.8937,Tassembé
+-3.345,14.9388,Tinntam
+-3.2729,14.8925,Tolo
+-3.485,15.05,Tété
+-3.9349,15.0929,M'Bouna
+-3.9386,15.0692,Tomi
+-3.4319,16.0353,Babaga
+-3.5698,16.15,Bala-Maoundé
+-3.4811,15.9742,Balel
+-3.2909,16.0341,Bangadria
+-3.1824,16.253,Banèy
+-3.2847,16.2387,Baoua
+-3.4912,15.9985,Baïli
+-3.2353,16.0668,Bilèl
+-3.4705,16.088,Bougoubéri
+-3.5346,16.1827,Bouli
+-3.3299,16.0955,Cherifiga
+-3.0766,16.2273,Dabay-Mahamoud
+-3.0652,16.1754,Daga
+-3.2925,15.9712,Dakahandoukou
+-3.2849,15.9299,Dakakaya
+-3.578,16.1097,Dandangoura
+-3.4068,16.1801,Doukouradji
+-3.2559,16.1181,Doukouré
+-3.3241,16.3186,Douta
+-3.5695,16.0891,Dyoungo
+-3.215,16.183,El Gassouba
+-3.307,16.3591,Fara-Bongo
+-3.2213,16.1593,Fata
+-3.3271,16.1375,Gabikoyra
+-3.2912,16.1424,Gabongko
+-3.5867,16.1679,Godie
+-3.5694,16.1255,Goram
+-3.2186,16.2273,Goui
+-3.3964,16.0867,Goumèykoré
+-3.153,16.2372,Goundou-Goundou
+-3.314,16.1164,Goyroum
+-3.526,16.1166,Guediou Gourma
+-3.2243,16.2262,Haïn
+-3.0792,16.147,Horesène
+-3.5628,16.2535,Idimidabay
+-3.0156,16.1378,Imyay
+-3.1581,16.1725,Kabaïka
+-3.3798,16.0075,Kadja Koïra
+-3.369,16.3402,Kobé
+-3.4917,16.0004,Kondji-Bobo
+-3.5414,16.0494,Koui
+-3.2923,16.2975,Koundarm
+-3.3202,16.3469,Kourom
+-3.3232,16.138,Koytou
+-3.5805,16.2128,Lessodyé
+-3.3507,16.1154,Madina
+-3.3129,16.1904,Menissiégué
+-3.3446,16.0661,Milala
+-3.3741,16.0354,Oura Seidou
+-3.3173,15.9705,Ouro Alfanou
+-3.2936,15.9495,Ouro Ambokar
+-3.2865,16.0489,Ouro-Bayta
+-3.2886,16.0052,Ouro-Fatouma
+-3.2372,16.0873,Sarayamou
+-3.3465,16.135,Siba Ouro Alifoné
+-3.1794,16.2562,Siba-Banèndi
+-3.3652,16.2575,Sinam
+-3.5826,16.2313,Soudoubé
+-3.3237,16.0487,Taïba
+-3.3683,15.9711,Tingora
+-3.512,16.2378,Toylodabay
+-3.3542,16.2832,Téougoungou
+-3.3223,16.283,Yoné
+-3.3359,16.4344,Ara-Ara-Harikouna
+-3.2899,16.3858,Assakongo
+-3.1352,16.4876,Bantanho
+-3.183,16.4648,Bokoy-Koyra
+-3.2065,16.4012,Bossogoungou
+-3.2282,16.4187,Dabarassiré
+-3.4183,16.3362,Diahouatou
+-3.1884,16.4265,Doké-Koïre
+-3.5473,16.3633,Dyaloubé
+-3.2333,16.2667,Dyaouli
+-3.2176,16.46,Détégoungou
+-3.2385,16.3625,Fadji-Bayèndyé
+-3.4684,16.3629,Fendou Keyna
+-3.2364,16.2967,Fongo Mahama Baber
+-3.2121,16.291,Fongo Manahako
+-3.2363,16.3765,Gabongo
+-3.2204,16.3845,Ganéa Guindé
+-3.538,16.3186,I-n-Talassa
+-3.1782,16.3662,Kalinakaouat
+-3.4564,16.3224,Kondi Keyna
+-3.2391,16.256,Kongodyara
+-3.2278,16.3403,Koudyana
+-3.2209,16.3964,Koura
+-3.4092,16.3331,Koygourou
+-3.2061,16.2946,Koyratao
+-2.7231,16.5928,Mamikoyra
+-3.2059,16.3078,Monakoyra
+-3.4378,16.3495,Morikoïrè
+-3.1175,16.2976,Nazarak
+-3.5055,16.3495,Ougoubibi
+-3.0772,16.4389,Takaï Gorout
+-3.3117,16.3916,Tangassan
+-3.1802,16.4151,Taoussa
+-3.4678,16.3195,Tondigamé
+-3.2145,16.4073,Tyèndoudéré
+-3.4192,16.3561,Tèytèy
+-3.7651,16.7234,Bilalbankoré
+-3.4005,16.4908,Boya
+-3.4132,16.4599,Boya-Sambaloumbé
+-3.7124,16.7933,Dabèy Gandi
+-3.4663,16.4831,Dangay
+-3.4493,16.5489,Dongoye
+-3.7631,16.5511,Dèndéguer
+-3.7533,16.4818,Fatakara
+-3.5056,16.5012,Gallaga
+-3.4301,16.4331,Kalandjabi
+-3.4569,16.4041,Kalango
+-3.596,16.4255,Kanaya
+-3.724,16.6332,Karaokomba
+-3.4479,16.4334,Kel Haoussa
+-3.447,16.5421,Nyambourgou
+-4.3336,16.3985,Sakabélé
+-3.7594,16.773,Sakhlis
+-3.7303,16.5288,Sougoumaïro
+-3.7388,16.6977,Takara
+-3.7268,16.7103,Tihigrine
+-4.9471,16.3754,Tilemsi
+-3.4677,16.4941,Tississiki
+-3.3251,16.4283,Ara-Ara-Aramgoui
+-3.1942,16.5499,Bani
+-3.2858,16.5664,Dinadébé
+-3.364,16.5726,Djindjikounda
+-3.114,16.5787,Djédafo
+-3.2874,16.462,Douégoussou
+-3.3727,16.574,Douékiré
+-3.2599,16.5065,Gartjiré
+-3.2368,16.5427,Goumèl
+-3.1919,16.6065,Goussoutjiré
+-3.178,16.6286,Issafay
+-3.2895,16.4816,Kaboua
+-3.1121,16.5343,Kakondji
+-3.2655,16.5149,Kessou-Indyar
+-3.2171,16.5523,Kièssoubibi
+-3.1257,16.5705,Koïretaho
+-3.3539,16.5698,Laboun
+-3.1658,16.5817,Mahalkoïra
+-3.165,16.5855,Mankalagoungou
+-3.3178,16.4557,Orogoungou
+-3.3041,16.4443,Orogoungou-Gourma
+-3.3377,16.5704,Saoubongho
+-3.05,16.5333,Ti-n-Kérouat
+-3.1624,16.6197,Tinan
+-1.9538,14.8283,Samaladio
+-2.7886,16.7086,Arnassey
+-2.7383,16.7218,Bellassao Diéna
+-2.8166,16.7016,Birni Bongo
+-2.5901,16.7158,Djindigo
+-2.8283,16.6679,Eoua
+-3.0454,16.6565,Hamadya
+-2.3646,16.7782,Hamaragoungou
+-2.9617,16.6656,Hondou-Bomon
+-2.891,16.6711,Houndou Bongobèr
+-2.909,16.6451,Iloa
+-2.6735,16.7238,Kaga
+-2.4077,16.7771,Kano
+-3.025,16.663,Koriomé
+-2.6445,16.7214,Komèy Koukou
+-2.7297,16.7113,Koyré Djiéno
+-2.524,16.7607,Milala
+-3.0646,16.635,Nanga
+-3.1207,16.6465,Tassakant
+-2.9176,16.6333,Tiabou
+-2.6525,16.746,Tinaféoua
+-3.0874,16.6497,Toya
+-3.5061,14.2038,Bagourou
+-3.3145,14.1602,Djimérou
+-3.3351,14.1995,Gomou
+-3.4843,14.2379,Inndarou
+-3.4627,14.2847,Konsogoudo
+-3.3664,14.2187,Korolou
+-3.3221,14.129,Oustanga
+-3.3779,14.2055,Saourou
+-3.2922,14.1461,Sembéré
+-3.3366,14.1254,Tiémama
+-3.4234,14.1928,Wol-Anakanda
+-3.4305,14.1884,Wol-Maoundé
+-3.4504,14.1813,Woro
+-3.423,14.297,Yawa
+1.2131,19.6849,Terz-Ikechchenen
+1.188,19.7926,In Koufi
+-3.0288,14.9067,Ardé
+-3.0837,14.9263,Arko-Bongo
+-3.2466,14.5841,Bola
+-3.1748,14.6334,Damasongo
+-3.3676,14.725,Dantiandé
+-3.2664,14.6594,Daïna
+-3.2745,14.6869,Doumogou
+-3.3642,14.7546,Enndié
+-3.4478,14.7235,Enngré
+-3.1422,14.6498,Tourougo
+-3.2477,14.6079,Guéné
+-3.2595,14.5729,Iréli-Bolo
+-3.1963,14.6292,Kaoli
+-3.417,14.7034,Kenndié
+-3.1933,14.768,Kilégou
+-3.2484,14.6213,Komboga
+-3.2694,14.6561,Kombérou
+-3.2719,14.6506,Komguiri
+-3.2823,14.6632,Komodia
+-3.2734,14.6702,Komoguéné
+-3.2163,14.7547,Koubével-Nalé
+-3.4368,14.7553,Koupéré
+-3.2689,14.6745,Kédiou
+-3.0314,14.916,Nemmbou
+-3.1844,14.6293,Nenndé
+-3.2757,14.6605,Ninngari
+-3.1494,14.6473,Guinédiè
+-3.1658,14.6491,Ogourou
+-3.4723,14.7146,Ologo
+-3.2519,14.6174,Omonia
+-3.0254,14.9025,Oudje
+-3.1948,14.6018,Ouéré
+-3.2248,14.7878,Sarédina
+-3.2257,14.6084,Sobo
+-3.2227,14.621,Sobodi
+-3.249,14.6182,Tegou
+-3.036,14.8963,Tiné
+-3.1664,14.7211,Tébiguié
+-3.1939,14.6133,Tépéré
+-3.1389,14.6517,Yadasongo
+-3.2415,14.5564,Yenndouma
+-3.3125,14.0878,Bama
+-3.1633,14.1056,Bennbara
+-3.2614,14.0411,Birga
+-3.2347,14.0391,Dérou
+-3.1667,14.1187,Gouïffal
+-3.1806,14.1097,Karakam
+-3.2939,14.1219,Modori
+-3.2481,14.1052,Mombourou
+-3.2704,14.0875,Pel
+-3.3237,14.1108,Taounougou
+-3.3128,14.0695,Timessogou
+-3.2129,14.1243,Tina
+-3.2619,14.1401,Témégolo
+-3.1941,14.0704,Yadianga
+-4.256,16.6263,Inatabanes
+-3.8474,14.3041,Noundé
+-3.5409,14.1013,Baraféra
+-3.3725,14.123,Barelirou
+-3.3881,14.1651,Beniouma
+-3.4479,14.1273,Diangolou
+-3.462,14.1242,Dorodon
+-3.4503,14.1487,Iribanga
+-3.5341,14.087,Koniantombo
+-3.3539,14.1301,Koporo-Kénié-na
+-3.5212,14.1198,Kouroundé
+-3.5045,14.1079,Nangoudama
+-3.5149,14.0731,Ogoténé
+-3.4006,14.1201,Orogourou
+-3.3722,14.1037,Oroségou
+-3.393,14.1321,Perkana
+-3.3813,14.1588,Périgourou
+-3.4182,14.1334,Sinnda
+-3.4921,14.1555,Sogou
+-3.4912,14.0897,Sokora
+-3.4987,14.1321,Sondol
+-3.4191,14.0934,Tenndéli
+-3.5236,14.081,Tanganaboye
+-3.3451,14.0683,Tonou
+-3.2888,14.0275,Baraniongolé
+-3.2458,13.9993,Barayogoulékana
+-3.1788,14.0098,Bodéwel
+-3.2796,14.0097,Dinnga
+-3.3545,14.0985,Kontogourou
+-3.3665,14.0484,Sogourou
+-3.339,14.0163,Tomboguina
+-4.2078,16.6912,Arkachene
+-3.57,14.0611,Baré
+-3.4366,14.0224,Bondou
+-3.6308,14.1174,Gama
+-3.5363,14.0522,Goro
+-3.3695,14.0071,Guinéourou
+-3.6336,14.0003,Konsogou
+-3.4404,14.0652,Kérou
+-3.6338,14.0285,Logo
+-3.5605,14.0159,Manaodi
+-3.4624,14.0325,Ogossogou
+-3.4557,14.0678,Ogossogou
+-3.3889,14,Otékana
+-3.6126,14.0769,Sadia
+-3.5774,14.0441,Sadiakanda
+-3.6022,14.0835,Sinnsaré
+-3.6173,14.0028,Sonkoun
+-3.4113,14.0461,Tanossougou
+-3.5253,14.0414,Tinnto
+-3.5948,14.0372,Tobara
+-3.4684,14.1428,Durkou
+-3.5547,14.0297,Ogodiré
+-3.3964,14.3376,Idiéli-Douno
+-3.3892,14.3471,Komagna
+-3.3716,14.3956,Nakomodo
+-3.3726,14.3848,Nakomolé
+-3.362,14.3822,Ourou
+-3.3103,14.5538,Bolomo
+-3.2918,14.4706,Bongo
+-3.2932,14.4794,Diamini
+-3.2988,14.4672,Dini
+-3.304,14.4627,Ogol
+-3.3009,14.4421,Pégué
+-3.3125,14.4784,Sangui
+-3.2684,14.5307,Tiogou
+-3.3147,14.4309,Yané
+-3.6554,14.6573,Banguel-Toupé
+-3.5176,14.6312,Dassi
+-3.4713,14.6148,Die
+-3.4275,14.655,Djanga
+-3.4879,14.6376,Dongosori
+-3.5772,14.6301,Dongossori
+-3.5445,14.6553,Dounali
+-3.4752,14.6437,Enndéguem
+-3.6216,14.6779,Gassi
+-3.4996,14.611,Kenntaba
+-3.606,14.6462,Kia
+-3.6475,14.7005,Kilégou
+-3.6103,14.6899,Madina
+-3.4805,14.6175,Ogorba
+-3.5527,14.6146,Pélani
+-3.5574,14.5945,Somoli
+-3.448,14.6474,Touol
+-3.4165,14.6464,Wana
+-3.8447,16.7273,Mbos
+-3.8639,16.7232,Sorkoya
+-3.9932,16.6844,Kinassani
+-3.9706,16.6896,Mbouna
+-4.0186,16.7768,Tin Aicha تين عائشة
+1.8444,19.3495,Abeïbara
+-2.3067,14.5367,Duari
+-2.4459,14.5563,Koba
+-2.7405,14.4875,Naouadié
+-2.1297,14.5071,Kassanga
+-2.0838,14.3783,Koutaka
+-2.0121,14.4121,Orotougna
+-2.0997,14.517,Yérémdourou
+-2.1885,14.3234,Guiri
+-2.1152,14.3578,San
+-2.0898,14.1917,Boutou
+-2.0939,14.1979,Lou
+-2.1364,14.1765,Mossi
+-2.0276,14.2941,Sabanga
+-2.1062,14.1884,Tidorè
+-2.0656,14.226,Yanangué
+-2.0971,14.1696,Youmnétao
+-2.4926,14.3124,Batou
+-2.6982,14.4134,Daidourou
+-2.3962,14.3818,Gangafari
+-2.3649,14.3639,Guimini
+-2.1648,14.2217,Kindi
+-2.6015,14.3027,Komni
+-2.6289,14.403,Korosongo
+-2.479,14.3294,Omo
+-2.3492,14.4069,Sari
+-2.6035,14.4266,Tini
+-2.5725,14.2578,Tondo Erkokoni
+-6.8318,13.0728,Barouéli
+-2.9854,14.1286,Bonéè
+-2.7248,14.1839,Didia
+-2.9725,14.0244,Dim Na
+-2.9352,14.114,Dim-Déima
+-2.9132,13.9945,Gomesso
+-3.0291,13.9692,Kiri
+-3.0282,14.0072,Ogodourou
+-3.0078,14.0192,Ogossin
+-2.8809,14.068,Ombo
+-2.8698,14.1305,Orowara
+-2.9279,14.1724,Ouro Korogara
+-3.0885,13.9591,Ourodourou
+-3.0244,13.9067,Ponhon
+-3.0041,14.0715,Sadjir
+-2.6579,14.1822,Sobangouma
+-2.7049,14.2232,Vouosa
+-2.96,13.8891,Déero
+-2.9678,13.94,Kiri
+-3.1559,13.8769,Pigué
+-3.1435,13.9095,Sissaé
+-3.0798,13.8952,Sitokoto
+-3.1532,13.8143,Sogou
+-2.9513,13.8564,Worodourou
+-3.1574,13.8559,Yogoubénémé
+-3.1238,13.8526,Zon
+-4.1546,16.6542,Ader Mallene
+-4.2211,16.6419,Aragoungou
+-3.5275,18.9041,Araouane
+-4.1935,16.7012,Arkachene
+2.6861,17.4439,Brie
+2.8587,19.9683,Achibriche
+-3.9241,16.7189,Garbèy
+0.2066,17.7344,Tabrichat
+-3.9766,22.6756,Taoudeni تودني
+-4.2786,16.6266,Timallalene
+-0.3667,19.45,Tin Karr
+-3.8458,16.7222,Mbos
+-3.7216,16.7374,Taksine
+-3.0684,13.8172,Lemdé
+-3.1527,13.7555,Lourougan
+-3.0468,13.6853,Nanda
+-2.9659,13.8162,Segué
+-2.9316,13.7864,Tibiri
+0.2921,15.2256,Tessit
+-2.2497,16.8233,Arbichi
+-1.5269,16.9975,Bana
+-2.2652,16.795,Bangao
+-2.0561,16.8078,Bankoma
+-1.6922,16.9378,Bannkara
+-2.0344,16.8376,Boul
+-1.764,16.9385,Boya
+-2.0216,16.8545,Boébéri
+-1.7258,16.9372,Bélèl
+-1.6244,16.9794,Chèmbou
+-2.1548,16.8336,Dangouma
+-2.0618,16.8733,Gargouney-Yamba
+-2.0897,16.8508,Goundama Guindé
+-2.2935,16.8007,Goungoubéry
+-1.6786,16.9519,Gourzouguaye
+-2.0483,16.8361,Guiri
+-2.1204,16.8245,Hanga Béra
+-2.1293,16.842,I-n-Fezaouane
+-1.6003,16.9856,Kardjiba
+-1.7116,16.9301,Kayouatèn
+-1.6233,16.9679,Kaïgourou
+-2.2998,16.8154,Kobabèn
+-2.3062,16.8143,Koïra Taoua
+-2.0121,16.8503,Kralil
+-2.3082,16.7731,Moyadji Koyra
+-2.0315,16.849,Nana
+-2.047,16.8868,Nana-Guindi
+-1.5625,16.9994,Nzorkoy
+-1.8117,16.9181,Simbé
+-2.0884,16.8623,Tienfallon
+-2.2946,16.8106,Tiskénane
+-1.5064,16.9986,Touré Goundi
+-1.5511,17.0308,Apokoyo
+-1.3309,17.0035,Argan
+-1.4753,16.9964,Arimèno
+-1.4454,16.9867,Baoundo
+-1.344,16.9973,Bassarey
+-0.7808,17.0055,Batanga
+-0.8395,17.0125,Bissane
+-0.8016,16.9974,Bo
+-0.7979,17.0044,Bo
+-0.7647,16.9852,Bosahalia
+-0.9806,16.9539,Chéoui
+-1.3487,17.0325,Dirbangou
+-0.8881,16.9725,Dérièn
+-1.2114,17.0447,Eguedesh
+-1.0155,16.9869,Fia
+-1.0332,16.977,Gamina Koyra
+-1.4128,16.9967,Garia
+-1.0665,17.0421,Garèy Goungou
+-1.4367,17.0175,Goungui
+-1.3088,17.0283,Guédessou
+-1.3071,17.0287,Guédessou
+-1.1274,17.0509,Hamgounbji
+-1.1719,17.0449,Kaigourou
+-1.4922,17.025,Kandia
+-1.0479,16.9991,Kira
+-1.0121,16.9684,Kora Gounda
+-1.4242,16.99,Koria
+-1.5277,17.0418,Kèrmachoy
+-1.4686,16.9953,Taa
+-0.9572,16.9964,Takamba
+-1.3622,16.9966,Tankane
+-0.9564,16.9616,Tchirobaria
+-1.3496,17.0063,Terzey
+-0.8048,17.0105,Ti-n-Sakou
+-0.817,17.0119,Ti-n-Sakou
+-1.4216,17.0231,Zaguia
+-1.3,17,Zamane
+-3.5663,14.3631,Tonniomé
+-3.9049,14.4978,Bandiougou
+0.5027,15.6794,Aboulambo
+-0.3203,16.8031,Ahaman Koïro
+-0.2233,16.6358,Aljanagounga
+0.5022,15.6597,Ansongo
+-0.473,16.9782,Aoua
+-0.0046,16.1726,Arabou
+-0.2552,16.7438,Argaga
+-0.3688,16.9635,Assaguèryé
+0.4033,15.7345,Badji Gourma
+0.4973,15.6827,Badji Haoussa
+-0.0164,16.2167,Bagoundé
+-0.1901,16.5669,Baléssadjié
+-0.239,16.5943,Bandièndé
+0.5632,15.4917,Bangui Akadi
+0.7031,15.4802,Banlassi
+-0.2587,16.6039,Banomé
+0.4913,15.6594,Bartyakoba
+-0.0845,16.3867,Batigama
+0.7315,15.4512,Balga
+-0.2961,16.8397,Bia
+0.6343,15.073,Bitam
+0.4682,15.5655,Bobo Bera
+0.4495,15.6701,Boudissara
+-0.4025,16.9462,Bourèm Forassi
+-0.3573,16.9105,Bourèm Guindou
+-0.3312,16.822,Boussou Miyou
+0.2237,15.8672,Boya Goundya
+-0.085,16.5175,Bégoudjindé
+-0.0208,16.3436,Berrah
+0.4011,15.7613,Dalba
+-0.085,16.4925,Damné
+-0.3008,16.7797,Dan Nha
+-0.2336,16.7669,Dana
+0.2599,15.8229,Dangaberi
+-0.2656,16.7242,Danigounda
+0.2444,15.8808,Sorkey
+-0.0947,16.5775,Daram
+0.6775,15.1548,Diaméli
+0.4926,15.6336,Dindé
+-0.1142,16.4975,Doumbaria
+-0.1378,16.5211,Doussougou
+0.4252,15.7145,Dyéli
+-0.5304,16.9796,Dèndébré
+-0.0834,16.5566,Fagouna
+0.3336,15.7709,Faranzothi
+-0.2822,16.6394,Farigouré
+0.5748,15.4855,Féma
+0.2744,15.7901,Gaina
+0.7212,15.2624,Gala
+-0.2594,16.8236,Garat
+0.2204,15.8773,Garbara
+0.2152,15.9301,Gargouna
+-0.0651,16.473,Gaïna
+0.1295,15.9574,Gerou
+0.6282,15.482,Golingo Myo
+0.4526,15.6019,Goléa
+-0.1097,16.2264,Gorom
+-0.1522,16.5275,Goudèlbaria
+0.4752,15.5588,Gougorgo
+0.5805,15.4984,Gouhi Gouni
+0.3184,15.8201,Goutchine Bara
+0.3028,15.8271,Goutchine Gargouna
+0.3979,15.7672,Guidara
+-0.0392,16.2342,Guidira
+0.388,15.7443,Géséni
+-0.3025,16.6536,Ha
+0.5442,15.5219,Herba
+0.2761,16.3336,I-n-Kak
+0.6651,15.4703,Iligoum
+-0.0673,16.4227,Issa
+-0.0658,16.5322,Jamey
+-0.0606,16.2117,Kadji
+0.4684,15.5465,Kala
+-0.3387,16.9405,Kalandi Kanmba
+-0.3611,16.8628,Karabassan
+-0.2,16.6342,Koichimbo
+-0.0783,16.3125,Kolessossoro
+0.4165,15.7201,Komamyo
+-0.4444,16.9391,Komkorom
+0.4501,15.7462,Kondya
+-0.3828,16.9711,Kongay
+-0.4244,16.9676,Konkora
+0.7496,15.3294,Korikoïko
+0.59,15.5299,Kouanga
+-0.2361,16.6592,Koumagondié
+-0.3236,16.8994,Koundougay
+0.5676,15.5351,Kounsoum
+0.7472,15.3494,Labi
+0.6928,14.9586,Labbézenga Ile
+0.4944,15.5557,Lélléoi
+0.6857,15.4921,Mal Mal
+-0.3975,16.973,Maza
+0.4625,15.7285,Monzonga
+0.2671,15.8591,Nonya
+0.6962,15.4681,Onda
+-0.2908,16.7214,Ouani
+-0.2428,16.7267,Ouani
+-0.2806,16.7669,Ouani
+0.6352,15.0645,Hourara
+-0.2408,16.7522,Ouinas
+-0.0297,16.38,Outi
+0.2847,15.8441,Oyakaouya
+0.4267,15.7254,Sandey
+0.5036,15.6222,Seïna Bela Forgandi
+0.4888,15.6113,Seïna
+-0.1022,16.2794,Sidibé
+0.3091,15.7759,Taaba
+0.4538,15.6416,Tadey
+0.3994,16.2568,Takalafat
+0.7126,15.4712,Tana Onda
+0.4081,16.095,Ti-n-Azabo
+0.1251,16.0136,Tianamé
+-0.0838,16.3039,Tinel
+-0.2667,16.6917,Titila
+0.3023,15.7794,Todjel Bara
+-0.2281,16.6531,Tondibi
+0.1887,15.9403,Wiyebangou
+0.4665,15.556,Zinda
+-0.2508,16.6675,Zinibon
+0.4359,15.6909,Zorané
+-3.3903,14.5702,Assa
+-3.3664,14.5706,Biné
+-3.3036,14.6135,Dimi
+-3.3544,14.6108,Goundioli
+-3.3884,14.5751,Kansongo
+-3.2806,14.6198,Kéna
+-3.296,14.5915,Ogolo
+-3.3467,14.5625,Ouroli-Tolo
+-3.445,14.5101,Pédéni
+-3.3037,14.6035,Sali
+-3.2846,14.6174,Tapadjima
+-3.3681,14.5888,Wara
+-3.3852,14.4759,Bissongo
+-3.3863,14.4717,Boundou
+-3.4128,14.4736,Dologou
+-3.4051,14.4605,Gondodié
+-3.4512,14.4895,Guéméné
+-3.4617,14.4724,Kabadjié
+-3.3859,14.466,Kongoli
+-3.4655,14.4882,Koïmégou
+-3.4206,14.4826,Moe
+-3.4429,14.4646,Molou
+-3.4179,14.4876,Métélidié
+-3.4644,14.5035,Nandouli
+-3.3851,14.474,Tabitonga
+-10.0661,14.6308,Kaniara
+-10.2082,14.6853,.
+-9.9722,14.4037,Sambadougane
+-9.9614,14.4223,Sansankidé
+-9.9226,14.4725,Faran
+-9.6948,14.5038,.
+-9.4315,14.6348,Kandiare
+-9.4664,14.6569,Sokan
+-9.5085,14.7543,Diabidiala
+-9.2131,14.6123,Fangoune Kagoro
+-9.603,14.7286,Lewa Diarisso
+-9.6072,15.0556,Folonkide Boundou
+-9.6383,15.1009,Gadiaba Baissamboula
+-9.5177,15.1813,Boulou Matioube
+-9.5258,15.2047,Gourel Bassirou
+-4.3125,15.2127,Banadjé
+-4.2959,15.1401,Diabi
+-4.2584,15.1258,Diakankoré
+-4.269,15.1409,Garoèye Bougouji
+-4.269,15.132,Garoèye Garouji
+-4.3274,15.1751,Kourbaka
+-4.2544,15.233,Oualado
+-9.3485,14.5604,Madina
+-9.3653,15.1286,Goulambé
+-9.597,15.1662,Madina Alaheri
+-9.741,14.2657,Niagané
+-9.5437,15.2577,Dianweli Rangabe
+-9.7407,15.2477,Alana
+-9.6532,15.3295,Amadi Oumourou
+-9.5922,15.0764,Aoudiaï Yoro Ali
+-9.3532,15.043,Bema
+-9.9137,15.0704,Birou Grand
+-9.3203,15.3191,Diarra
+-9.9836,15.1805,Diaye-Coura
+-9.1913,14.5418,Diema
+-9.6112,14.2682,Djougoun
+-9.5311,14.3256,Fatao
+-9.3289,15.6849,Gogui
+-9.3057,14.3592,Madiga-Sacko
+-9.5899,15.2305,Nioro du Sahel
+-9.6799,14.9085,Simbi
+-9.7852,15.3568,Sobela
+-9.8099,15.1065,Youri
+-9.6029,14.3222,Kari
+-9.1786,14.4898,Tinkare
+-9.6463,14.5038,Bouyanga
+-9.907,14.5062,Lakamané
+-9.7621,14.5097,Tassara
+-9.594,14.5163,Madiga
+-9.3118,14.5475,Guémou
+-9.2335,14.5574,Nafadji
+-10.0661,14.6308,.
+-9.6341,14.6473,Gory
+-9.5627,15.0342,Kolomina
+-9.4343,15.1188,Fassoudébé
+-9.5813,15.1216,Guetema
+-9.6512,15.159,Gourel Sieno Dedji
+-9.5078,15.1628,Loumounalbi
+-9.6247,15.2684,Nioro Tougoune Rangabe
+-9.6252,15.2811,Tintiba
+-9.6281,15.3197,Kahi Oulof
+-9.3094,15.3387,Niamy
+-9.321,15.4323,Tourourou
+-9.2742,15.4423,Banna
+-4.6779,14.5753,Goumel
+-4.6221,14.6053,Narebadé
+-4.7275,14.297,Songodé
+-4.77,14.3344,Ganguel
+-3.3529,14.555,Gagnaga
+-3.348,14.5569,Dianou
+-3.3932,14.5621,Kani Gokouna
+-4.5786,14.357,Diabi
+-4.0193,15.1761,Bango
+-3.9374,14.8716,Bogo
+-4.1627,14.8932,Boyé
+-4.1191,15.2264,Dintaka
+-4.002,15.259,Débaré
+-4.375,15.0874,Fara Yéni
+-4.429,14.9989,Gandétoma
+-3.8769,15.0013,Imméré
+-4.0175,15.1072,Koubaka
+-4.4723,14.9475,Lolakarou
+-4.7531,14.9187,Manga-Gourel
+-4.7619,14.9088,Manga-Sonalié
+-4.0762,15.1732,Modé-Modé
+-4.5086,14.9465,Ngayssi
+-4.1121,14.8733,Nimoye
+-4.1262,15.1062,Oréko
+-4.5258,14.9416,Ouro Galo
+-4.1081,14.9038,Patina
+-4.1539,15.0638,Pira
+-4.4383,14.912,Rogonta
+-4.1718,14.9483,Saba
+-4.4529,14.9875,Saré Samboubou
+-4.1318,15.1921,Saré-Ambana
+-4.4627,14.9803,Saré-Béré
+-4.451,14.9567,Sildé
+-4.0754,15.23,Soroba
+-4.6267,14.9704,Séri Bantinéli
+-4.6114,14.9851,Séri
+-4.1494,14.8814,Taga-Samba
+-4.2706,14.8842,Tanòuma
+-4.7002,14.9638,Tianbegel
+-4.1673,15.0078,Tibi
+-4.055,15.1827,Tioka
+-2.8258,14.4583,Mbana
+-3.6113,14.3505,Bandiagara
+-4.2947,14.2186,Taga
+-4.7935,14.6029,Tiéhel-Barka
+-4.5959,14.4001,Saré-Amadou
+-3.375,14.3597,Komokani
+-3.7637,13.8167,Ara
+-3.7499,13.8573,Bou
+-3.6648,14.0093,Damakana
+-3.7635,13.811,Diamana
+-3.7642,13.8133,Diouan
+-3.7123,13.9611,Doundé
+-3.7572,14.0552,Ené
+-3.7913,14.019,Gani-Lé
+-3.7886,14.0472,Gani-do
+-3.737,14.0459,Garou-Do
+-3.7407,14.0174,Garou-Lé
+-3.7631,13.8247,Insogou
+-3.7728,13.9533,Kobo
+-3.6793,14.0436,Logobara
+-3.7792,14.0593,Nandoli
+-3.7748,13.796,Niandu
+-3.7727,13.7756,Sama
+-3.7826,13.824,Sammbo
+-3.8324,14.0121,So
+-3.6949,13.9992,Sokanda
+-3.771,13.8274,Sonfounou
+-3.7527,13.8444,Ségué
+-3.7609,13.8313,Tagalé
+-3.7096,14.0089,Tarakoro
+-3.6967,14.0142,Tiédékanda
+-3.7752,13.9348,Tyi
+-3.7975,13.8601,Yéguéré
+-3.7463,13.9026,Golo
+-3.8264,13.8111,Kassogou
+-3.7807,13.8957,Kogo
+-3.9694,13.7822,Konodé
+-3.8709,13.9346,Konsogou
+-3.8136,13.9131,Kougodiégué
+-3.842,13.7374,Kouma
+-3.8808,13.7544,Lampiéra
+-3.7481,13.8781,Orossogou
+-3.785,13.7335,Sélé
+-3.7859,13.7396,També
+-3.8381,13.9866,Tiamaguina
+-3.8248,13.8189,Tilabo
+-3.9219,13.9061,Touenné
+-3.8311,13.8906,Tyilapanga
+-3.8203,13.966,Wini
+-4.1813,14.6246,Ouro-Kouma
+-4.2196,14.2259,Yéré
+-4.2066,14.2938,Ténouma
+-4.1893,14.3233,Saré-Mabo
+-3.6577,13.8966,Balawa
+-3.6506,13.8858,Basséri
+-3.7009,13.9058,Bawéma
+-3.624,13.8955,Diama
+-3.6581,13.8722,Dienna
+-3.6306,13.9355,Foulamdama
+-3.5647,13.9929,Guiwagou
+-3.6482,13.9396,Kanaogo
+-3.6647,13.9305,Koumélobogan
+-3.5706,13.9583,Orossogou
+-3.5785,13.9288,Soula Kanda
+-3.591,13.9551,Soula
+-3.6583,13.9169,Tasséréma
+-3.5964,13.9064,Ubanhiéré
+-3.5873,13.9806,Wélingara
+-3.3599,13.9695,Baratiguéné
+-3.4614,13.9955,Dessogou
+-3.4738,13.9517,Dougara
+-3.4411,13.9375,Kanama
+-3.316,13.979,Kanama
+-3.399,13.9566,Kaniana
+-3.4963,13.9936,Kendé
+-3.4499,13.9752,Koumoudou
+-3.43,13.9399,Pélédourou
+-3.4344,13.9843,Sogara
+-3.46,13.9207,Soguéna
+-3.5306,13.993,Séguéréban
+-3.3292,13.9709,Topri
+-3.4953,13.9176,Yendé
+-3.3439,14.5761,Embisson
+-3.4774,13.8147,Aridiana
+-3.296,13.839,Boulérou
+-3.2991,13.8291,Bélaourou
+-3.4649,13.8458,Dion
+-3.3065,13.8613,Dompélé
+-3.4447,13.8533,Déna
+-3.5144,13.9002,Forodou
+-3.3344,13.8459,Ganaguénékouro
+-3.2818,13.8806,Gandourou
+-3.4216,13.8925,Gassogou
+-3.3254,13.8911,Gourousinndé
+-3.4013,13.8352,Kouloumatinti
+-3.3045,13.9056,Ombon
+-3.3529,13.89,Omo
+-3.4776,13.8833,Ortoguéré
+-3.3298,13.9374,Saalé
+-3.4116,13.8624,Sansogou
+-3.4547,13.888,Sissogou
+-3.3884,13.8843,Tansogou
+-3.4258,13.92,Toundou
+-3.372,13.8523,Téna
+-3.4893,13.9002,Yendé Kanda
+-3.3152,13.7477,Baradougou
+-3.3282,13.7519,Bouré
+-3.3704,13.797,Dian
+-3.2951,13.8148,Doulé
+-3.2826,13.8241,Douroukou
+-3.2884,13.7696,Gouéré
+-3.3565,13.7539,Libé
+-3.3204,13.7881,Niamia
+-3.4567,13.7803,Sodo
+-3.4058,13.7864,Sodougara
+-3.4551,14.3041,Korou
+-8.1585,12.7247,Ntiafadou
+-8.1514,12.3083,Kirina
+-8.1249,12.453,Soribougou
+-3.5286,13.8361,Bahada
+-3.5838,13.8887,Goumini
+-3.6046,13.8789,Kaladorou
+-3.5925,13.8621,Kana
+-3.6109,13.848,Lagassagou Kanda
+-3.5561,13.8612,Néma
+-3.5512,13.8316,Pansadougou
+-3.6146,13.8644,Sérida
+-3.4722,13.7502,Bogodougou
+-3.5024,13.7938,Insogou
+-3.6353,13.8054,Kikélé
+-3.629,13.8368,Lagassagou
+-3.6041,13.8153,Lessogou
+-3.5851,13.7925,Massé
+-3.5129,13.7638,Minima
+-3.6984,13.8349,Nassagou
+-3.6539,13.8578,Saban
+-3.5158,13.8023,Sogoussi
+-3.5512,13.8101,Tanhama
+-3.5901,13.8281,Tiémara
+-3.6704,13.8375,Toussogou
+-3.5326,14.2294,Soninghé
+-3.6718,13.7541,Dianga
+-3.6388,13.7637,Dianga
+-3.5477,13.7374,Diensagou
+-3.5331,13.7614,Dinda
+-3.6899,13.7827,Gomozogou
+-3.6537,13.7432,Insogou
+-3.6631,13.7987,Koumé
+-3.65,13.7833,Madibougou
+-3.5991,13.7717,Maka
+-3.5225,13.7353,Minima Kanda
+-3.6041,13.7478,Sansogou
+-3.4818,13.7286,Siratinti
+-3.6335,13.7821,Sokolo
+-3.5575,13.7491,Sokoro Kanda
+-3.688,13.7627,Wa
+-3.69,13.5866,Aridiana
+-3.7032,13.6981,Balé
+-3.5756,13.7249,Baraguina
+-3.64,13.6818,Boulé
+-3.6156,13.7223,Dianwéli
+-3.6302,13.7097,Déguessogou
+-3.6367,13.7281,Démindian
+-3.6077,13.7335,Démédia
+-3.6314,13.5654,Hamdallaye
+-3.6535,13.6436,Kouna
+-3.4829,13.688,Lossogou
+-3.6727,13.7099,Mougué
+-3.6549,13.6801,Naïdé
+-3.6044,13.6806,Néné
+-3.6715,13.5823,Oronséré
+-3.6923,13.6808,Oulassogou
+-3.6251,13.5964,Poura Fouenni
+-3.6632,13.6737,Tiré
+-3.6666,13.6151,Wendiana Kanda
+-3.7096,13.7214,Yaléma
+-3.753,13.4748,Bankoma
+-3.8092,13.5184,Boulé
+-3.7608,13.6113,Boundéri
+-3.8013,13.6044,Dadiou
+-3.785,13.5916,Dianwélé
+-3.6804,13.5507,Diensay
+-3.7444,13.5521,Koumbouriba
+-3.7477,13.6705,Kourou Kanda
+-3.7129,13.5853,Kourouba
+-3.828,13.5052,Mana
+-3.813,13.5869,Mandina Ali
+-3.8026,13.5876,Mandina Ouro
+-3.8333,13.5657,Mankanou Oubéré
+-3.8013,13.5569,Mankanou
+-3.7341,13.4989,Massakana
+-3.7591,13.6307,Nongo
+-3.7417,13.63,Néma
+-3.7349,13.6669,Oro Kourou Kanda
+-3.7705,13.5656,Ouroubougou
+-3.7583,13.5931,Sessiguinyi
+-3.7715,13.632,Sirakoro
+-3.7556,13.5834,Sè
+-3.6661,13.5615,Tinani
+-3.7868,13.5343,Tégué
+-3.7749,13.5947,Wankorowéli
+-3.7836,13.5559,Wariyéro
+-3.7323,13.4962,Wori
+-3.7062,13.6001,Wédikoro
+-3.7802,13.5771,Wéréguara
+-3.7841,13.6189,Yalankoro
+-3.3,13.6,Bourdala
+-3.3188,13.582,Minta
+-3.2909,13.5317,Outou
+-3.4693,13.556,Songoré
+-3.3156,13.5019,Zéréma
+-3.6145,14.4928,Dari
+-3.3732,13.5538,Kouroulé
+-3.1893,13.9499,Arguénétouskel
+-3.257,13.8328,Babouro
+-3.1765,13.9594,Bounbouro
+-3.2636,13.9549,Diga
+-3.2546,13.9354,Donhalé
+-3.2631,13.6685,Doule
+-3.2243,13.8707,Dounoupa
+-3.1874,13.9713,Démoro
+-3.2019,13.8161,Gan
+-3.2746,13.9103,Guéréssogou
+-3.2727,13.7145,Korossogo
+-3.1973,13.957,Lédjéko
+-3.246,13.8825,Néma
+-3.1816,13.9579,Pélédourou
+-3.2638,13.5902,Saé
+-3.2299,13.8526,Tagourou
+-3.2205,13.9197,Toroli
+-3.2507,13.7758,Toui
+-3.6646,14.2651,Bougou
+-3.8225,13.3811,Diarédé
+-3.668,13.4159,Soumba
+-11.9026,14.6177,Dramané
+-11.9146,14.6261,Makadougou
+-11.9796,14.6593,Sobokou
+-3.9287,14.819,Dennga-Ouro
+-3.9366,14.8114,Dennga-Saré
+-4.526,14.501,Diolel
+-4.136,14.8287,Kaniéo
+-4.0976,14.6586,Karbaye
+-4.1377,14.7262,Kendé
+-4.1736,14.7213,Mayo Dembé
+-4.0546,14.7431,Ouro-Baïnde
+-3.9358,14.7954,Po
+-4.1411,14.6654,Saba
+-4.1826,14.8523,Saré Samba
+-4.4882,14.6101,Saré-Kina
+-4.5246,14.5868,Saré-Maré
+-3.983,14.8523,Sinngo
+-4.1162,14.7068,Tigui Sirou
+-4.1794,14.8597,Toguéré-Modi
+-4.0395,14.746,Tomontiéra
+-4.2426,14.8547,Wampiré
+-2.7191,14.4906,Tanfadala
+-3.8371,14.2306,Koubel
+-3.401,14.4282,Kamba-Bandié
+-3.2902,14.4607,Bandani
+-3.9633,14.537,Baïma
+-3.5618,14.4921,Benndiéli
+-3.5462,14.4649,Bini
+-3.9795,14.555,Bougué
+-3.8641,14.6355,Béré
+-3.7099,14.6266,Diamangolo
+-3.9662,14.5906,Dianvéli
+-3.5887,14.5693,Douro
+-3.9276,14.6879,Dégou
+-3.9909,14.7325,Déguéna
+-3.8996,14.4551,Fiko
+-3.8781,14.7335,Gadari
+-3.6561,14.5778,Horé-Niva
+-3.8183,14.4872,Kakoli
+-4.0455,14.6541,Kermoye
+-4.0455,14.641,Kiel-Amadidia
+-3.9828,14.7046,Komi
+-3.7507,14.4089,Kori-Kori
+-3.7769,14.453,Kori-Maoundé
+-3.8733,14.5969,Koundioli
+-3.814,14.4191,Kéma
+-3.7893,14.5901,Midio-Bouri
+-3.9301,14.6169,Moni
+-3.7739,14.464,Ninngari
+-4.0727,14.7157,Ouro Gaya
+-3.8359,14.574,Ouro-Féro
+-3.9695,14.7249,Ouro-Néma
+-3.8399,14.5912,Piro
+-4.0612,14.7184,Poutiavel
+-3.7691,14.6293,Sare-Airé
+-3.9178,14.7281,Saré-Hamadi
+-3.9062,14.5843,Sassari
+-3.9581,14.609,Senndiéval
+-3.7531,14.4406,Sibo
+-3.9499,14.7561,Simina
+-3.7981,14.5125,Sinnkarma
+-3.8496,14.5851,Sogodougou
+-3.8522,14.545,Soroboro
+-3.9452,14.6359,Sougui
+-3.9094,14.6511,Ségué-Bougué
+-3.7654,14.4667,Tguiri
+-3.725,14.3887,Tilé
+-3.6958,14.6275,Tinngourou
+-4.055,14.6499,Tiéwel-Manako
+-3.8173,14.4998,Toumpou
+-3.7387,14.5919,Tounkari
+-3.9306,14.5916,Trompesé
+-3.6461,14.4477,Vaou
+-3.3323,14.4086,Amani
+-3.5698,14.3098,Sassari
+-3.5658,14.272,Bargoumou
+-3.6899,14.2486,Bodio
+-3.719,14.3194,Bogolo
+-3.4167,14.4333,Boro
+-3.4463,14.4146,Dagabidé
+-3.6669,14.3394,Dinnguidanga
+-3.5972,14.2835,Diombolodo
+-3.5347,14.2855,Dobolo
+-3.6921,14.1323,Dogo
+-3.4625,14.4382,Domo
+-3.4495,14.4345,Doumbougou
+-3.7696,14.3391,Déguimbéré
+-3.5143,14.2823,Edé
+-3.7088,14.2174,Eguéla
+-3.654,14.1352,Elé
+-3.7218,14.1578,Ganassogou
+-3.4228,14.4069,Gandakilama
+-3.5134,14.4093,Gologoudo
+-3.5154,14.4029,Gologoulé
+-3.5179,14.2654,Gouloumbo
+-3.4548,14.419,Guinéyaléma
+-3.3984,14.4282,Kamana
+-3.414,14.425,Kamba-Djiguili
+-3.4824,14.3924,Kaï
+-3.6895,13.9751,Kobogo
+-3.5389,14.4124,Kokolo
+-3.6516,14.1844,Kom
+-3.4562,14.4114,Lougourougoumgou
+-3.6809,14.1809,Madina
+-3.7461,14.2339,Mohaboundou
+-3.7776,14.3251,Ngoro
+-3.8422,14.1173,Nomono
+-3.8439,14.1361,Nomono-Bondo
+-3.8281,14.1177,Nomono-Tinndé
+-3.7501,14.1895,Parou
+-3.549,14.3847,Pouralou
+-3.8481,14.1382,Sango-Tienndé
+-3.6306,14.1347,Saradona
+-3.4275,14.4145,Sarémé
+-3.4201,14.4214,Sinndé
+-3.5699,14.3758,Singama
+-3.7773,14.1474,Sonngobia
+-3.4967,14.4496,Tenné
+-3.4904,14.4591,Tirtabolo
+-3.798,14.2582,Toti
+-3.7327,14.0789,Toumouni
+-3.6116,14.2661,Tégourou
+-3.7701,14.2916,Téguéri
+-3.5374,14.3629,Venndéguélé
+-3.7849,14.1022,Wo
+-3.7994,14.0913,Wo-Guina
+-3.7962,14.0845,Wo-Ouro
+-3.4924,14.3434,Yamé
+-3.6798,14.1303,Yaso
+-3.6906,14.3612,Yawakanda
+-4.0912,14.5565,Banikani
+-4.0957,14.494,Barbé
+-4.1745,14.409,Boulabassi
+-4.1303,14.5329,Dialagou
+-4.0911,14.4966,Fentàla
+-4.2284,14.5681,Ibétémi
+-4.2126,14.5567,Kami
+-3.9805,14.4396,Kansila
+-4.104,14.5002,Ouro-Guinndé
+-4.2563,14.5807,Saré-Malé-Débéna
+-3.9894,14.4495,Tangadouba
+-11.672,14.0907,Sangafara
+-3.8809,14.2425,Bolimmba
+-3.9197,14.3207,Danga
+-3.8072,14.1768,Dogobala
+-3.8163,14.204,Doundé
+-3.8206,14.2227,Gasoungou
+-3.8974,14.3078,Kilimmpo
+-3.853,14.3062,Koko
+-3.9333,14.344,Makou
+-3.8931,14.2066,Ngoné
+-3.9374,14.1777,Niamina
+-3.9664,14.1985,Niamina-Déba
+-3.9848,14.3402,Ororo
+-3.8626,14.2153,Pa
+-3.81,14.1823,Pessogou
+-3.8293,14.1732,Ségobala
+-4.0032,14.2105,Tan
+-3.9019,14.3654,To
+-4.1421,14.2861,Kolongui
+-4.1891,14.3395,Mankama
+-4.2684,14.3016,Sangopa
+-4.2285,14.2976,Saré-Bala
+-4.1963,14.1978,Saré-Bédari
+-4.1371,14.2022,Torokoro
+-4.9516,14.6047,Bolel
+-5.1786,15.655,Boundoubadi
+-5.2245,15.5307,Dimel-Ndola
+-4.5591,14.6185,Kaki-Diourou
+-4.7059,14.7113,Koudiala
+-4.7712,14.7711,Kélétédé
+-5.149,15.8075,Lekser
+-5.0611,15.6958,Marhel Ligdor
+-4.9856,15.7291,Marhel Nagué
+-4.9778,15.6773,Marhel Téïdouma
+-4.9697,14.5982,Nyiminyama
+-5.4692,15.3394,Oudiabé
+-5.1384,14.8891,Ségoula
+-3.9128,14.0566,Bégnima
+-3.9551,14.0787,Dienndé
+-3.9289,14.0559,Dienngué-Dina
+-3.8797,14.0784,Djidjina
+-3.9751,14.1155,Gouni
+-3.9424,14.1505,Guénndé
+-3.8359,13.8511,Kambiama
+-3.9821,13.9983,Kembédi
+-3.965,14.0159,Kourou
+-3.9455,13.9606,Nyagambo
+-3.9612,13.9948,Néné
+-3.8857,14.0093,Ogassogou
+-3.9073,14.018,Orossogou
+-3.8632,14.047,Oundou
+-4.0038,14.0964,Ouro Mali
+-3.9251,14.0753,Tabia
+-3.8891,14.0007,Tianassogou
+-3.8898,14.0836,Tiangara
+-3.8989,14.128,Touni
+-3.8429,14.0701,Wali
+-3.9127,14.0611,Wimbondou
+-3.9082,14.0836,Youré
+-3.8081,13.6822,Dao
+-3.8385,13.6314,Dia
+-3.8626,13.5972,Simini
+-3.8118,13.6718,So
+-3.8494,13.6153,Tanga
+-3.8294,13.6482,Wogo
+-5.1515,14.4607,Diavéli
+-5.1361,14.4162,Fantina
+-5.0763,14.4489,Kassa
+-5.1907,14.3542,Koumba
+-5.3108,14.4414,Kéressi
+-5.423,14.5643,Malimana
+-5.2115,14.6288,Niondji
+-5.4067,14.4373,Nénébougou
+-5.1779,14.7086,Oulatou
+-5.1891,14.5592,Sagoumané
+-5.1747,14.6762,Simi
+-5.2175,14.3888,Touna
+-5.1689,14.6314,Toundè
+-5.2004,14.4722,Téléyé
+-5.1524,14.4923,Waganzana
+-11.1539,14.0791,Makana
+-11.2318,14.1033,Makadégné
+-11.0269,14.4498,Bagoré
+-11.0188,14.4953,Sekora
+-10.9863,14.5335,Kalaou
+-10.9484,14.5275,Mouliné
+-10.8888,14.5433,Dar Salam Peulh
+-10.9591,14.5586,Ségala Mba
+-11.0482,14.568,Maréna Diombougou
+-11.0239,14.5719,Madinacouta
+-10.9925,14.585,Batama
+-11.0249,14.5981,Diataya
+-10.8666,14.6177,Marila
+-10.5116,14.1063,Oussoubidiagna
+-10.5573,14.0663,Tomora
+-11.8442,14.6062,Gakoura Rive Gauche
+-11.8072,14.5975,Kananguilé
+-4.8108,14.6248,Assi
+-4.7962,14.6052,Bori
+-4.7959,14.5919,Boukari
+-4.8902,14.4988,Dierma
+-4.7941,14.5353,Gangal-Kékèye
+-4.8319,14.6419,Kaya
+-4.9368,14.5293,Kingou
+-4.8178,14.6256,Kinta-Foulbé
+-4.8277,14.6345,Kinta-Sébé
+-4.7817,14.5438,Kolé Saba
+-4.7645,14.6079,Kolé-Maboubé
+-4.7722,14.5894,Konssé
+-4.9229,14.5269,Kori
+-4.9327,14.5527,Koumbel-Alfa
+-4.9361,14.5565,Koumbel-Gouré
+-4.8035,14.5298,Kékèye
+-4.7881,14.5404,Manguila
+-4.9028,14.5182,Moalouna
+-4.9336,14.582,Niofouldou
+-4.7891,14.5478,Pinnkéna
+-4.8004,14.5505,Sandoro-Mayo
+-4.8042,14.5603,Sandoro-Ouro-Bala
+-4.9192,14.5879,Sani
+-4.8022,14.6173,Saré-Matialou
+-4.7346,14.5835,Simpo
+-4.8433,14.5537,Siro
+-4.7885,14.5741,Somoguiri
+-4.7307,14.6144,Tarbaye
+-4.7551,14.5651,Tiayel
+-4.7325,14.6108,Tildé-Tarbaye
+-4.7737,14.5699,Tinta
+-4.9238,14.5721,Toguel-Soulé
+-4.6708,14.5612,Toguéré-Saré
+-11.7303,14.052,Kroukéto
+-4.9446,14.4298,Daga
+-4.9718,14.5111,Goumavel
+-4.9274,14.4767,Kona-Mali
+-4.9302,14.4827,Kona-Mali
+-4.9624,14.485,Kourou
+-4.9509,14.4643,Mahel Kourou
+-4.9957,14.4917,Pirata
+-4.9315,14.4653,Sindé-Sala
+-4.9604,14.4991,Toguel-Kossam
+-5.0261,14.4984,Tohi
+-4.9677,14.4507,Ténéma
+-4.6272,14.4637,Borongo
+-4.9533,14.3056,Diaboso
+-4.9074,14.3402,Diakavel
+-5.077,14.3614,Diakouri
+-4.9247,14.4079,Fombana
+-4.9576,14.2942,Gandé-Dialaba
+-4.936,14.3746,Gourel-Madié
+-4.8467,14.4553,Kinièye
+-5.1146,14.2542,Koumbè
+-4.6753,14.4532,Kouna
+-4.8716,14.2892,Laourou
+-4.7996,14.481,Madéhodi
+-4.8986,14.3469,Mayataké
+-4.7634,14.4974,Mopti-Kéba
+-4.8278,14.4558,Naréyal
+-4.9125,14.3209,Nénabé
+-4.8758,14.4291,Pinga
+-4.847,14.4478,Roundé
+-4.9492,14.4013,Saré-Barké
+-5.1384,14.2025,Sien-Marka
+-4.8641,14.4446,Sili
+-5.1345,14.325,Sièlè
+-4.8183,14.4642,Takanéné
+-4.8143,14.4699,Tidéré Koli
+-4.9361,14.4013,Toguel Kolé
+-4.9265,14.3893,Toguel-Amirou
+-4.8772,14.3742,Toguéré-Sanga
+-4.8696,14.4247,Toko
+-4.6343,14.4443,Velingara
+-4.8754,14.4231,Wake-Ousmane
+-10.9663,13.7786,Talary
+1.2304,19.859,Ametettai
+1.0844,19.407,Assamalmal
+1.1597,19.4085,Erhacher
+-4.5514,14.4774,Bélanguel
+-4.6508,14.2165,Daka-Bibalé
+-4.7398,14.212,Roundé-Bana
+-4.1576,14.1064,Bambara
+-4.1817,14.1609,Dakadïan
+-4.1417,14.0993,Diengo
+-4.1298,14.151,Dédougou
+-4.081,14.0691,Dégou
+-4.1214,14.0688,Gourel-Baouri
+-4.0875,14.1097,Pérou
+-3.8838,13.5011,Sankoro
+-4.1323,13.6438,Bouowa
+-4.141,13.6135,Bélédaga
+-4.144,13.6364,Diamakan
+-4.1494,13.537,Kongorossi
+-3.8991,13.6162,Logori
+-4.1528,13.604,Morodaga
+-3.931,13.6996,Niaabougou
+-4.1643,13.6112,Ningodaga
+-4.1885,13.5092,Pahakan
+-4.1383,13.5265,Palindougou
+-3.9508,13.5902,Sama
+-4.0718,13.5432,Sanakoro
+-4.1564,13.6141,Sidioula
+-4.105,13.6115,Sobédaga
+-4.0502,13.6391,Sondo
+-3.91,13.5845,Sossa
+-4.0931,13.5318,Tilihan
+-3.9407,13.6711,Timikan
+-3.8523,13.6403,Tira
+-3.9245,13.7157,Torokouma
+-3.909,13.5472,Toun
+-4.1617,13.5421,Wadian
+-4.1135,13.6162,Wemmbédaga
+-4.1326,13.5339,Yadoni
+-4.1186,13.5549,Yilakoro
+-4.1429,14.0395,Bantina
+-4.0334,13.8517,Bolokouma
+-4.1431,13.9211,Diombélé
+-4.1486,13.9618,Koulébala
+-4.11,14.0291,Nia-Moussa
+-4.1237,14.0081,Nia-Ouro
+-4.0281,13.8885,Sango
+-4.0871,13.909,Ténémoussagou
+-3.4043,14.331,Nombory
+-9.4588,15.1468,Makana Rangabe
+-7.2499,15.1201,Berzack
+-7.1799,15.1544,Dabay Moumine
+-7.2203,15.1577,Maharat
+-7.1704,15.1589,Dabay Oda
+-7.15,15.1639,Lokhoize
+-7.3188,15.2177,Boukoudaye
+-7.1522,15.2631,Chedem 2
+-7.2724,15.2878,Handebarack Debaye
+-7.3591,15.2887,Zerikaye
+-7.1835,15.2987,Dialoube
+-7.2777,15.3075,Debaye-Checkna
+-7.1461,15.3392,Diakoya
+-7.2543,15.3577,Daye
+-7.2783,15.3704,Guessery
+-7.2249,15.3834,Zidou-Toure
+-11.7175,14.3804,Marena Gadiaga
+-11.8527,14.3946,Gouélé
+-11.5145,14.3982,Salabougou
+-11.5259,14.3986,.
+-11.4967,14.4266,Mazabougou
+-11.5396,14.4853,Darsalam Peulh
+-10.3528,15.3533,Kremis
+-11.2444,14.2267,Maloum
+-11.2547,14.2449,Fanguiné Koto
+-11.2538,14.3016,Djimékon
+-11.2617,14.3216,Soukoutaling
+-11.2798,14.3199,Logo Sabouciré
+-11.2657,14.3276,Kerouwané
+-11.2949,14.3317,Moussa Waguiya
+-11.287,14.3423,Logo Marena
+-11.2942,14.345,Dembagnouma
+-11.2927,14.4357,Loupourou
+-11.281,14.4404,Diyabougou
+-11.2553,14.4535,Sabilou al Fallah Takoutala
+-11.225,14.4643,Kouroukoula
+-11.1016,14.4709,Gaméra
+-11.1215,14.4838,Tafasriga
+-7.5682,12.3017,Tiélé
+-11.3349,14.2787,Tintiba
+-8.7179,15.2375,Drounkatt
+-10.7648,12.1656,Dirédara
+-10.7533,12.1931,Diréwologo
+-5.7033,12.5514,N'tarla
+-8.6442,15.2301,Kandiambe
+-8.6545,15.2425,Guimbatti
+-8.6454,15.3234,Korokossie
+-4.3057,14.0509,Bana
+-4.2444,14.0532,Biba
+-4.3303,14.0727,Dankoussa
+-4.1497,13.8512,Kosia
+-4.1248,13.8656,Niandoli
+-4.1125,13.8522,Parako
+-4.1536,14.0117,Tandiama
+-4.1512,13.8658,Tiéparandougou
+-4.0233,13.7863,Toubara
+-4.1849,13.7354,Bayidaga
+-4.3152,13.7224,Dagadougou
+-4.2728,13.8582,Dangougouni
+-4.0541,13.7463,Diamana
+-4.1762,13.7407,Diankweidaga
+-4.1445,13.7783,Doumankui
+-4.2178,13.8009,Doundédaga
+-4.1882,13.7943,Patoumadaga
+-4.2304,13.7223,Kammpéna
+-4.0739,13.7255,Kontoni
+-4.1971,13.7773,Koundiadaga
+-4.2459,13.849,Manoï
+-4.2905,13.788,Nioumasso
+-4.1366,13.8291,Samabougou
+-4.222,13.7456,Sibougou
+-4.1867,13.7285,Sindaga
+-4.197,13.7704,Siou
+-4.2854,13.845,Tiéoulingougou
+-4.1684,13.8257,Térédougou
+-4.5576,14.0594,Kolélé
+-4.4791,14.0842,Koroboro
+-4.426,14.0887,Saré-Maré
+-4.5231,14.132,Tou
+-4.7925,14.1344,Kali
+-4.4917,14.0456,Kouana
+-4.8288,14.1127,Noungonotoye
+-2.8057,14.3466,Dounapé
+-4.4654,14.0411,Souman-Bambara
+-4.4596,14.038,Souman-Bozo
+-5.4609,14.2093,Bango
+-5.5578,14.2797,Barakaboagou
+-5.6198,14.1873,Bouanakoro
+-5.2522,14.2769,Boulango
+-5.3884,14.2133,Famsabougou
+-5.5617,14.2223,Fanzéréla
+-5.4855,14.0686,Fi
+-5.3638,14.3529,Flangali
+-5.4478,14.1497,Galomansana
+-5.5593,14.1576,Gueniébougou
+-5.5598,14.2521,Karamabougou
+-5.4759,14.1711,Kolongo
+-5.4197,14.1897,Kongodian
+-5.4099,14.2032,Konona
+-5.4304,14.1206,Mansamana
+-5.4583,14.1881,Manémanebougou
+-5.5349,14.1795,Markala
+-5.5204,14.148,Monimpébougou
+-5.1772,14.2859,Navali
+-5.6118,14.2165,Nbiébougou
+-5.6208,14.154,Nbérouéla
+-5.568,14.2382,Neguena
+-5.591,14.2285,Nianzana
+-5.466,14.2936,Niémétala
+-5.3769,14.1501,Nénébougou
+-5.2631,14.2365,Pyo
+-5.2194,14.2492,Sango
+-5.4911,14.1847,Santiguibougou
+-5.5081,14.243,Sougouba
+-5.2356,14.1373,Soumani
+-5.4004,14.2079,Souzoundiéla
+-5.3416,14.1645,Sébeninnkélé
+-5.1745,14.1947,Séné Bambara
+-5.4533,14.0891,Tangana
+-5.439,14.1865,Wènina
+-5.3304,14.2183,Zanfaléna
+-4.2706,13.6781,Bouizawa
+-4.1487,13.6796,Bouowa
+-4.2123,13.6042,Daboudaga
+-4.1911,13.5409,Emmpérani
+-4.1418,13.6502,Kalédaga
+-4.2349,13.5265,Kona
+-4.238,13.6533,Kouagoué
+-4.1786,13.5702,Massadougou
+-4.2362,13.6164,Massatamoudaga
+-4.1446,13.5681,Poussaté
+-4.2256,13.5791,Saaba
+-4.1503,13.685,Sabélédaga
+-4.3446,13.6223,Samalé
+-4.151,13.6721,Siadaga
+-4.2214,13.6343,Soukarodaga
+-4.2487,13.6723,Woradougou
+-11.2739,12.2652,Faléa
+-4.2755,13.6061,Miniani
+-4.3614,13.862,Bangassi
+-4.316,13.5168,Koulékonga
+-4.3586,13.5307,Kéréré
+-4.4402,13.5988,Massa
+-4.5081,13.6179,Pure
+-4.2801,13.517,Sialo
+-4.3043,13.5423,Silo
+-4.548,13.7395,Sirabougou
+-4.5464,13.9782,Siratinti
+-4.5228,13.9575,Yantéla
+-4.3535,13.1987,Kankorokui
+-4.1772,13.4543,Niadara
+-4.3389,13.2859,Tinékui
+-4.2327,12.7415,Marialo
+-4.4243,12.3433,Kian
+-4.6444,13.9556,Kanya
+-4.6681,13.9518,Koba
+-4.7892,13.9106,Konda
+-4.7568,13.8458,Kossouma
+-4.5618,13.6979,Mbiabougou
+-4.7101,13.928,Payaba
+-4.7462,13.7625,Pié
+-4.7328,14.0076,Samayé
+-4.7106,13.8749,Soka
+-4.5418,13.6822,Toura
+-4.7934,13.9359,Yirma
+-4.6902,13.9325,Yébé
+-4.6159,13.8526,Yéra
+-10.3056,14.7035,Sandaré
+-7.8262,15.0577,Taganagaba
+-3.4802,14.2281,Dondjourou
+-3.4409,14.2752,Guimini 2
+-10.2155,13.6406,Badumbé
+-10.4995,13.6416,Dioubeba
+-10.3684,13.6955,Djombomadji
+-8.0501,12.7695,N'Toubana
+-3.2221,14.5228,Youga Na
+-8.7073,15.2092,Bandiougoubougou
+-8.6635,15.2674,Kedinka
+-8.6949,15.2969,Biribara
+-8.6179,15.3036,Ouainka
+-8.6886,15.3064,Kipou
+-11.4377,14.4033,Dougouba
+-4.4988,13.5609,Soumankui
+-4.4865,13.5574,Tia
+-4.5248,13.5716,Tirakui
+-4.519,13.5252,Togo
+-4.8479,13.7432,Woko
+-4.6912,13.5223,Wouné
+-9.4524,13.8965,Farena
+-10.8199,13.8075,Barbaroto
+-11.093,12.6295,Lambora
+-6.8934,11.0885,Kolondieba
+-7.5715,13.2845,Sirakorola
+-7.5663,13.571,Samakélé
+-11.1716,14.5134,Niamiga
+-10.7508,14.6468,Maréna Tringa
+-10.6991,14.6439,Lambatara
+-11.4306,14.5862,Dag-Dag
+-7.0308,14.9032,Tjiekere
+-5.1636,14.0258,Dounanbougou
+-5.1492,14.0345,Fia
+-5.0912,13.9322,Goumba
+-4.97,13.9385,Kernoubogo
+-4.9031,13.9746,Konoula
+-4.9131,13.9463,Kotomou
+-5.1033,14.1321,Kouli
+-5.1458,14.1185,Koumara
+-4.9352,13.9032,Kouroutina
+-4.9808,14.0776,Mamba
+-4.8657,13.8853,Nohou-Wéré
+-5.0399,13.9351,Payaka
+-4.8859,13.8749,Tabatou
+-5.1138,14.0907,Tamara
+-5.0636,14.0517,Tomona
+-4.9277,14.0805,Toyé
+-5.1185,13.9169,Téné
+-7.4173,13.7861,Tienkoroba
+-11.708,15.4793,Sélifély
+-10.7534,13.8389,Drametou
+-11.0277,14.972,Komodindé
+-11.0363,14.953,Argueta
+-11.0168,14.6969,Tiguine
+-11.2048,14.6957,Kounandji
+-11.2136,14.8475,Séoundé
+-11.1832,14.8329,Seibate
+-11.1749,14.6296,Sero Madina
+-11.111,14.8071,Troun
+-11.0168,14.6338,Diabadji
+-11.1032,14.8795,Ecom Modji
+-11.2339,14.8855,Koussané
+-11.2102,14.7373,Falea
+-11.1582,14.8884,Charack
+-3.3503,14.5514,Waye
+-3.4405,14.4843,Ka
+-8.7746,14.4398,Nancoumala
+-3.3475,14.555,Téné
+-3.4448,14.5632,Andiné
+-9.5243,14.1367,Blissibougou
+-9.4396,14.1571,Garangou
+-4.625,12.2637,Zaniégala
+-2.1448,14.5612,Guèddèrou
+-6.5586,14.2647,Goudji-Touréla
+-6.6408,14.2035,Ndondila
+-6.5525,14.1322,Ngalamana
+-6.5592,14.3197,Goudjikoro
+-6.5801,14.3032,Ndénématou
+-6.3692,14.414,Akalé
+-6.3462,14.2989,Masabougou
+-6.418,14.57,Nioko
+-11.6494,15.1523,Boutounguissi
+-3.0522,14.9738,Madina
+-3.9431,16.2749,Echell
+-5.9254,13.6768,Kounou
+-5.7428,13.7345,Babougou
+-5.7563,13.7247,Sama
+-5.9386,13.598,Soke
+-5.7836,13.612,Tiby
+-4.4041,13.6929,Ouan
+-2.4442,14.4684,Diésséré
+-3.1463,14.4672,Sobane-Da
+-10.3868,14.3373,Demeke
+-3.0904,14.6491,Irekanda
+-3.1713,14.7367,Tebigue
+-1.9501,14.6759,Mondoro-Habe
+-3.0987,14.6444,Togo Doum
+-3.1046,14.6451,Belma
+-4.0806,14.4617,Perempé
+-11.4955,13.7403,Kata
+-11.5698,13.8715,Sékokoto
+-11.4696,13.512,Bourdala
+-11.445,13.563,Karouma
+-11.4635,13.6709,Diokéba
+-11.4378,13.548,Soumala
+-11.4513,13.5942,Monéa
+-11.5214,13.5098,Kouroufinngoto
+-11.7277,14.9157,Sérinati
+-7.6703,12.5904,Kassela
+-11.3476,14.3477,Félou
+2.8822,19.9626,Achibriche
+-7.7491,13.6882,kalanbankoro
+-4.5549,13.9052,Djenné
+-11.9136,14.1787,Farabana
+-11.7926,14.101,Yatéla
+-12.12,14.3719,Naye Peulh
+-11.4724,14.3608,Siréla
+-9.0162,14.4932,Dianguirdé
+-8.9982,14.4269,Méréla
+-9.0165,14.4216,N'Gabanigoro
+-0.2582,16.8228,Garat
+-0.2472,16.7328,Ouani
+0.5673,15.4934,Bangui Akadi
+0.5743,15.4891,Féma
+0.6821,15.4592,Gougouma Koïna
+0.6782,15.1302,Karou
+0.5903,15.5299,Kouanga
+0.5651,15.5177,Kounsoum
+0.5668,15.5353,Kounsoum
+0.6691,15.4619,Sami
+0.6125,15.5111,Tonditio
+0.7026,14.9702,Labbézenga
+0.6746,14.9846,Horekassihel
+0.7133,15.1713,Dirga
+0.6829,15.1808,Gawel
+0.7011,15.1956,Bongouro
+0.7225,15.4072,Sorkey Koira
+0.6422,15.4861,Golingo
+0.6549,15.4899,Gassi
+0.5714,15.5079,Barbon
+-3.0284,13.9694,Kiri
+-3.1526,13.7555,Lourougan
+0.7352,15.3664,Barkagounda
+0.7172,15.3355,Doubel
+0.7182,15.3407,Fafa Gourma
+0.7314,15.3577,Kalbassi
+0.7587,15.3767,Kamgala
+0.7479,15.3939,Koundel
+-4.0599,14.6136,Fatoma
+-4.0692,14.652,Manaco
+1.014,20.2009,Tessalit
+-5.6035,14.0104,Boky Wéré
+-5.2765,13.5959,Tongué
+-0.0191,16.3649,Barkassa
+-11.9746,14.6675,Goussela
+-11.5936,14.5113,Samé Plantation
+-11.2497,14.2353,Fanguiné Kouta
+-11.2922,14.3304,Marintouro
+-11.4005,14.4282,Gaïma
+-11.2711,14.3232,Modinkané
+-10.929,14.061,Gangontery
+-11.2466,14.1754,Dinguira Logo
+-11.0405,14.1176,Drameco
+-10.8298,14.063,Ditatoumania
+-10.7926,14.7525,Binala
+-10.4575,14.6308,Sagué Bamanan
+1.5182,16.5317,Talataye
+1.4723,16.4951,tents - 2013
+1.4787,16.5048,tents - 2013
+1.3467,16.2353,x
+1.5071,16.5254,tents - 2013
+1.3411,16.239,x
+-8.2085,14.372,Sébabougou
+-8.1758,14.3956,Diefala
+-8.1688,14.2441,.
+-7.9461,14.2783,.
+-7.5697,14.4466,Ouolokoro
+-8.4428,14.4714,.
+-11.0185,14.7797,Mélo
+-8.3735,14.4478,Gomitradougou
+-11.0553,14.7879,Diadioumbéra
+-8.737,14.4821,Maricobougou
+-10.732,14.6254,Diakoné
+-8.5334,14.4927,.
+-8.3608,14.5086,.
+-8.7083,14.5065,Begnego
+-8.8428,14.5113,Torodo
+-8.3965,14.3881,.
+-11.5382,14.478,Darsalam Plantation
+-11.6583,14.5668,Tombokani
+-11.7146,14.5757,Moussala
+-11.5671,14.4848,Samé Ouolof
+-8.5855,15.3401,Ballé
+-8.5847,15.4349,Hamdallaye
+-8.6207,15.2634,Bassaka
+-8.5829,15.4115,Darsalam
+-8.6285,15.4156,Missira
+-9.1521,14.2039,Kourougué
+-8.6321,15.1736,Bagoini
+-9.8754,13.8689,Dalala
+-9.2936,14.2343,Djonfa
+-6.8943,14.6053,Benco
+-7.0797,14.426,Madina-Koita
+-3.8336,16.1634,Yourmi
+-3.8694,16.159,Debe-Yourmi
+-3.7971,16.1852,Tindassabou
+-3.8758,16.1596,Tintafarak
+-8.0452,14.0198,Niamou
+-8.091,13.8837,Didiéni
+-6.1303,12.1395,Diabasso
+-6.1732,12.182,Bonegue
+-8.0921,11.871,Chokoro
+-8.0373,14.1031,Segue
+-8.0427,14.1516,Kwala
+-11.5127,14.4084,Kobokoro
+-5.9906,14.2287,Nieguéna
+0.7532,15.0268,Kel Gueguelene
+3.0168,15.4752,Injakok
+3.3791,15.6063,In Chinnana
+2.5858,17.6373,Achibogo
+1.2918,18.1261,Inguida Ag Hibba
+3.6974,15.7814,Tamalate
+-8.7657,14.5692,Ballabougou
+-8.6922,14.5232,Touba Madina Medersa
+2.5203,16.9733,Tedjerit
+-8.141,14.2489,Siradou
+-8.0744,13.9736,Metambougou
+-8.0571,13.8281,Wolokoro
+-8.0106,13.7277,Tao Tomo
+-9.3383,15.1778,Madinakoura
+-7.9604,13.5198,Koumi
+-3.8559,16.8425,Zouéra
+-11.2101,14.5108,Kabaté
+-11.3469,14.7163,Koumaréfara
+-11.3354,14.7558,Sirimoulou
+-10.8102,14.6365,Dialaka
+-11.3132,14.3582,Fatola
+-11.2871,14.5025,Gabou
+-11.3352,14.6171,Gory Gopéla
+-11.3408,14.6559,Tychi Ganssoye
+-11.3479,14.5688,Boukoutinnti
+-11.1493,14.5307,Banaya
+-11.1031,14.5652,Mokoyafara
+-11.487,14.55,Dadia
+-11.4878,14.541,Bangassidougou
+-11.512,14.4125,Kouroublo
+-11.5046,14.4084,Tiéoulébougou
+-10.6982,15.1214,Sambakanou
+-10.8414,14.912,Guifi
+-10.7667,14.9224,Mounia
+-10.5032,15.2482,Bandiougoula
+-10.5017,15.0969,Niougoméra
+-10.2255,15.4082,Kirané
+-10.5289,15.2044,Kodiè
+-10.2774,15.4267,Lakanguémou
+-11.612,14.5357,Diakandapé village
+-7.3488,15.1991,BEREGUENARE
+-8.8005,11.6355,Nafadjibougouda
+2.9591,15.6845,Touhaye
+2.553,15.4898,Tissalatène
+0.7287,15.6798,Tin Tafagat
+-10.6354,12.7207,Dagari
+-11.6585,14.1982,Yiribabougou
+-11.4964,13.9465,Bassé
+-11.4873,13.8809,Manafara
+-11.5474,13.8416,Djirola
+-10.6155,12.1361,Kouroukoma
+-8.4436,13.7119,Missira
+-9.9556,14.0631,Mansala
+-9.6961,14.291,Damina
+-11.862,14.6079,Songoné
+-11.9234,14.6411,Toubaboukani
+-11.6721,14.5753,Walikani
+-11.5955,14.1988,Babala
+-9.5746,15.1631,Gourel Sintiou Kawelil Kawel
+-9.6516,15.1383,Gadiaba Bounialbe
+-9.6449,15.1034,Mandala
+-9.3718,14.587,Debo Kagoro
+-9.542,15.1058,Sambalambe
+-9.7137,15.0831,Gadiaba Dialla
+-11.4188,14.4109,Papara
+-11.457,14.4621,Dialabougou
+-11.4805,14.4792,Diguidian
+-11.4735,14.4532,Kamankolé
+-6.3863,11.5789,Niamakina
+-8.3059,11.2837,Dariani
+-8.1218,12.4586,Farabana
+-7.9393,12.3974,Sanankoroba
+-7.9293,12.5205,Sénou
+-8.0868,12.5657,Kodialani
+-7.9456,12.8242,Sirababougou
+-8.3297,12.7414,Tomba
+-10.2,12.3833,Djengoulé
+-11.016,12.2605,Liberta
+-7.6369,11.3477,Faradiélé
+-7.5712,12.8475,Kolébougou
+-6.9012,13.5359,Tamani
+-6.9393,13.5152,Torokoro
+-6.649,12.9754,Kodougouni
+2.8924,15.6312,Anuzagren
+-11.2013,13.7776,lieu-dit habité
+-11.5621,13.8107,Tintiba
+1.664,18.1099,Tassikt
+2.428,16.6186,Tidarméné
+2.4724,16.3094,Imbougaretane
+1.7471,18.4833,Agharous Keyone
+-1.7663,16.4089,In-Alata I
+-1.7652,16.4199,In-Alata II
+3.1682,15.9095,Assew
+2.6264,17.5443,Tidiazal
+2.5674,17.5815,Ibalaghane
+2.3735,18.7462,Inagharouss
+2.2505,18.128,Tin-Iyadine
+0.1216,16.0267,Hamidadji
+0.1113,16.0484,Kobé
+0.0797,16.0471,Banikane
+0.0661,16.0462,Garokoiro
+0.0627,16.0562,Logoundié
+0.0748,16.0871,Koirazena
+0.0668,16.0825,Houraoussadji
+0.0622,16.0781,Lambo
+0.0649,16.0681,Traoré
+0.1803,15.9642,Songhai
+0.181,15.9474,Sinthinbon
+0.2362,15.8647,Doutchi
+0.2398,15.8601,Doutcho
+0.2499,15.8513,Daraygouviye
+0.2345,15.8475,Todjel Gabero
+0.284,15.7851,Kamoga
+0.2764,15.8007,Soungaye
+0.3672,15.8057,Tabango
+0.3486,15.8038,Manigoundié
+0.2967,15.8321,Ayakowia
+0.3862,15.8005,Handienne
+0.3711,15.7765,Gazena
+0.3663,15.7855,Dem Sala
+0.3735,15.7717,Tiarou
+0.3462,15.7641,Tannal
+0.3518,15.7593,Gouroum
+0.3872,15.7448,Guissini
+0.7118,14.9521,Dandebouré
+0.7142,15.0981,Peulh Ixanane
+0.7008,15.2705,Hondonone
+0.7205,15.4253,Koira Zena
+0.5487,15.4988,Gounga
+0.7151,15.4909,Tahagla
+-11.1964,12.7632,Linguekoto
+-2.0076,16.548,Imididagane
+-2.2346,16.6394,Kel Tedrit 1
+-2.2081,16.5816,Kel Talatahit
+-9.9764,14.1217,Djoungounte
+-9.3483,14.1745,Sakoura
+-10.0665,14.0598,Siramisse
+-9.9043,13.7515,Falanga
+-9.7601,14.1976,Marena
+-9.7007,14.1869,Neguebougou
+-7.4305,11.3715,Toula
+-7.3007,15.0897,Alybougou
+-8.7611,15.3777,Bague
+-7.7278,15.151,Bakabaka
+-7.7188,15.19,Boulol
+-8.3285,15.2851,Diontessegue
+-7.2366,15.2006,Kabida-Bambara
+-7.2318,15.1891,Kabida-Soninke
+-7.2671,15.2478,Keibane Maure
+-7.2624,15.0806,N'goto
+-7.5306,14.504,Somana
+-8.8187,15.32,Baradia
+-8.5684,15.3027,Barsafe
+-8.9005,15.4502,Bineou Niakate
+-8.6904,15.4439,Bouare Tougoume
+-8.5957,15.2402,Dina
+-8.6736,15.3145,Guessene
+-8.6658,15.3398,Hamdallaye Coura
+-8.8686,15.4845,Missira Samoura
+-8.7117,15.4454,Moila
+-8.7359,15.2936,Moussanzora
+-8.8548,15.4693,Sami
+-8.8222,15.34,Takaye
+-7.0111,15.1054,Bambangoumba
+-7.3749,14.9991,Bouloukou
+-6.9336,14.8707,Bourdiadie
+-6.9588,15.1872,Chegue
+-6.9576,15.4174,Daralmaka
+-6.9951,14.9535,Diewaye
+-6.9287,14.8181,Djidda
+-7.0735,14.8682,Djougoudini
+-6.9507,14.8673,Douguel
+-7.252,15.0974,Elbabe
+-7.2573,15.0967,Elmamoud
+-6.7644,14.8715,Gadougou
+-6.8435,15.4204,Garn el Graigue
+-6.8789,15.3983,Garnen El Hassane
+-7.129,15.2775,Kawassi
+-7.1621,15.0409,Ker-El-Gagny
+-6.9382,15.2638,Liboize Idabouk
+-6.9671,15.2513,Liboize Tenaguid
+-6.6851,14.9866,Mabrouck
+-7.0935,15.0749,Medina-Koura
+-7.0744,15.2456,Melkimane
+-6.7044,14.9257,Mouraka
+-6.9817,15.4409,Mousseguile
+-7.1695,15.1178,N'Dourba N2
+-7.192,15.0964,N'Dourban N1
+-7.2586,15.0553,Rebina N1
+-7.0529,14.9374,Tabaliat
+-7.001,14.8085,Tarbakaro
+-7.1619,15.0634,Tendie
+-7.0491,15.132,Tichilatt
+-7.211,15.0766,Zerikaye N1
+-7.2096,15.0863,Zerikaye N2
+-7.075,15.3657,Gaoussoubouou
+-7.2077,15.4592,Lambassite
+-7.1967,15.3943,Tiley
+-6.5256,14.5186,Diagala
+-6.4217,14.5794,Dioyal
+-6.4213,14.4961,Mabrouck El Mamoure
+-6.5651,14.4371,Tantani
+-10.8766,14.5549,Oussoubidiandan
+-7.2404,15.456,(Mabrouck) Tichit-Ken
+-7.2745,15.4494,Tourou-Daye
+-7.1792,15.2306,Bougouda
+-7.2674,15.3102,Debaye-Ali
+-7.2107,15.2544,Gassa I
+-7.1969,15.2673,Gassa II
+-7.2257,15.2932,Mbordati
+-7.2341,15.2911,Nbordati
+-6.9084,14.4271,Kolongon
+-6.9229,14.5682,Ngabakoro
+-6.8689,14.4424,Sabre-Mamy
+-7.6259,14.2293,Sidoni
+-8.1416,14.3797,Bouabougou
+-8.159,14.3865,Ngolobala
+-7.2282,15.1397,Debaye Marade II
+-7.2692,15.2474,Keibane Soninke
+-7.2855,15.2902,Metiguensie
+-7.2923,15.2893,Mitekemzie
+-7.1414,15.2014,Motoidima
+-11.3108,14.2826,Sambaga
+-12.1995,14.4185,Nahé
+-4.4194,13.7736,Tien
+-4.4034,13.6929,Ouan
+-7.4674,13.786,Kamatiguikabougou
+-11.0972,14.5415,Sabouciré Samballa
+-11.057,14.6416,.
+-11.0453,14.625,.
+-3.175,14.7312,madougou
+-7.9229,14.576,Sountiana
+0.4702,20.0824,I-n-Ebse
+-11.0201,14.3397,Kanantaré
+-10.9099,14.7127,Sabouciré Madigata
+-9.255,14.9564,Fadou
+-9.3213,15.1547,Diabigué
+-9.5039,15.0891,Guimbana
+-8.5862,15.0982,Sekelo
+-11.1732,14.5372,Dialané
+-11.1174,14.6133,Diamel
+-12.197,14.4794,Boli Bana
+-12.1202,14.3742,Digui
+-8.1872,12.2618,Krousalé
+-5.4726,13.7227,Kelle
+-9.364,14.9147,Koungo
+-8.2022,13.5292,Trakenie
+-11.9181,14.6336,Makalégéré
+-11.6375,14.5534,Diakandapé plantation
+-8.9691,14.4241,Dyaman Konka
+-9.0337,14.3099,Sagabara-Moriba
+-8.0722,12.5827,Sema I
+-8.9397,14.4953,Silamé
+-8.9419,14.4661,Diarrakoroboukou
+-11.213,14.8211,Seye Boulé
+-9.1562,14.2919,Sagabara Sackola
+-9.1706,14.3018,Kerwané
+-10.1695,15.3948,Kaniaga Kersignané
+-7.8051,12.5351,G D ref
+-9.1058,14.3694,Kana
+-9.1023,14.3025,hameau
+-8.8844,14.4627,Foulabougou
+-8.8374,14.5764,Tiambabougou
+-8.8416,14.5823,Namabougou
+-8.8738,14.5997,Acil Adramé
+-8.9187,14.5239,Boudésigui
+-9.0238,14.5425,Dabara
+-9.0111,14.5645,M'Beidi
+-11.1368,14.74,Bougoutourou
+-8.8135,14.5717,Sirakoro
+-7.6718,14.0089,SOYA KAGORO
+-8.8641,14.4688,Pampala
+-8.8382,14.5098,Boudésiki
+-8.887,14.5604,Hamaribougou
+-8.8951,14.4571,Ngolobougou
+-8.908,14.4353,Kegneme
+-8.961,14.412,Habougou
+-9.0351,14.5185,Hivernage Kassoumbougou
+-8.8926,14.4389,Diarabala
+-8.9442,14.6191,Chicata
+-10.3202,14.4543,Bagama
+-10.3273,14.4649,Dieguili kace
+-9.0651,14.3858,Neneou
+-9.0692,14.3939,Madina
+-1.3026,14.7983,Boulkessi
+-7.6069,14.9938,Fogoty
+-9.051,14.3915,Kaouka
+-2.1787,14.1891,Nassouwele
+-9.1589,14.3331,Madina Niaraté
+-9.0371,14.4258,Tessoua
+-9.2788,14.32,hameau
+-11.4157,15.6247,Tafara
+-11.5106,15.5073,Séoundé
+-11.5138,15.5403,Doumiéda
+-11.1071,14.8305,Mahina
+-11.1098,14.8374,Sitacounadi
+-11.101,14.9772,Néma
+-10.8722,15.143,Gagha-Fily et Lee-Soniké
+-11.3162,15.491,Taskaye
+-2.1804,14.1929,Fetendanewa
+-11.8823,14.5594,Koligoté
+-10.8246,13.8168,Tintila
+-10.7047,13.7839,Keniekenieko
+-10.7711,13.7824,Ouassala
+-10.3194,13.6091,Sougoutali
+-10.6559,13.7179,Kale
+-10.6599,13.7256,Diguila
+-10.5855,13.7227,Toumbouding
+-10.5873,13.7178,Niakhalensiraya
+-11.2895,14.3361,Bankamé
+-11.2328,14.2311,Karaya
+-11.3049,14.3376,Farakotossou
+-11.2894,14.3293,Lakafia
+-4.4986,13.9866,Soumatogo
+-3.8712,14.6643,Tomboriguel
+-3.9468,14.5001,Goundaka
+-3.3279,14.645,Pombogou
+-3.921,14.6154,Saré-Para
+-4.0458,14.761,Kaguila
+-4.0067,14.7034,Abdou-Mogoni
+0.3341,15.771,Franzotchi Bara
+0.3686,15.8052,Tabango
+0.3237,15.8097,Niono Bara
+-9.1146,14.5388,Souranguédou
+-8.7742,14.6313,Tonko
+-4.0813,14.5899,Sangoubaka
+-3.8946,13.6394,Ko
+-3.3843,14.5455,Ouro-Songo
+-3.3772,14.5306,Ologuina
+-2.8359,17.7398,Tichift
+-1.1484,15.0676,Teberemt
+-1.9034,14.8609,Tiguila
+-6.9598,12.7807,Virage de Dioila
+-6.9457,12.7864,Virage de Beleko
+-4.8171,13.8813,Mougna
+-3.2671,14.4769,Ibi
+-3.2464,14.4964,Arou
+-3.2671,14.4767,Ibi
+-3.2463,14.4962,Arou
+-3.1911,14.6237,Pendi
+-4.5964,13.9259,Kotola
+-7.9167,12.6668,Soulemanbougou
+-2.9015,14.5674,Gondogourou
+-6.0355,14.1255,Panneaux Kanabougou
+-3.6173,14.1124,Balagina
+-10.7479,14.8432,Moussala
+-3.8595,14.178,Diallo
+-2.8375,14.2987,Dobara
+-6.6549,11.9649,Banico Djouradougou Touna
+-3.1804,16.7127,Nebkit
+-5.3815,13.5744,Fatine Marka
+-7.476,12.0131,Diafarana
+-11.0332,14.3242,Dioudiou
+-7.2363,12.2314,Mala
+1.3818,18.4657,Intikoi
+-11.3631,14.4719,Kersignané
+-6.8113,10.8399,Dignan
+-5.8654,13.8962,Thing
+-5.9027,13.8466,Dosseguela
+-5.9324,13.8402,Sanamadougou Marka
+-5.489,14.3558,Kokoro
+-5.9133,14.3612,Tissana N9
+-0.8869,17.0043,Bormo
+-6.684,13.599,Djonfala
+-10.1483,13.946,Ségane Koko
+-4.8971,12.5908,Kaledougou
+-5.091,12.9376,N'Gorosso Bamanan
+-9.9229,13.9894,Inconnu
+-9.3302,14.3172,Guessebine
+-9.5912,14.2894,Hameau
+-9.6075,14.2884,Hameau
+-9.6148,14.294,Hameau
+-9.7433,14.2161,Hameau
+-9.6167,14.1751,Sitakoto
+-9.6074,14.1625,Hameau
+-2.5907,16.724,Inconnu
+-2.5855,16.7303,Beragoungou
+-1.737,14.6465,Douna
+-2.4455,15.1989,Gamra
+-2.4021,15.2131,Doussoungou
+-8.2809,14.0204,Diarabougou
+-7.8175,15.1391,Ouro Mody
+-3.0669,14.5762,Anakila
+-5.4971,12.2623,Finkoloni
+-6.1094,12.7235,Boloma
+-4.7586,13.0093,Waniana
+-7.4337,15.0891,Diagaba
+-8.2223,14.4657,Wataye
+-8.2937,14.3417,Nankoumana
+-7.387,13.7946,Ecom-Moribougou Traore
+-7.4064,13.8937,Epi-Zambougou
+-9.3826,14.2609,Lambadari
+-9.4464,14.207,Mountan Souninké
+-9.484,14.2156,Hammeau
+-9.6466,14.1537,Hammeau
+-9.5679,14.2387,Hammeau
+-9.7509,14.3247,Madine Bambara
+-3.3982,14.5726,Nounou
+-10.6299,14.6413,Naly
+-10.4779,15.3245,Dembala
+-10.4223,15.3342,Senewaly Soninké
+-10.4252,15.3627,Helangné
+-10.4627,15.4292,Senewaly Dialloubé
+-10.4637,15.4303,Senewaly Tassarnabé
+-10.4628,15.4315,Senewaly Tordionabé
+-8.0424,12.0971,Lena
+-8.4957,12.3014,Krikrou
+-1.2119,17.0087,Garbamé
+-10.4382,13.7611,Tambassoune
+-10.5337,13.6891,Sekhodounga
+-10.6464,13.8897,Tematossou
+-9.9173,13.5577,Bakaribougouda
+-10.7613,14.9499,Hamdalye
+-11.0179,14.9919,Bediara
+-10.8538,15.0263,Guideoure
+-10.9758,15.0729,Amedikaou
+-10.9589,15.1008,Guemou
+-10.9828,15.1312,Salakha
+-10.9225,15.128,Tanaha
+-10.8496,15.1189,Lee-Pelle
+-10.867,15.087,Niagnela
+-11.2503,14.276,Ségankané
+-6.3799,24.7577,El Mzereb
+-9.5447,15.1793,Loumbougana
+-9.5514,15.1627,Awoini
+-9.5448,15.1544,Darah
+-9.7116,15.0913,Gadiaba Boundounke
+-9.4408,15.1583,Gourel Siri
+-9.6165,15.0518,Folonkide Diawambe
+-2.9227,14.5164,Kobadié
+-0.916,16.9722,Tandabissane
+-4.8352,12.4947,Lopegue
+-4.7938,12.5493,Zangousso
+-5.7557,10.5026,Habitation
+-5.7581,10.5031,Habitation
+-5.7612,10.5,Habitation
+-5.7646,10.4903,Habitation
+-5.7691,10.5057,Habitation
+-5.7415,10.5049,Habitation
+-5.74,10.5066,Habitation
+-5.7499,10.5053,Habitation
+-5.7384,10.5141,Habitation
+-5.7696,10.588,Habitation
+-5.7716,10.5896,Habitation
+-5.7693,10.593,Habitation
+-5.762,10.5878,Habitation
+-5.7519,10.593,Habitation
+-5.755,10.5906,Habitation
+-5.7743,10.5754,Habitation
+-5.7734,10.5839,Habitation
+-5.7705,10.5839,Habitation
+-5.7166,10.5377,Habitation
+-5.6908,10.541,Habitation
+-5.6881,10.5386,Habitation
+-5.7038,10.5414,Gninasso
+-5.6759,10.5406,Habitation
+-5.6924,10.5157,Habitation
+-5.7027,10.4937,Habitation
+-5.7132,10.4844,Habitation
+-5.7143,10.4822,Katioloni
+-5.7005,10.486,Habitation
+-5.7154,10.5743,Pourou
+-5.6878,10.5744,Habitation
+-5.6849,10.578,Habitation
+-5.697,10.5754,Habitation
+-5.6982,10.5742,Habitation
+-5.7089,10.5702,Habitation
+-5.7007,10.5626,Habitation
+-5.7043,10.5811,Habitation
+-5.7104,10.5986,Habitation
+-5.7307,10.5946,Habitation
+-5.7397,10.5974,Habitation
+-5.7293,10.5998,Habitation
+-5.7196,10.5979,Habitation
+-5.7218,10.5956,Habitation
+-5.6324,10.8329,Nierouani
+-5.661,10.8327,Senina
+-5.8033,10.7714,Watarasso
+-5.7602,10.7821,Serekeni
+-5.6828,10.7867,Komoro
+-5.7068,10.8191,Lanfiala
+-5.8069,10.8145,N'Golokasso
+-5.626,11.1724,Doniena
+-5.609,11.1264,Fachoribougou
+-5.6066,11.1025,Dadoumanbougou
+-5.5955,11.0419,Bemabougou
+-5.6348,10.9975,Sibirasso
+-5.5818,10.9275,Bilasso
+-5.6039,10.9221,Banankoro
+-5.6294,10.6345,Habitation
+-5.6586,10.593,Habitation
+-5.6515,10.5915,Habitation
+-5.6434,10.6053,Habitation
+-5.6591,10.6213,Habitation
+-5.6622,10.6307,Habitation
+-5.6585,10.6341,Habitation
+-5.653,10.6414,Habitation
+-5.6538,10.6447,Habitation
+-5.656,10.6468,Habitation
+-5.6167,10.6313,Katele
+-5.6563,10.6112,Tiebiziedougou
+-5.6342,10.582,Ziadiangolodougou
+-5.6092,10.6807,Perasso
+-5.607,10.7368,Siecourani
+-5.613,10.8206,Faraba
+-5.5993,10.8598,Zanso
+-5.6129,11.0182,Habitation
+-5.5961,11.0147,Habitation
+-5.6004,11.0002,Habitation
+-5.5594,10.8999,Katogota
+-5.5054,10.857,Nimbougou
+-6.1444,10.7438,Fourou
+-5.6604,11.0671,Ouahibera
+-5.7333,11.0891,Niangassoba
+-5.6565,11.1303,Sanaso
+-5.8306,10.4679,N'golona
+-5.9715,10.4918,Nafegue
+-5.8972,10.5267,Dioumatenè
+-5.5522,10.8371,N'dosso
+-5.5911,10.8739,Katogola
+-5.5739,10.9641,Soroble
+-5.608,10.8948,Loulouni
+-5.5896,10.787,Woroni
+-5.8432,10.5486,Habitation
+-5.8408,10.5621,Habitation
+-5.8694,10.5932,Habitation
+-5.8283,10.5788,Habitation
+-5.8365,10.5782,Habitation
+-5.8462,10.5849,Habitation
+-5.8858,10.5694,Zankoundougou
+-6.0337,10.7322,Dieou
+-6.206,10.7577,Lolle
+-5.9767,10.6687,Gouene
+-6.0631,10.6267,Kambergue
+-6.0617,10.5837,Torokoro
+-5.9694,10.5883,Diou
+-6.1001,11.1134,Soukourala
+-6.1035,11.2455,Mahadougou
+-5.9472,11.0088,N'goloniena
+-6.0472,10.9559,N'golokasso
+-6.1094,10.9842,Ziasso
+-5.9835,10.9406,Konzanso
+-5.8302,10.9466,Habitation
+-5.8741,10.9555,Gueneba
+-5.9866,10.8883,Habitation
+-6.0241,10.9384,Habitation
+-5.9466,10.8808,Mougnina
+-5.8357,10.6384,Lofine
+-5.8036,10.688,Kotamani
+-5.7578,10.6883,Borokoba
+-5.703,10.6402,Lofigue
+-5.7595,10.4546,Kankrougou
+-5.9886,10.5541,Korokoundougou
+-5.9799,10.5299,Vata
+-5.9194,10.8175,Baala
+-5.9468,10.7432,Ouatialy
+-6.0162,11.0135,Habitation
+-6.028,11.0739,N'tessoni
+-6.0731,11.0468,Habitation
+-5.9976,11.2124,Kolokoba
+-6.0079,11.2691,Niantasso
+-6.1147,11.2884,Montombougou
+-6.0689,11.2858,Zanferebougou
+-6.0393,11.2976,N'tiosso
+-6.0685,11.3459,N'goloperebougou
+-6.0927,11.3504,Zignebougou
+-6.1125,11.3607,N'kourala
+-6.0386,11.3586,Fanterela
+-6.1768,10.8322,Lasserebougou
+-6.1488,10.797,Louguele
+-6.1097,10.8583,Piama
+-6.0205,10.7775,Glambere
+-6.0032,10.8201,N'golopene
+-6.0687,10.7707,Syama
+-5.8745,10.7108,Fima
+-5.7955,11.1007,Tiogola
+-5.8676,11.1366,Pitagala Lobougou
+-5.8944,11.2061,Gondaga
+-5.9071,11.2578,Sopie-Natien
+-5.9353,11.2294,Zanadougou-Kolokoba
+-5.9388,11.2792,wayere
+-5.9514,11.3153,Kandiadougou
+-6.1088,11.3104,Habitation
+-6.0588,11.3199,Habitation
+-6.0493,11.3133,Habitation
+-5.9615,11.1654,Pissasso
+-5.869,11.1741,Nagnasso
+-5.8534,11.2193,Fabolasso
+-5.7273,11.232,Sirakoro
+-5.7556,11.265,Missirikoro
+-5.791,11.2754,Fountere Diassa
+-5.9357,10.9707,Habitation
+-6.0764,11.1232,Habitation
+-6.0787,11.1473,Habitation
+-5.7733,11.3786,Zerelaba
+-5.7815,11.3513,Habitation
+-5.7774,11.3533,Habitation
+-5.7698,11.3646,Habitation
+-5.7697,11.3507,Habitation
+-5.7592,11.3601,Habitation
+-5.7581,11.3172,Badabala
+-5.8435,11.3844,Kena
+-5.9457,11.1959,N'torla Lobougoula
+-6.0733,10.5403,Fouguele
+-6.1346,10.573,Finkolo
+-5.7986,10.6268,Kambo
+-5.589,10.4756,Kapaga
+-5.5674,10.486,Fanidiama
+-5.5571,10.5273,Zampedougou
+-5.6468,10.4853,Zegoua
+-7.4369,10.9927,GARALO
+-5.0918,12.2156,N'gueguesso2
+-5.1307,12.2358,Noupinesso
+-5.1188,12.2153,N'gueguesso1
+-5.1193,12.4048,Yafola
+-5.173,12.2501,Kani
+-5.1562,12.3122,Zebala
+-4.8709,12.2291,Sakoni
+-4.9638,12.2215,Benigorola
+-4.9945,12.3308,Omasso
+-4.8956,12.2878,Simona
+-4.9484,12.3195,Torosso
+-4.5481,12.4622,Komi
+-4.5441,12.4171,Boura
+-4.7322,12.2929,Néresso
+-4.6854,12.2804,Zandiéguéla
+-4.8441,12.3154,Karagouroula
+-4.8277,12.3615,Diarakongo
+-4.6537,12.3984,Djonkouna
+-5.0799,12.3756,Garasso
+-5.0985,12.4849,Pokosso
+-4.79,12.2274,Sanè
+-4.698,12.1991,Banzi
+-4.6497,12.2929,Yacrisson
+-4.7193,12.2637,N'Gorola
+-5.3194,11.9261,Sina
+-5.2299,11.9067,Kougnou
+-5.3864,11.9777,Gouan
+-5.2835,12.0007,Sanguela
+-5.1698,12.1013,Banesso
+-4.9822,12.0931,Besso
+-5.0194,12.1087,Palasso
+-5.3741,12.0146,Watarla
+-5.3292,12.1474,DIALLE
+-5.3335,12.1796,Molobala
+-5.3111,12.1093,Tarasso
+-5.2385,12.1289,SOUNGOULASSO
+-5.0646,12.1088,Ourikela
+-5.3939,12.1185,N'tosso
+-5.3594,12.0572,Sogo
+-5.1906,11.9579,Ouho
+-5.1231,11.9949,Zerela
+-5.0722,12.016,Tiby
+-4.887,12.0999,Gouele
+-4.921,12.105,Niougouara
+-4.9054,12.0307,Sala
+-4.885,12.0272,Diaramana
+-4.9833,12.0183,Tioula
+-5.0162,12.0126,Zébléna
+-5.3014,11.8782,Mizonso
+-3.2426,14.5071,Baguidjèrè
+-6.8116,12.8985,Siguidolo were
+-6.8544,12.9246,Berthela
+-6.8655,13.026,Kinta-Bamana
+-6.7058,13.1,Djigani
+-6.8293,12.3559,Kamabougou
+-6.755,12.4095,Toula
+-6.9628,12.4131,Thion
+-6.5573,12.3986,Begnena
+-6.5291,12.5079,Banantou
+-6.48,12.4742,Koloni
+-6.504,12.4564,Thio
+-6.458,12.4468,Diana
+-6.5876,12.442,Tonegue
+-6.6397,12.4456,Maban
+-6.6397,12.397,Manacoungo
+-6.7688,12.5503,Zeta
+-6.5934,12.3586,N'tobougou
+-6.7141,12.3425,SANA
+-6.6738,12.3498,DEGNEKORO [1er C]
+-6.5419,12.3645,N'gala
+-6.5758,12.3338,Kacouma
+-6.8397,12.4421,Fignana
+-6.7591,12.5013,Wolome
+-4.8209,12.4842,Habitation
+-4.839,12.4865,Habitation
+-4.8149,12.4533,Habitation
+-4.8149,12.4553,Habitation
+-4.8192,12.4615,Habitation
+-4.819,12.4652,Habitation
+-4.8132,12.4629,Habitation
+-4.8173,12.4659,Habitation
+-4.8165,12.4649,Habitation
+-4.8132,12.4676,Habitation
+-4.8157,12.4652,Habitation
+-4.817,12.4666,Habitation
+-4.8173,12.4739,Habitation
+-4.8205,12.4716,Habitation
+-4.8193,12.472,Habitation
+-4.8181,12.474,Habitation
+-4.8164,12.4741,Habitation
+-4.8199,12.4796,Habitation
+-4.818,12.4838,Habitation
+-9.636,15.3459,Guimbayel
+-9.6522,15.3392,Guimba Nianga
+-9.5432,15.282,Batakaredji
+-9.5654,15.0456,Kolomina Sinthou
+-9.5672,15.1044,Missira
+-10.9665,14.4579,Fenanou
+-10.9916,14.4665,Faraba
+-11.6585,14.1636,Mantarabougou
+-11.5165,14.3208,Sebetou
+-11.5342,14.3037,Dougu
+-11.063,14.9675,Barkhafo
+-9.3683,14.5802,Debo Massassi
+-11.063,14.9675,Barkhafo
