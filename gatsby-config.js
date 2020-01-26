@@ -25,25 +25,7 @@ module.exports = {
         icon: 'src/images/icon.svg',
       },
     },
-    {
-      resolve: 'gatsby-plugin-offline',
-      options: {
-        workboxConfig: {
-          globPatterns: [
-            '**/*.{js,css,html}',
-            'manifest.json',
-            'manifest.webmanifest',
-            'page-data/*/**',
-            'data/**/*',
-            'fonts/**/*',
-            'icons/**/*',
-          ],
-          globIgnores: ['idb-keyval-iife.min.js'],
-          maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
-          offlineGoogleAnalytics: true,
-        },
-      },
-    },
+    'gatsby-plugin-remove-serviceworker',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
