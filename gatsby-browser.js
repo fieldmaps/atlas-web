@@ -7,11 +7,6 @@ export const onServiceWorkerActive = () => {
   window.location.replace(`https://atlas.fieldmaps.io/maps/${slug}/`);
 };
 
-export const onServiceWorkerUpdateFound = () => {
-  const slug = window.location.hostname.split('-')[0];
-  window.location.replace(`https://atlas.fieldmaps.io/maps/${slug}/`);
-};
-
 export const onServiceWorkerUpdateReady = () => {
   const slug = window.location.hostname.split('-')[0];
   window.location.replace(`https://atlas.fieldmaps.io/maps/${slug}/`);
