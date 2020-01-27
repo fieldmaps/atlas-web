@@ -6,7 +6,7 @@ import MapboxGlMap from '../components/mapbox-gl-map';
 
 const componentDidMount = () => {
   const slug = window.location.hostname.split('-')[0];
-  window.location.replace(`https://atlas.fieldmaps.io/maps/${slug}/`);
+  window.location.replace(`https://atlas.fieldmaps.io/${slug}/`);
 };
 
 const IndexPage = () => {
