@@ -6,15 +6,15 @@ const data = csvParse(
   fs.readFileSync(path.resolve(__dirname, 'data.csv'), 'utf8'),
 );
 
-const mapsDir = path.resolve(__dirname, 'static/maps');
-if (!fs.existsSync(mapsDir)) fs.mkdirSync(mapsDir);
+const publicDir = path.resolve(__dirname, 'public');
+if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir);
 
 const sizes = [48, 72, 96, 144, 192, 256, 384, 512];
 
 const getManifest = slug => ({
   name: `${slug.toUpperCase()} Atlas`,
   short_name: `${slug.toUpperCase()} Atlas`,
-  start_url: `/maps/${slug}/`,
+  start_url: `/${slug}/`,
   background_color: '#FFFFFF',
   theme_color: '#58585A',
   display: 'standalone',
@@ -27,7 +27,7 @@ const getManifest = slug => ({
 
 for (const row of data) {
   const manifest = getManifest(row.iso_3);
-  const output = path.resolve(mapsDir, row.iso_3);
+  const output = path.resolve(publicDir, row.iso_3);
   const jsonPath = path.resolve(output, 'manifest.webmanifest');
   if (!fs.existsSync(output)) fs.mkdirSync(output);
   fs.writeFileSync(jsonPath, JSON.stringify(manifest));

@@ -9,7 +9,7 @@ const items = csvParse(itemContents);
 exports.createPages = async ({ actions }) => {
   items.forEach(item => {
     actions.createPage({
-      path: 'maps/' + item.iso_3,
+      path: item.iso_3,
       component: require.resolve(`./src/templates/index.tsx`),
       context: {
         slug: item.iso_3,
