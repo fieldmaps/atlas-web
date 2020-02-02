@@ -9,7 +9,6 @@ const data = csvParse(
 
 for (const row of data) {
   workboxBuild.generateSW({
-    importWorkboxFrom: 'local',
     skipWaiting: true,
     clientsClaim: true,
     globDirectory: `public/${row.iso_3}`,
@@ -17,15 +16,16 @@ for (const row of data) {
       'index.html',
       'manifest.webmanifest',
       '../*.{js,css}',
-      '../icons/**/*',
       '../fonts/**/*',
+      '../icons/**/*',
       '../page-data/app-data.json',
       `../page-data/${row.iso_3}/page-data.json`,
       '../scripts/**/*',
       `../search/${row.iso_3}/**/*`,
       '../sprites/**/*',
-      `../styles/${row.iso_3}/**/*`,
-      `../tiles/${row.iso_3}/**/*`,
+      `../styles/v1/${row.iso_3}/**/*`,
+      `../v4/${row.iso_3}/**/*`,
+      `../v4/${row.iso_3}.json`,
     ],
     maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
     offlineGoogleAnalytics: true,

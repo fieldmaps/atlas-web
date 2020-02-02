@@ -29,7 +29,7 @@ const getMap = (
     mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js', null, true);
     const map = new mapboxgl.Map({
       container: mapDiv,
-      style: `/styles/${pageContext.slug}/default.json`,
+      style: `/styles/v1/${pageContext.slug}/default.json`,
       bounds: pageContext.bounds,
       doubleClickZoom: false,
       pitchWithRotate: false,
