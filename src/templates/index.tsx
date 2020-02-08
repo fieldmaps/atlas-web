@@ -18,7 +18,7 @@ const componentDidMount = (slug: string) => {
     'serviceWorker' in navigator &&
     window.origin !== 'http://localhost:8000'
   ) {
-    const wb = new Workbox(`/maps/${slug}/sw.js`);
+    const wb = new Workbox(`/${slug}/sw.js`);
     wb.register();
   }
 };

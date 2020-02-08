@@ -36,7 +36,7 @@ const SEO = ({
       title={title}
       titleTemplate={'%s'}
       link={[
-        { rel: 'manifest', href: `/maps/${slug}/manifest.webmanifest` },
+        { rel: 'manifest', href: `/${slug}/manifest.webmanifest` },
         { rel: 'icon', href: '/icons/icon-48x48.png' },
         ...sizes.map(size => ({
           rel: 'apple-touch-icon',
