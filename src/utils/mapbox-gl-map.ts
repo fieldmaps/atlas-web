@@ -22,14 +22,14 @@ const addPointer = (layer, map) => {
 };
 
 const registerWorkbox = (slug: string) => {
-  console.log('start');
+  console.log('start 2');
   if (
     'serviceWorker' in navigator &&
     window.origin !== 'http://localhost:8000'
   ) {
     const wb = new Workbox(`/${slug}/sw.js`);
     wb.register();
-    console.log('registered');
+    console.log('registered 2');
   }
 };
 
