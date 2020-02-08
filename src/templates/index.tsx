@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Workbox } from 'workbox-window';
+// import { Workbox } from 'workbox-window';
 
 import SEO from '../components/seo';
 import Sidebar from '../components/sidebar';
@@ -13,19 +13,19 @@ interface Props {
   };
 }
 
-const componentDidMount = (slug: string) => {
-  if (
-    'serviceWorker' in navigator &&
-    window.origin !== 'http://localhost:8000'
-  ) {
-    const wb = new Workbox(`/${slug}/sw.js`);
-    wb.register();
-  }
-};
+// const componentDidMount = (slug: string) => {
+//   if (
+//     'serviceWorker' in navigator &&
+//     window.origin !== 'http://localhost:8000'
+//   ) {
+//     const wb = new Workbox(`/${slug}/sw.js`);
+//     wb.register();
+//   }
+// };
 
 const IndexPage = ({ pageContext }: Props) => {
   const { slug } = pageContext;
-  useEffect(() => componentDidMount(slug), [slug]);
+  // useEffect(() => componentDidMount(slug), [slug]);
   const [state, setState] = useState({ map: null });
   return (
     <div className="field-maps-flex-container">

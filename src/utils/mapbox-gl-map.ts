@@ -1,3 +1,4 @@
+import { Workbox } from 'workbox-window';
 import {
   onClick,
   onDoubleClick,
@@ -18,6 +19,18 @@ interface PageContext {
 const addPointer = (layer, map) => {
   map.on('mouseenter', layer, () => setPointer(map));
   map.on('mouseleave', layer, () => unsetPointer(map));
+};
+
+const registerWorkbox = (slug: string) => {
+  console.log('start');
+  if (
+    'serviceWorker' in navigator &&
+    window.origin !== 'http://localhost:8000'
+  ) {
+    const wb = new Workbox(`/${slug}/sw.js`);
+    wb.register();
+    console.log('registered');
+  }
 };
 
 const getMap = (
@@ -45,6 +58,7 @@ const getMap = (
     );
     map.on('click', ({ point }) => onClick({ mapboxgl, map, point }));
     map.on('dblclick', ({ point }) => onDoubleClick({ mapboxgl, map, point }));
+    map.on('load', () => registerWorkbox(pageContext.slug));
     layers.forEach(layer => addPointer(layer, map));
     setState((state: State) => ({ ...state, map }));
   });

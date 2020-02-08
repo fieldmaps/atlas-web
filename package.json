@@ -12,6 +12,7 @@
     "extract": "tar -xf atlas-styles.tar.gz --directory static && rm atlas-styles.tar.gz",
     "git": "yarn build && git push && git checkout master && git merge develop && git push && git checkout develop",
     "start": "rm -rf .cache && rm -rf public && gatsby develop",
+    "start-prod": "yarn build && yarn serve",
     "network": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write 'src/**/*.{js,ts,jsx,tsx}'",
     "lint": "tsc && eslint --fix 'src/**/*.{js,ts,jsx,tsx}'",
