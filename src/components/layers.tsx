@@ -10,9 +10,11 @@ const onChange = (map: any, slug: string, value: string) => {
 };
 
 const isDefaultOption = (value: string) => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const layer = urlParams.get('style') || 'default';
-  return layer === value;
+  if (window) {
+    const urlParams = new URLSearchParams(window.location.search);
+    const layer = urlParams.get('style') || 'default';
+    return layer === value;
+  }
 };
 
 const Layers = ({ map, slug }) => {
