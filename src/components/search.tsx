@@ -24,7 +24,7 @@ const onClick = (map, feature) => {
   map.flyTo({ center: [feature.x, feature.y], zoom: 12 });
 };
 
-const Sidebar = ({ map, slug }) => {
+const Search = ({ map, slug }) => {
   const [state, setState] = useState({ camps: [], input: '', features: [] });
   useEffect(() => componentDidMount(setState, slug), [slug]);
   return (
@@ -68,4 +68,4 @@ const Sidebar = ({ map, slug }) => {
   );
 };
 
-export default Sidebar;
+export default Search;

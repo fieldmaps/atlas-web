@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Workbox } from 'workbox-window';
 
 import SEO from '../components/seo';
-import Sidebar from '../components/sidebar';
+import Search from '../components/search';
+import Layers from '../components/layers';
 import MapboxGlMap from '../components/mapbox-gl-map';
 
 interface Props {
@@ -14,7 +15,11 @@ interface Props {
 }
 
 const componentDidMount = (slug: string) => {
-  if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+  if (
+    'serviceWorker' in navigator &&
+    navigator.serviceWorker.controller &&
+    window.location.host !== 'localhost:8000'
+  ) {
     const wb = new Workbox(`/${slug}/sw.js`);
     wb.register();
   }
@@ -28,7 +33,8 @@ const IndexPage = ({ pageContext }: Props) => {
     <div className="field-maps-flex-container">
       <SEO title="Home" slug={slug} />
       <MapboxGlMap setState={setState} pageContext={pageContext} />
-      <Sidebar map={state.map} slug={pageContext.slug} />
+      <Search map={state.map} slug={pageContext.slug} />
+      <Layers map={state.map} slug={pageContext.slug} />
     </div>
   );
 };

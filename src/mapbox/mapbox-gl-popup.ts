@@ -1,6 +1,6 @@
-import { layers } from '../config/names';
+import { layers } from './config';
 
-const getType = type => {
+const getType = (type: any) => {
   if (typeof type === 'number') {
     switch (type) {
       case 1:
@@ -26,16 +26,22 @@ const getType = type => {
   return type;
 };
 
-const getPcode = pcode => {
+const getPcode = (pcode: string) => {
   if (pcode) {
     return ['<div><b>P-Code</b></div>', `<div>${pcode}</div>`];
   }
   return [];
 };
 
-export const onClick = ({ mapboxgl, map, point }) => {
-  const features = map.queryRenderedFeatures(point, { layers });
-  if (features.length) {
+const getStyleLayer = () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get('style') || 'default';
+};
+
+export const onClick = (mapboxgl, map, point) => {
+  const mapLayers = layers[getStyleLayer()];
+  const features = map.queryRenderedFeatures(point, { layers: mapLayers });
+  if (features.length && getStyleLayer() === 'default') {
     const { lat, lng } = map.unproject(point);
     const feature = features[0];
     const popupText = [
@@ -52,24 +58,4 @@ export const onClick = ({ mapboxgl, map, point }) => {
       .setHTML(popupText)
       .addTo(map);
   }
-};
-
-export const onDoubleClick = ({ mapboxgl, map, point }) => {
-  const { lat, lng } = map.unproject(point);
-  const popupText = [
-    '<div><b>Latitude, Longitude</b></div>',
-    `<div>${lat.toFixed(4)}, ${lng.toFixed(4)}</div>`,
-  ].join('');
-  new mapboxgl.Popup({ closeButton: false })
-    .setLngLat({ lat, lng })
-    .setHTML(popupText)
-    .addTo(map);
-};
-
-export const setPointer = map => {
-  map.getCanvas().style.cursor = 'pointer';
-};
-
-export const unsetPointer = map => {
-  map.getCanvas().style.cursor = '';
 };

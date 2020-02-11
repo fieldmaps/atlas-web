@@ -24,6 +24,8 @@ yarn add \
 
 yarn add --dev \
   @babel/core \
+  @types/d3-dsv \
+  @types/mapbox-gl \
   @types/react \
   @types/react-helmet \
   @types/workbox-window \
