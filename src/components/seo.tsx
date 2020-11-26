@@ -57,7 +57,7 @@ const SEO = ({
       ].concat(
         keywords.length > 0
           ? { name: 'keywords', content: keywords.join(', ') }
-          : [],
+          : []
       )}
     />
   );

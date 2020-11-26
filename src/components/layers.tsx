@@ -5,7 +5,7 @@ const onChange = (map: any, slug: string, value: string) => {
   window.history.replaceState(
     null,
     null,
-    `/${slug}/?style=${value}${window.location.hash}`,
+    `/${slug}/?style=${value}${window.location.hash}`
   );
 };
 

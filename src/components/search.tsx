@@ -48,7 +48,7 @@ const Search = ({ map, slug }) => {
                     ? item.name
                         .toLowerCase()
                         .includes(state.input.toLowerCase())
-                    : false,
+                    : false
                 )
                 .map((feature, index) => (
                   <li key={index}>

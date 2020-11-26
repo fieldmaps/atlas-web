@@ -49,7 +49,7 @@ const getStyleLayer = () => {
 const getMap = (
   mapDiv: HTMLDivElement,
   setState: Function,
-  pageContext: PageContext,
+  pageContext: PageContext
 ) => {
   import('mapbox-gl/dist/mapbox-gl.js').then(mapboxgl => {
     mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js', null, true);
@@ -68,7 +68,7 @@ const getMap = (
       new mapboxgl.GeolocateControl({
         positionOptions: { enableHighAccuracy: true },
         trackUserLocation: true,
-      }),
+      })
     );
     map.on('click', ({ point }) => onClick(mapboxgl, map, point, styleLayer));
     map.on('dblclick', ({ point }) => onDoubleClick(mapboxgl, map, point));

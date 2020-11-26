@@ -13,7 +13,7 @@ type MapDiv = HTMLDivElement | null;
 const componentDidMount = (
   mapDiv: MapDiv,
   setState: Function,
-  pageContext: any,
+  pageContext: any
 ) => {
   if (mapDiv) getMap(mapDiv, setState, pageContext);
 };

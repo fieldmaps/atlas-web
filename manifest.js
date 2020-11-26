@@ -3,7 +3,7 @@ const fs = require('fs');
 const { csvParse } = require('d3-dsv');
 
 const data = csvParse(
-  fs.readFileSync(path.resolve(__dirname, 'data.csv'), 'utf8'),
+  fs.readFileSync(path.resolve(__dirname, 'data.csv'), 'utf8')
 );
 
 const publicDir = path.resolve(__dirname, 'public');

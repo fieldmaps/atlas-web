@@ -4,7 +4,7 @@ const { csvParse } = require('d3-dsv');
 const workboxBuild = require('workbox-build');
 
 const data = csvParse(
-  fs.readFileSync(path.resolve(__dirname, 'data.csv'), 'utf8'),
+  fs.readFileSync(path.resolve(__dirname, 'data.csv'), 'utf8')
 );
 
 for (const row of data) {

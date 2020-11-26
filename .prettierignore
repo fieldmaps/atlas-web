@@ -6,3 +6,7 @@ static/fonts/
 static/sprites/
 static/styles/
 static/v4/
+
+static/scripts/
+package.json
+package-lock.json
