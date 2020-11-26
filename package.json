@@ -1,14 +1,14 @@
 {
-  "name": "reach-field-maps",
-  "description": "REACH Field Maps",
+  "name": "fieldmaps-atlas",
+  "description": "Fieldmaps.io Atlas",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Maxym Malynowsky <maxym.malynowsky@reach-initiative.org>",
   "scripts": {
-    "build": "rm -rf .cache && rm -rf public && gatsby build && yarn manifest && yarn workbox",
-    "build-deploy": "yarn download && yarn extract && gatsby build && yarn manifest && yarn workbox",
+    "build": "yarn download && yarn extract && gatsby build && yarn manifest && yarn workbox",
+    "build-dev": "gatsby clean && gatsby build && yarn manifest && yarn workbox",
     "deploy": "yarn build && netlify deploy",
-    "download": "curl https://fieldmaps-atlas.s3.eu-central-1.amazonaws.com/atlas-styles.tar.gz --output atlas-styles.tar.gz",
+    "download": "curl https://data.fieldmaps.io/atlas-styles.tar.gz --output atlas-styles.tar.gz",
     "extract": "tar -xf atlas-styles.tar.gz --directory static && rm atlas-styles.tar.gz",
     "git": "yarn build && git push && git checkout master && git merge develop && git push && git checkout develop",
     "start": "rm -rf .cache && rm -rf public && gatsby develop",
@@ -27,7 +27,6 @@
     "gatsby": "^2.19.12",
     "gatsby-image": "^2.2.40",
     "gatsby-plugin-force-trailing-slashes": "^1.0.4",
-    "gatsby-plugin-google-analytics": "^2.1.35",
     "gatsby-plugin-manifest": "^2.2.41",
     "gatsby-plugin-netlify": "^2.1.32",
     "gatsby-plugin-offline": "^3.0.34",
@@ -73,6 +72,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/impact-initiatives/reach-field-maps"
+    "url": "https://github.com/fieldmaps/atlas"
   }
 }

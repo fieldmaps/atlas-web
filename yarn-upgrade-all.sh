@@ -4,7 +4,6 @@ yarn add \
   gatsby \
   gatsby-image \
   gatsby-plugin-force-trailing-slashes \
-  gatsby-plugin-google-analytics \
   gatsby-plugin-manifest \
   gatsby-plugin-netlify \
   gatsby-plugin-offline \

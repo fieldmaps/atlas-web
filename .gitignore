@@ -75,11 +75,7 @@ yarn-error.log
 .vscode/
 
 # data files
-static/data/
 static/fonts/
 static/sprites/
 static/styles/
-static/tiles/
-static/tiles-limit/
-static/tiles-no-limit/
 static/v4/

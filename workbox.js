@@ -28,7 +28,6 @@ for (const row of data) {
       '../icons/**/*',
     ],
     maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
-    offlineGoogleAnalytics: true,
     swDest: `public/${row.iso_3}/sw.js`,
   });
 }
