@@ -3,7 +3,7 @@ const getMap = (mapDiv: HTMLDivElement) => {
     mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js', null, true);
     const map = new mapboxgl.Map({
       container: mapDiv,
-      style: 'https://tiles.fieldmaps.io/styles/v1/default.json',
+      style: `${process.env.GATSBY_TILES}/styles/v1/default.json`,
       bounds: [-180, -90, 180, 90],
       doubleClickZoom: false,
       pitchWithRotate: false,
