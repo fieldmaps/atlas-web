@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
 interface Props {
@@ -43,6 +43,13 @@ const SEO = ({
           sizes: `${size}x${size}`,
           href: `/icons/icon-${size}x${size}.png`,
         })),
+      ]}
+      script={[
+        {
+          defer: true,
+          src: 'https://static.cloudflareinsights.com/beacon.min.js',
+          'data-cf-beacon': '{"token": "4c2d512f347d47b5bf303b367560bcfd"}',
+        },
       ]}
       meta={[
         { name: 'theme-color', content: '#58585A' },
