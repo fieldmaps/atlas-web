@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Workbox } from 'workbox-window';
-
-import SEO from '../components/seo';
+import Metadata from '../components/metadata';
 import Search from '../components/search';
 import Layers from '../components/layers';
-import MapboxGlMap from '../components/mapbox-gl-map';
+import MapGL from '../components/map-gl';
 
 interface Props {
   setState: Function;
@@ -24,19 +23,19 @@ const componentDidMount = (slug: string) => {
     wb.register();
   }
 };
-
-const IndexPage = ({ pageContext }: Props) => {
+export default ({ pageContext }: Props) => {
   const { slug } = pageContext;
   useEffect(() => componentDidMount(slug), [slug]);
   const [state, setState] = useState({ map: null });
   return (
     <div className="field-maps-flex-container">
-      <SEO title="Home" slug={slug} />
-      <MapboxGlMap setState={setState} pageContext={pageContext} />
+      <Metadata
+        name={pageContext.slug.toUpperCase() + ' Atlas'}
+        slug={'/' + pageContext.slug}
+      />
+      <MapGL setState={setState} pageContext={pageContext} />
       <Search map={state.map} slug={pageContext.slug} />
       <Layers map={state.map} slug={pageContext.slug} />
     </div>
   );
 };
-
-export default IndexPage;

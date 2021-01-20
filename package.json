@@ -15,9 +15,10 @@
   "dependencies": {
     "bulma": "^0.9.1",
     "d3-dsv": "^2.0.0",
-    "gatsby": "^2.30.0",
-    "gatsby-plugin-force-trailing-slashes": "^1.0.4",
-    "gatsby-plugin-sass": "^3.0.0",
+    "gatsby": "^2.31.0",
+    "gatsby-plugin-force-trailing-slashes": "^1.0.5",
+    "gatsby-plugin-react-helmet": "^3.9.0",
+    "gatsby-plugin-sass": "^3.1.0",
     "mapbox-gl": "^1.13.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
@@ -25,13 +26,13 @@
     "workbox-window": "^6.0.2"
   },
   "devDependencies": {
-    "@types/d3-dsv": "^2.0.0",
+    "@types/d3-dsv": "^2.0.1",
     "@types/mapbox-gl": "^1.13.0",
     "@types/react": "^16.9.19",
     "@types/react-helmet": "^6.1.0",
     "@types/workbox-window": "^4.3.3",
-    "node-sass": "^4.14.1",
     "prettier": "^2.2.1",
+    "sass": "^1.32.5",
     "workbox-build": "^6.0.2"
   },
   "repository": {

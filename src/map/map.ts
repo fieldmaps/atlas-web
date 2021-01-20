@@ -1,5 +1,6 @@
+import mapboxgl from 'mapbox-gl';
 import { Workbox } from 'workbox-window';
-import { onClick } from './mapbox-gl-popup';
+import { onClick } from './popup';
 import { layers } from './config';
 
 interface State {
@@ -51,31 +52,29 @@ const getMap = (
   setState: Function,
   pageContext: PageContext
 ) => {
-  import('mapbox-gl/dist/mapbox-gl.js').then(mapboxgl => {
-    mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js', null, true);
-    const styleLayer = getStyleLayer();
-    const map = new mapboxgl.Map({
-      container: mapDiv,
-      style: `/styles/v1/${pageContext.slug}/${styleLayer}.json`,
-      bounds: pageContext.bounds,
-      doubleClickZoom: false,
-      pitchWithRotate: false,
-      hash: true,
-    });
-    const nav = new mapboxgl.NavigationControl();
-    map.addControl(nav, 'top-right');
-    map.addControl(
-      new mapboxgl.GeolocateControl({
-        positionOptions: { enableHighAccuracy: true },
-        trackUserLocation: true,
-      })
-    );
-    map.on('click', ({ point }) => onClick(mapboxgl, map, point, styleLayer));
-    map.on('dblclick', ({ point }) => onDoubleClick(mapboxgl, map, point));
-    map.on('load', () => registerWorkbox(pageContext.slug));
-    layers.default.forEach(layer => addPointer(layer, map));
-    setState((state: State) => ({ ...state, map }));
+  mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js', null, true);
+  const styleLayer = getStyleLayer();
+  const map = new mapboxgl.Map({
+    container: mapDiv,
+    style: `/styles/v1/${pageContext.slug}/${styleLayer}.json`,
+    bounds: pageContext.bounds,
+    doubleClickZoom: false,
+    pitchWithRotate: false,
+    hash: true,
   });
+  const nav = new mapboxgl.NavigationControl();
+  map.addControl(nav, 'top-right');
+  map.addControl(
+    new mapboxgl.GeolocateControl({
+      positionOptions: { enableHighAccuracy: true },
+      trackUserLocation: true,
+    })
+  );
+  map.on('click', ({ point }) => onClick(mapboxgl, map, point, styleLayer));
+  map.on('dblclick', ({ point }) => onDoubleClick(mapboxgl, map, point));
+  map.on('load', () => registerWorkbox(pageContext.slug));
+  layers.default.forEach(layer => addPointer(layer, map));
+  setState((state: State) => ({ ...state, map }));
 };
 
 export default getMap;

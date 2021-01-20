@@ -1,0 +1,60 @@
+$blue: #3399CC
+$green: #009933
+$red: #E36159
+$turquoise: #009999
+$grey: #58585A
+
+$primary: $red
+
+$footer-background-color: $grey
+$footer-padding: 0.5rem
+
+@import "~bulma/bulma.sass"
+
+html
+  overflow: auto
+
+// loading bar for service worker notifications
+.progress.is-primary.is-small.is-fixed-top:indeterminate
+  background-color: rgba(255,255,255,0)
+  background-image: linear-gradient(to right, $primary 30%, rgba(255,255,255,0) 30%)
+  border-radius: 0
+  height: 0.25rem
+  position: fixed
+  top: 0
+  z-index: 41
+
+.footer
+  max-height: 52px
+
+.field-maps-flex-container
+  display: flex
+  flex-flow: column nowrap
+  min-height: 100vh
+
+.field-maps-flex-item
+  flex: 1 1 auto
+
+.field-maps-sidebar
+  position: absolute
+  padding: 1rem
+  .field-maps-search-list
+    max-height: 80vh
+    overflow: auto
+    p
+      cursor: pointer
+  div
+    padding: 0.5rem
+.field-maps-sidebar:not(:focus-within)
+  .field
+    margin-bottom: 0
+  .field-maps-search-list
+    display: none
+
+.field-maps-layers
+  position: absolute
+  bottom: 1rem
+  left: 1rem
+
+.justify-content-start
+  justify-content: flex-start

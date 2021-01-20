@@ -9,8 +9,6 @@ const data = csvParse(
 const publicDir = path.resolve(__dirname, 'public');
 if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir);
 
-const sizes = [48, 72, 96, 144, 192, 256, 384, 512];
-
 const getManifest = slug => ({
   name: `${slug.toUpperCase()} Atlas`,
   short_name: `${slug.toUpperCase()} Atlas`,
@@ -18,11 +16,18 @@ const getManifest = slug => ({
   background_color: '#FFFFFF',
   theme_color: '#58585A',
   display: 'standalone',
-  icons: sizes.map(size => ({
-    src: `/icons/icon-${size}x${size}.png`,
-    sizes: `${size}x${size}`,
-    type: 'image/png',
-  })),
+  icons: [
+    {
+      src: '/img/logo-192.png',
+      sizes: '192x192',
+      type: 'image/png',
+    },
+    {
+      src: '/img/logo-512.png',
+      sizes: '512x512',
+      type: 'image/png',
+    },
+  ],
 });
 
 for (const row of data) {

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import getMap from '../mapbox/mapbox-gl-map';
+import getMap from '../map/map';
 
 interface Props {
   setState: Function;

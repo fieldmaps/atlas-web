@@ -1,8 +1,7 @@
 module.exports = {
-  siteMetadata: {
-    title: 'Country Atlas',
-    description: 'Offline interactive reference map',
-    author: '@maxmalynowsky',
-  },
-  plugins: ['gatsby-plugin-force-trailing-slashes', 'gatsby-plugin-sass'],
+  plugins: [
+    'gatsby-plugin-sass',
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-force-trailing-slashes',
+  ],
 };
