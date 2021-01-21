@@ -7,7 +7,8 @@ interface Props {
 }
 
 const url = 'https://atlas.fieldmaps.io/';
-const img = 'https://atlas.fieldmaps.io/img/atlas-ssd-preview.png';
+const img = 'https://atlas.fieldmaps.io/img/atlas-preview.png';
+const imgSlug = 'https://atlas.fieldmaps.io/img/atlas-ssd-preview.png';
 const title = 'Fieldmaps.io — Humanitarian Atlas';
 const description =
   'Mobile, offline, interactive reference maps for humanitarian use.';
@@ -23,12 +24,12 @@ export default ({ name, slug }: Props) => (
     <meta property="og:url" content={url} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={img} />
+    <meta property="og:image" content={slug ? imgSlug : img} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content={url} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={img} />
+    <meta name="twitter:image" content={slug ? imgSlug : img} />
     <script
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js"
