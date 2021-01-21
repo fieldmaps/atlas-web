@@ -16,7 +16,7 @@ export default ({ name, slug }: Props) => (
   <Helmet>
     <title>{name} | Fieldmaps.io</title>
     <link rel="manifest" href={`${slug}/manifest.webmanifest`} />
-    <link rel="icon" type="image/png" href="img/logo-192.png" />
+    <link rel="icon" type="image/png" href="/img/logo-192.png" />
     <meta name="title" content={title} />
     <meta name="description" content={description} />
     <meta property="og:type" content="website" />
