@@ -1,5 +1,7 @@
 import mapboxgl from 'mapbox-gl';
 
+const TILES_URL = process.env.GATSBY_TILES ?? 'https://tiles.fieldmaps.io';
+
 interface State {
   map: any;
 }
@@ -14,7 +16,7 @@ const getMap = (mapDiv: HTMLDivElement, setState: Function) => {
   const styleLayer = getStyleLayer();
   const map = new mapboxgl.Map({
     container: mapDiv,
-    style: `${process.env.GATSBY_TILES}/styles/v1/${styleLayer}.json`,
+    style: `${TILES_URL}/styles/v1/${styleLayer}.json`,
     bounds: [-180, -90, 180, 90],
     minZoom: 2,
     doubleClickZoom: false,

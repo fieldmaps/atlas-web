@@ -1,7 +1,9 @@
 import React from 'react';
 
+const TILES_URL = process.env.GATSBY_TILES ?? 'https://tiles.fieldmaps.io';
+
 const onChange = (map: any, value: string) => {
-  map.setStyle(`${process.env.GATSBY_TILES}/styles/v1/${value}.json`);
+  map.setStyle(`${TILES_URL}/styles/v1/${value}.json`);
   window.history.replaceState(
     null,
     null,
