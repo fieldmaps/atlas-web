@@ -32,7 +32,7 @@ const Layers = ({ map }) => {
               defaultChecked={isDefaultOption('default')}
               onChange={e => onChange(map, e.currentTarget.value)}
             />{' '}
-            Default
+            Color
           </label>
         </div>
         <div className="field">
