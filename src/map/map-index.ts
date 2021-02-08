@@ -19,6 +19,7 @@ const getMap = (mapDiv: HTMLDivElement, setState: Function) => {
     style: `${TILES_URL}/styles/v1/${styleLayer}.json`,
     bounds: [-180, -90, 180, 90],
     minZoom: 2,
+    maxZoom: 13,
     doubleClickZoom: false,
     pitchWithRotate: false,
     hash: true,
