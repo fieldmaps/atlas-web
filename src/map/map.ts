@@ -64,7 +64,7 @@ const getMap = (
     touchZoomRotate: false,
     hash: true,
   });
-  const nav = new mapboxgl.NavigationControl();
+  const nav = new mapboxgl.NavigationControl({ showCompass: false });
   map.addControl(nav, 'top-right');
   map.addControl(
     new mapboxgl.GeolocateControl({

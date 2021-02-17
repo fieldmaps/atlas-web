@@ -26,7 +26,7 @@ const getMap = (mapDiv: HTMLDivElement, setState: Function) => {
     touchZoomRotate: false,
     hash: true,
   });
-  const nav = new mapboxgl.NavigationControl();
+  const nav = new mapboxgl.NavigationControl({ showCompass: false });
   map.addControl(nav, 'top-right');
   map.addControl(new mapboxgl.GeolocateControl());
   setState((state: State) => ({ ...state, map }));
