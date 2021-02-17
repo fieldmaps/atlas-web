@@ -59,7 +59,9 @@ const getMap = (
     style: `/styles/v1/${pageContext.slug}/${styleLayer}.json`,
     bounds: pageContext.bounds,
     doubleClickZoom: false,
+    dragRotate: false,
     pitchWithRotate: false,
+    touchZoomRotate: false,
     hash: true,
   });
   const nav = new mapboxgl.NavigationControl();

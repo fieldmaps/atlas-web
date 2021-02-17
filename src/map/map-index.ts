@@ -21,7 +21,9 @@ const getMap = (mapDiv: HTMLDivElement, setState: Function) => {
     minZoom: 2,
     maxZoom: 13,
     doubleClickZoom: false,
+    dragRotate: false,
     pitchWithRotate: false,
+    touchZoomRotate: false,
     hash: true,
   });
   const nav = new mapboxgl.NavigationControl();
