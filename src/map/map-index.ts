@@ -23,7 +23,6 @@ const getMap = (mapDiv: HTMLDivElement, setState: Function) => {
     doubleClickZoom: false,
     dragRotate: false,
     pitchWithRotate: false,
-    touchZoomRotate: false,
     hash: true,
   });
   const nav = new mapboxgl.NavigationControl({ showCompass: false });

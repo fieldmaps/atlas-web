@@ -61,7 +61,6 @@ const getMap = (
     doubleClickZoom: false,
     dragRotate: false,
     pitchWithRotate: false,
-    touchZoomRotate: false,
     hash: true,
   });
   const nav = new mapboxgl.NavigationControl({ showCompass: false });
