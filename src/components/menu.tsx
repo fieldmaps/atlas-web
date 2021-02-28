@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './menu.module.sass';
 import menu from '../img/menu.svg';
 import close from '../img/close.svg';
@@ -37,10 +37,15 @@ const onClickMenu = (setState: any, open: boolean) => {
   setState((state: any) => ({ ...state, open }));
 };
 
+const componentDidMount = (setState: Function) => {
+  const [layer, theme] = getLayer().split('-');
+  setState((state: any) => ({ ...state, layer, theme }));
+};
+
 export default ({ map }) => {
   const themes = ['light', 'dark'];
-  const [layer, theme] = getLayer().split('-');
-  const [state, setState] = useState({ open: true, layer, theme });
+  const [state, setState] = useState({ open: true, layer: '', theme: '' });
+  useEffect(() => componentDidMount(setState), [setState]);
   return (
     <>
       <div
