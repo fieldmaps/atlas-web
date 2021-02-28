@@ -1,4 +1,5 @@
 import mapboxgl from 'mapbox-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 const TILES_URL = process.env.GATSBY_TILES ?? 'https://tiles.fieldmaps.io';
 
@@ -8,7 +9,7 @@ interface State {
 
 const getStyleLayer = () => {
   const urlParams = new URLSearchParams(window.location.search);
-  return urlParams.get('style') || 'default';
+  return urlParams.get('style') || 'admin-light';
 };
 
 const getMap = (mapDiv: HTMLDivElement, setState: Function) => {

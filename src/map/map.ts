@@ -1,4 +1,5 @@
 import mapboxgl from 'mapbox-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
 import { Workbox } from 'workbox-window';
 import { onClick } from './popup';
 import { layers } from './config';

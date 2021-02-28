@@ -1,7 +1,4 @@
 import { navigate } from 'gatsby';
-import 'mapbox-gl/dist/mapbox-gl.css';
-
-import './src/styles/styles.sass';
 
 const ELEMENT_ID = 'gatsby-browser-service-worker-notification';
 

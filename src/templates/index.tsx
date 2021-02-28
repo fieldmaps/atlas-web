@@ -3,7 +3,8 @@ import { Workbox } from 'workbox-window';
 import Metadata from '../components/metadata';
 import Search from '../components/search';
 import Layers from '../components/layers';
-import MapGL from '../components/map-gl';
+import MapGL from '../components/map';
+import './styles.sass';
 
 interface Props {
   setState: Function;
