@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { Map, NavigationControl } from 'maplibre-gl';
+  import { PUBLIC_TILES } from '$env/static/public';
   import { onInteraction } from '../utils/admin';
   import { map } from '../store';
   import 'maplibre-gl/dist/maplibre-gl.css';
@@ -10,7 +11,7 @@
   onMount(() => {
     $map = new Map({
       container: mapContainer,
-      style: 'https://tiles.fieldmaps.io/styles/light/style.json',
+      style: `${PUBLIC_TILES}/styles/light/style.json`,
       center: [17.66809, 6.89908],
       minZoom: 3,
       hash: true,

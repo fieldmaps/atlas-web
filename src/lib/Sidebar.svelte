@@ -17,7 +17,7 @@
   <table>
     <tr>
       <td>ADM0: </td>
-      <td>{$adm.adm0_name ?? ''}</td>
+      <td>{$adm.adm0_name ?? $adm.adm0_name1 ?? ''}</td>
     </tr>
     {#each [...Array($lvl).keys()] as l}
       <tr>

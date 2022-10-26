@@ -3,6 +3,7 @@ import type {
   LayerSpecification,
   PointLike,
 } from 'maplibre-gl';
+import { PUBLIC_TILES } from '$env/static/public';
 import { get } from 'svelte/store';
 import { map as mapStore, lvl as lvlStore, adm } from '../store';
 
@@ -16,10 +17,6 @@ const getlvl = () => {
   if (zoom < 6) return 2;
   if (zoom < 7) return 3;
   return 4;
-};
-
-const getAdminLayer = () => {
-  return `adm${getlvl()}_polygons`;
 };
 
 export const onInteraction = () => {
@@ -42,14 +39,14 @@ const onMouseMove = (e) => {
   if (e.features.length > 0) {
     if (hoveredStateId) {
       map.setFeatureState(
-        { source: 'admx', sourceLayer: getAdminLayer(), id: hoveredStateId },
+        { source: 'admx', sourceLayer: 'admx', id: hoveredStateId },
         { hover: false }
       );
       adm.set({});
     }
     hoveredStateId = e.features[0].id;
     map.setFeatureState(
-      { source: 'admx', sourceLayer: getAdminLayer(), id: hoveredStateId },
+      { source: 'admx', sourceLayer: 'admx', id: hoveredStateId },
       { hover: true }
     );
     adm.set(e.features[0].properties);
@@ -60,7 +57,7 @@ const onMouseLeave = () => {
   const map = get(mapStore);
   if (hoveredStateId) {
     map.setFeatureState(
-      { source: 'admx', sourceLayer: getAdminLayer(), id: hoveredStateId },
+      { source: 'admx', sourceLayer: 'admx', id: hoveredStateId },
       { hover: false }
     );
     adm.set({});
@@ -95,13 +92,13 @@ const addOverlay = () => {
   const layerSource: SourceSpecification = {
     type: 'vector',
     promoteId: `adm${lvl}_id`,
-    url: `https://tiles.fieldmaps.io/data/adm${lvl}.json`,
+    url: `${PUBLIC_TILES}/data/adm${lvl}.json`,
   };
   const layerFill: LayerSpecification = {
     id: 'admx',
     type: 'fill',
     source: 'admx',
-    'source-layer': `adm${lvl}_polygons`,
+    'source-layer': 'admx',
     paint: {
       'fill-color': [
         'case',
