@@ -1,8 +1,8 @@
-.cache/
-.vscode/
-node_modules/
-public/
-static/fonts/
-static/sprites/
-static/styles/
-static/v4/
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example

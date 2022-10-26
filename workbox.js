@@ -1,7 +1,7 @@
-const path = require('path');
-const fs = require('fs');
-const { csvParse } = require('d3-dsv');
-const workboxBuild = require('workbox-build');
+import path from 'path';
+import fs from 'fs';
+import { csvParse } from 'd3-dsv';
+import workboxBuild from 'workbox-build';
 
 const data = csvParse(
   fs.readFileSync(path.resolve(__dirname, 'data.csv'), 'utf8')
