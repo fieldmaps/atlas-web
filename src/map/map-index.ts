@@ -1,5 +1,5 @@
-import mapboxgl from 'mapbox-gl';
-import 'mapbox-gl/dist/mapbox-gl.css';
+import maplibregl from 'maplibre-gl';
+import 'maplibre-gl/dist/maplibre-gl.css';
 
 const TILES_URL = process.env.GATSBY_TILES ?? 'https://tiles.fieldmaps.io';
 
@@ -13,22 +13,26 @@ const getStyleLayer = () => {
 };
 
 const getMap = (mapDiv: HTMLDivElement, setState: Function) => {
-  mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js', null, true);
+  maplibregl.setRTLTextPlugin(
+    '/scripts/maplibre-gl-rtl-text.min.js',
+    null,
+    true
+  );
   const styleLayer = getStyleLayer();
-  const map = new mapboxgl.Map({
+  const map = new maplibregl.Map({
     container: mapDiv,
-    style: `${TILES_URL}/styles/v1/${styleLayer}.json`,
+    style: `${TILES_URL}/styles/${styleLayer}/style.json`,
     bounds: [-180, -90, 180, 90],
     minZoom: 2,
-    maxZoom: 13,
+    maxZoom: 18,
     doubleClickZoom: false,
     dragRotate: false,
     pitchWithRotate: false,
     hash: true,
   });
-  const nav = new mapboxgl.NavigationControl({ showCompass: false });
+  const nav = new maplibregl.NavigationControl({ showCompass: false });
   map.addControl(nav, 'top-right');
-  map.addControl(new mapboxgl.GeolocateControl());
+  map.addControl(new maplibregl.GeolocateControl());
   setState((state: State) => ({ ...state, map }));
 };
 

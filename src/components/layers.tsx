@@ -1,7 +1,7 @@
 import React from 'react';
 
 const onChange = (map: any, slug: string, value: string) => {
-  map.setStyle(`/styles/v1/${slug}/${value}.json`);
+  map.setStyle(`/styles/${slug}/${value}.json`);
   window.history.replaceState(
     null,
     null,

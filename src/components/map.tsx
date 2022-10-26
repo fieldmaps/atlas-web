@@ -18,13 +18,13 @@ const componentDidMount = (
   if (mapDiv) getMap(mapDiv, setState, pageContext);
 };
 
-const MapboxGlMap = ({ setState, pageContext }: Props) => {
+const GlMap = ({ setState, pageContext }: Props) => {
   const mapDiv = useRef<HTMLDivElement>(null);
-  useEffect(() => componentDidMount(mapDiv.current, setState, pageContext), [
-    pageContext,
-    setState,
-  ]);
+  useEffect(
+    () => componentDidMount(mapDiv.current, setState, pageContext),
+    [pageContext, setState]
+  );
   return <div ref={mapDiv} className="field-maps-flex-item" />;
 };
 
-export default MapboxGlMap;
+export default GlMap;

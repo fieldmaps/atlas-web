@@ -1,5 +1,5 @@
-import mapboxgl from 'mapbox-gl';
-import 'mapbox-gl/dist/mapbox-gl.css';
+import maplibregl from 'maplibre-gl';
+import 'maplibre-gl/dist/maplibre-gl.css';
 import { Workbox } from 'workbox-window';
 import { onClick } from './popup';
 import { layers } from './config';
@@ -31,13 +31,13 @@ const registerWorkbox = (slug: string) => {
   }
 };
 
-const onDoubleClick = (mapboxgl, map, point) => {
+const onDoubleClick = (maplibregl, map, point) => {
   const { lat, lng } = map.unproject(point);
   const popupText = [
     '<div><b>Latitude, Longitude</b></div>',
     `<div>${lat.toFixed(4)}, ${lng.toFixed(4)}</div>`,
   ].join('');
-  new mapboxgl.Popup({ closeButton: false })
+  new maplibregl.Popup({ closeButton: false })
     .setLngLat({ lat, lng })
     .setHTML(popupText)
     .addTo(map);
@@ -53,27 +53,31 @@ const getMap = (
   setState: Function,
   pageContext: PageContext
 ) => {
-  mapboxgl.setRTLTextPlugin('/scripts/mapbox-gl-rtl-text.min.js', null, true);
+  maplibregl.setRTLTextPlugin(
+    '/scripts/maplibre-gl-rtl-text.min.js',
+    null,
+    true
+  );
   const styleLayer = getStyleLayer();
-  const map = new mapboxgl.Map({
+  const map = new maplibregl.Map({
     container: mapDiv,
-    style: `/styles/v1/${pageContext.slug}/${styleLayer}.json`,
+    style: `/styles/${pageContext.slug}/${styleLayer}.json`,
     bounds: pageContext.bounds,
     doubleClickZoom: false,
     dragRotate: false,
     pitchWithRotate: false,
     hash: true,
   });
-  const nav = new mapboxgl.NavigationControl({ showCompass: false });
+  const nav = new maplibregl.NavigationControl({ showCompass: false });
   map.addControl(nav, 'top-right');
   map.addControl(
-    new mapboxgl.GeolocateControl({
+    new maplibregl.GeolocateControl({
       positionOptions: { enableHighAccuracy: true },
       trackUserLocation: true,
     })
   );
-  map.on('click', ({ point }) => onClick(mapboxgl, map, point, styleLayer));
-  map.on('dblclick', ({ point }) => onDoubleClick(mapboxgl, map, point));
+  map.on('click', ({ point }) => onClick(maplibregl, map, point, styleLayer));
+  map.on('dblclick', ({ point }) => onDoubleClick(maplibregl, map, point));
   map.on('load', () => registerWorkbox(pageContext.slug));
   layers.default.forEach(layer => addPointer(layer, map));
   setState((state: State) => ({ ...state, map }));

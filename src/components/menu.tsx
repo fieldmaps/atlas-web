@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styles from './menu.module.sass';
+import * as styles from './menu.module.sass';
 import menu from '../img/menu.svg';
 import close from '../img/close.svg';
 import sun from '../img/sun.svg';
@@ -13,7 +13,7 @@ const onClick = (
   theme: string,
   setState: Function
 ) => {
-  map.setStyle(`${TILES_URL}/styles/v1/${layer}-${theme}.json`);
+  map.setStyle(`${TILES_URL}/styles/${layer}-${theme}/style.json`);
   window.history.replaceState(
     null,
     null,
@@ -102,6 +102,33 @@ export default ({ map }) => {
           onClick={e => onClick(map, 'places', state.theme, setState)}
         >
           Populated Places
+        </div>
+        <div
+          className={[
+            styles.layerButton,
+            state.layer === 'health' ? styles.layerActive : '',
+          ].join(' ')}
+          onClick={e => onClick(map, 'health', state.theme, setState)}
+        >
+          Health Sites
+        </div>
+        <div
+          className={[
+            styles.layerButton,
+            state.layer === 'education' ? styles.layerActive : '',
+          ].join(' ')}
+          onClick={e => onClick(map, 'education', state.theme, setState)}
+        >
+          Education Facilities
+        </div>
+        <div
+          className={[
+            styles.layerButton,
+            state.layer === 'markets' ? styles.layerActive : '',
+          ].join(' ')}
+          onClick={e => onClick(map, 'markets', state.theme, setState)}
+        >
+          Markets / Financial
         </div>
       </div>
     </>

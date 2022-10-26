@@ -38,7 +38,7 @@ const getStyleLayer = () => {
   return urlParams.get('style') || 'default';
 };
 
-export const onClick = (mapboxgl, map, point) => {
+export const onClick = (maplibregl, map, point) => {
   const mapLayers = layers[getStyleLayer()];
   const features = map.queryRenderedFeatures(point, { layers: mapLayers });
   if (features.length && getStyleLayer() === 'default') {
@@ -53,7 +53,7 @@ export const onClick = (mapboxgl, map, point) => {
       `<div>${getType(feature.properties.type) || '<em>Unknown</em>'}</div>`,
       ...getPcode(feature.properties.pcode),
     ].join('');
-    new mapboxgl.Popup({ closeButton: false })
+    new maplibregl.Popup({ closeButton: false })
       .setLngLat({ lat, lng })
       .setHTML(popupText)
       .addTo(map);
