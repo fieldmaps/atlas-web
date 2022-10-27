@@ -37,6 +37,7 @@ export const offInteraction = () => {
 const onMouseMove = (e) => {
   const map = get(mapStore);
   if (e.features.length > 0) {
+    map.getCanvas().style.cursor = 'pointer';
     if (hoveredStateId) {
       map.setFeatureState(
         { source: 'admx', sourceLayer: 'admx', id: hoveredStateId },
@@ -56,6 +57,7 @@ const onMouseMove = (e) => {
 const onMouseLeave = () => {
   const map = get(mapStore);
   if (hoveredStateId) {
+    map.getCanvas().style.cursor = '';
     map.setFeatureState(
       { source: 'admx', sourceLayer: 'admx', id: hoveredStateId },
       { hover: false }
