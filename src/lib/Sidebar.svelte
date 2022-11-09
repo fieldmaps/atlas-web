@@ -1,11 +1,21 @@
 <script lang="ts">
+  import { VegaLite } from 'svelte-vega';
+  import { format } from 'd3-format';
   import { adm, lvl } from '../store';
+  import { spec, transformData } from '../utils/charts';
+
   const options = {
     year: 'numeric',
     month: 'short',
     day: 'numeric',
     timeZone: 'UTC',
   };
+
+  let data = { table: [] };
+
+  adm.subscribe((props) => {
+    data = { table: transformData(props) };
+  });
 </script>
 
 <div class="container">
@@ -13,6 +23,22 @@
     <img src="/img/logo-192.png" alt="logo" />
     <h1>Atlas</h1>
   </span>
+  <h2>Population</h2>
+  <table>
+    <tr>
+      <td>Density: </td>
+      <td
+        >{$adm.t >= 0
+          ? format(',.1f')($adm.t / ($adm.area / 1e6)) + ' / km²'
+          : ''}</td
+      >
+    </tr>
+    <tr>
+      <td>Total: </td>
+      <td>{$adm.t >= 0 ? format(',.0f')($adm.t) : ''}</td>
+    </tr>
+  </table>
+  <VegaLite {data} {spec} options={{ actions: false }} />
   <h2>Names</h2>
   <table>
     <tr>
@@ -99,7 +125,7 @@
 <style>
   .container {
     overflow: auto;
-    width: 400px;
+    width: 580px;
     padding: 20px;
     background-color: black;
     color: white;

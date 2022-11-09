@@ -8,6 +8,7 @@ import { get } from 'svelte/store';
 import { map as mapStore, lvl as lvlStore, adm } from '../store';
 
 let hoveredStateId: string | number | undefined;
+let clicked = false;
 
 const getlvl = () => {
   const map = get(mapStore);
@@ -19,19 +20,33 @@ const getlvl = () => {
   return 4;
 };
 
-export const onInteraction = () => {
-  const map = get(mapStore);
+export const init = () => {
   addOverlay();
-  map.on('mousemove', 'admx', onMouseMove);
-  map.on('mouseleave', 'admx', onMouseLeave);
-  map.on('zoom', onZoom);
+  onInteraction();
+  const map = get(mapStore);
+  map.on('click', onClick);
 };
 
-export const offInteraction = () => {
+const onInteraction = (zoom = true) => {
+  const map = get(mapStore);
+  map.on('mousemove', 'admx', onMouseMove);
+  map.on('mouseleave', 'admx', onMouseLeave);
+  if (zoom) map.on('zoom', onZoom);
+};
+
+const offInteraction = (zoom = true) => {
   const map = get(mapStore);
   map.off('mousemove', 'admx', onMouseMove);
   map.off('mouseleave', 'admx', onMouseLeave);
-  map.on('zoom', onZoom);
+  if (zoom) map.off('zoom', onZoom);
+};
+
+const onClick = () => {
+  clicked = !clicked;
+  if (hoveredStateId) {
+    if (clicked) offInteraction();
+    else onInteraction();
+  }
 };
 
 const onMouseMove = (e) => {
@@ -108,6 +123,27 @@ const addOverlay = () => {
         'hsla(0, 0%, 0%, 0.1)',
         'hsla(0, 0%, 0%, 0)',
       ],
+      // 'fill-color': [
+      //   'let',
+      //   'density',
+      //   ['/', ['get', 't'], ['get', 'area']],
+      //   [
+      //     'interpolate',
+      //     ['linear'],
+      //     ['var', 'density'],
+      //     0,
+      //     ['to-color', 'hsl(0, 0%, 100%)'],
+      //     10 / 1e6,
+      //     ['to-color', 'hsl(0, 0%, 75%)'],
+      //     100 / 1e6,
+      //     ['to-color', 'hsl(0, 0%, 50%)'],
+      //     1000 / 1e6,
+      //     ['to-color', 'hsl(0, 0%, 25%)'],
+      //     10000 / 1e6,
+      //     ['to-color', 'hsl(0, 0%, 0%)'],
+      //   ],
+      // ],
+      // 'fill-opacity': 0.7,
     },
   };
   removeOverlay();

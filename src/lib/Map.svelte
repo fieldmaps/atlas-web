@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import { Map, NavigationControl } from 'maplibre-gl';
   import { PUBLIC_TILES } from '$env/static/public';
-  import { onInteraction } from '../utils/admin';
+  import { init } from '../utils/admin';
   import { map } from '../store';
   import 'maplibre-gl/dist/maplibre-gl.css';
 
@@ -17,7 +17,7 @@
       hash: true,
     });
     $map.addControl(new NavigationControl({}), 'top-right');
-    $map.once('styledata', () => onInteraction());
+    $map.once('styledata', () => init());
   });
 </script>
 
