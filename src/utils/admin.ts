@@ -1,11 +1,11 @@
+import { PUBLIC_TILES } from '$env/static/public';
 import type {
-  SourceSpecification,
   LayerSpecification,
   PointLike,
+  SourceSpecification,
 } from 'maplibre-gl';
-import { PUBLIC_TILES } from '$env/static/public';
 import { get } from 'svelte/store';
-import { map as mapStore, lvl as lvlStore, adm } from '../store';
+import { adm, lvl as lvlStore, map as mapStore } from '../store';
 
 let hoveredStateId: string | number | undefined;
 

@@ -9,7 +9,7 @@
 </script>
 
 <div class="container">
-  <span>
+  <span class="title">
     <img src="/img/logo-192.png" alt="logo" />
     <h1>Atlas</h1>
   </span>
@@ -97,9 +97,24 @@
 </div>
 
 <style>
+  @media only screen and (max-width: 768px) {
+    .container {
+      height: 33%;
+      width: 100%;
+    }
+    h1,
+    img {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 769px) {
+    .container {
+      width: 25rem;
+    }
+  }
+
   .container {
     overflow: auto;
-    width: 400px;
     padding: 20px;
     background-color: black;
     color: white;
