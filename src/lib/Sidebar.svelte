@@ -100,7 +100,6 @@
   @media only screen and (max-width: 768px) {
     .container {
       height: 33%;
-      width: 100%;
     }
     h1,
     img {
