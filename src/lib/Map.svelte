@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PUBLIC_TILES } from '$env/static/public';
+  import { PUBLIC_DATA } from '$env/static/public';
   import MapLibreGL from 'maplibre-gl';
   import 'maplibre-gl/dist/maplibre-gl.css';
   import { onMount } from 'svelte';
@@ -15,7 +15,7 @@
       container: mapContainer,
       hash: true,
       minZoom: 3,
-      style: `${PUBLIC_TILES}/styles/light/style.json`,
+      style: `${PUBLIC_DATA}/styles/light/style.json`,
     });
     $map.addControl(new NavigationControl(), 'top-right');
     $map.once('styledata', () => onInteraction());

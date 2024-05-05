@@ -90,7 +90,7 @@ function addOverlay() {
   const layerSource: SourceSpecification = {
     type: 'vector',
     promoteId: `adm${lvl}_id`,
-    url: `${PUBLIC_TILES}/data/adm${lvl}.json`,
+    url: `${PUBLIC_TILES}/adm${lvl}.json`,
   };
   const layerFill: LayerSpecification = {
     id: 'admx',
