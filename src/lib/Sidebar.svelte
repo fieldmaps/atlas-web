@@ -1,11 +1,6 @@
 <script lang="ts">
   import { adm, lvl } from '../store';
-  const options = {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-    timeZone: 'UTC',
-  };
+  const options = { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' };
 </script>
 
 <div class="container">
@@ -23,11 +18,7 @@
       <tr>
         <td>ADM{l + 1}: </td>
         <td>
-          {[
-            $adm[`adm${l + 1}_name`],
-            $adm[`adm${l + 1}_name1`],
-            $adm[`adm${l + 1}_name2`],
-          ]
+          {[$adm[`adm${l + 1}_name`], $adm[`adm${l + 1}_name1`], $adm[`adm${l + 1}_name2`]]
             .filter(Boolean)
             .join(', ')}
         </td>
@@ -62,18 +53,12 @@
       </tr>
       <tr>
         <td>Date of Dataset: </td>
-        <td
-          >{$adm.src_date
-            ? new Date($adm.src_date).toLocaleDateString('en-GB', options)
-            : ''}</td
-        >
+        <td>{$adm.src_date ? new Date($adm.src_date).toLocaleDateString('en-GB', options) : ''}</td>
       </tr>
       <tr>
         <td>Updated: </td>
         <td>
-          {$adm.src_update
-            ? new Date($adm.src_update).toLocaleDateString('en-GB', options)
-            : ''}
+          {$adm.src_update ? new Date($adm.src_update).toLocaleDateString('en-GB', options) : ''}
         </td>
       </tr>
     {/if}

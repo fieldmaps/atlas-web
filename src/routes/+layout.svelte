@@ -1,6 +1,5 @@
 <script lang="ts">
-  import '../app.css';
-
+  import 'normalize.css';
   const url = 'https://atlas2.fieldmaps.io/';
   const img = 'https://atlas2.fieldmaps.io/img/atlas-preview.png';
   const title = 'FieldMaps — Atlas';
@@ -24,3 +23,20 @@
 </svelte:head>
 
 <slot />
+
+<style>
+  @media only screen and (max-width: 768px) {
+    :global(.maplibregl-ctrl) {
+      display: none;
+    }
+  }
+
+  :global(html, body) {
+    height: 100%;
+  }
+
+  :global(body) {
+    font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+      'Segoe UI Emoji', 'Segoe UI Symbol';
+  }
+</style>

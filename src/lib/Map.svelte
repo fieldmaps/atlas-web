@@ -1,22 +1,23 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import { Map, NavigationControl } from 'maplibre-gl';
   import { PUBLIC_TILES } from '$env/static/public';
-  import { onInteraction } from '../utils/admin';
-  import { map } from '../store';
+  import MapLibreGL from 'maplibre-gl';
   import 'maplibre-gl/dist/maplibre-gl.css';
+  import { onMount } from 'svelte';
+  import { map } from '../store';
+  import { onInteraction } from '../utils/admin';
 
+  const { Map, NavigationControl } = MapLibreGL;
   let mapContainer: HTMLDivElement;
 
   onMount(() => {
     $map = new Map({
-      container: mapContainer,
-      style: `${PUBLIC_TILES}/styles/light/style.json`,
       center: [17.66809, 6.89908],
-      minZoom: 3,
+      container: mapContainer,
       hash: true,
+      minZoom: 3,
+      style: `${PUBLIC_TILES}/styles/light/style.json`,
     });
-    $map.addControl(new NavigationControl({}), 'top-right');
+    $map.addControl(new NavigationControl(), 'top-right');
     $map.once('styledata', () => onInteraction());
   });
 </script>
