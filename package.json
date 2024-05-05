@@ -39,7 +39,6 @@
     "vitest": "^1.6.0"
   },
   "dependencies": {
-    "d3-dsv": "^3.0.1",
     "maplibre-gl": "^4.2.0",
     "normalize.css": "^8.0.1"
   }
