@@ -39,6 +39,7 @@
   section {
     position: absolute;
     padding: 1rem;
+    top: 0;
   }
   button {
     background-color: #fff;
