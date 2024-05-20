@@ -1,13 +1,13 @@
 import { PUBLIC_TILES } from '$env/static/public';
+import { adm, lvl, map } from '$lib/stores/atlas';
 import type { LayerSpecification, PointLike, SourceSpecification } from 'maplibre-gl';
 import { get } from 'svelte/store';
-import { adm, lvl as lvlStore, map as mapStore } from '../store';
 
 let hoveredStateId: string | number | undefined;
 
 function getlvl() {
-  const map = get(mapStore);
-  const zoom = map.getZoom();
+  const $map = get(map);
+  const zoom = $map.getZoom();
   if (zoom < 4) return 0;
   if (zoom < 5) return 1;
   if (zoom < 6) return 2;
@@ -16,33 +16,33 @@ function getlvl() {
 }
 
 export function onInteraction() {
-  const map = get(mapStore);
+  const $map = get(map);
   addOverlay();
-  map.on('mousemove', 'admx', onMouseMove);
-  map.on('mouseleave', 'admx', onMouseLeave);
-  map.on('zoom', onZoom);
+  $map.on('mousemove', 'admx', onMouseMove);
+  $map.on('mouseleave', 'admx', onMouseLeave);
+  $map.on('zoom', onZoom);
 }
 
 export function offInteraction() {
-  const map = get(mapStore);
-  map.off('mousemove', 'admx', onMouseMove);
-  map.off('mouseleave', 'admx', onMouseLeave);
-  map.on('zoom', onZoom);
+  const $map = get(map);
+  $map.off('mousemove', 'admx', onMouseMove);
+  $map.off('mouseleave', 'admx', onMouseLeave);
+  $map.on('zoom', onZoom);
 }
 
 function onMouseMove(e) {
-  const map = get(mapStore);
+  const $map = get(map);
   if (e.features.length > 0) {
-    map.getCanvas().style.cursor = 'pointer';
+    $map.getCanvas().style.cursor = 'pointer';
     if (hoveredStateId) {
-      map.setFeatureState(
+      $map.setFeatureState(
         { source: 'admx', sourceLayer: 'admx', id: hoveredStateId },
         { hover: false },
       );
       adm.set({});
     }
     hoveredStateId = e.features[0].id;
-    map.setFeatureState(
+    $map.setFeatureState(
       { source: 'admx', sourceLayer: 'admx', id: hoveredStateId },
       { hover: true },
     );
@@ -51,10 +51,10 @@ function onMouseMove(e) {
 }
 
 function onMouseLeave() {
-  const map = get(mapStore);
+  const $map = get(map);
   if (hoveredStateId) {
-    map.getCanvas().style.cursor = '';
-    map.setFeatureState(
+    $map.getCanvas().style.cursor = '';
+    $map.setFeatureState(
       { source: 'admx', sourceLayer: 'admx', id: hoveredStateId },
       { hover: false },
     );
@@ -64,33 +64,33 @@ function onMouseLeave() {
 }
 
 function onZoom({ originalEvent }) {
-  const map = get(mapStore);
-  const lvl = get(lvlStore);
-  const zoom = map.getZoom();
-  if (lvl !== 0 && zoom < 4) addOverlay();
-  else if (lvl !== 1 && zoom >= 4 && zoom < 5) addOverlay();
-  else if (lvl !== 2 && zoom >= 5 && zoom < 6) addOverlay();
-  else if (lvl !== 3 && zoom >= 6 && zoom < 7) addOverlay();
-  else if (lvl !== 4 && zoom >= 7) addOverlay();
+  const $map = get(map);
+  const $lvl = get(lvl);
+  const zoom = $map.getZoom();
+  if ($lvl !== 0 && zoom < 4) addOverlay();
+  else if ($lvl !== 1 && zoom >= 4 && zoom < 5) addOverlay();
+  else if ($lvl !== 2 && zoom >= 5 && zoom < 6) addOverlay();
+  else if ($lvl !== 3 && zoom >= 6 && zoom < 7) addOverlay();
+  else if ($lvl !== 4 && zoom >= 7) addOverlay();
   const point: PointLike = [originalEvent.layerX, originalEvent.layerY];
-  const features = map.queryRenderedFeatures(point, { layers: ['admx'] });
+  const features = $map.queryRenderedFeatures(point, { layers: ['admx'] });
   if (features.length > 0) onMouseMove({ features });
 }
 
 function removeOverlay() {
-  const map = get(mapStore);
-  map.getLayer('admx') && map.removeLayer('admx');
-  map.getSource('admx') && map.removeSource('admx');
+  const $map = get(map);
+  $map.getLayer('admx') && $map.removeLayer('admx');
+  $map.getSource('admx') && $map.removeSource('admx');
 }
 
 function addOverlay() {
-  const map = get(mapStore);
-  const lvl = getlvl();
-  lvlStore.set(getlvl());
+  lvl.set(getlvl());
+  const $map = get(map);
+  const $lvl = get(lvl);
   const layerSource: SourceSpecification = {
     type: 'vector',
-    promoteId: `adm${lvl}_id`,
-    url: `${PUBLIC_TILES}/adm${lvl}.json`,
+    promoteId: `adm${$lvl}_id`,
+    url: `${PUBLIC_TILES}/adm${$lvl}.json`,
   };
   const layerFill: LayerSpecification = {
     id: 'admx',
@@ -107,6 +107,6 @@ function addOverlay() {
     },
   };
   removeOverlay();
-  map.addSource('admx', layerSource);
-  map.addLayer(layerFill);
+  $map.addSource('admx', layerSource);
+  $map.addLayer(layerFill);
 }

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { adm, lvl } from '../store';
+  import { adm, lvl } from '$lib/stores/atlas';
   const options = { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' };
 </script>
 

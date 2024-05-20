@@ -1,15 +1,16 @@
 <script lang="ts">
   import { PUBLIC_DATA } from '$env/static/public';
+  import { map } from '$lib/stores/atlas';
+  import { onInteraction } from '$lib/utils/admin';
   import MapLibreGL from 'maplibre-gl';
   import 'maplibre-gl/dist/maplibre-gl.css';
   import { onMount } from 'svelte';
-  import { map } from '../store';
-  import { onInteraction } from '../utils/admin';
 
-  const { Map, NavigationControl } = MapLibreGL;
+  const { Map, NavigationControl, setRTLTextPlugin } = MapLibreGL;
   let mapContainer: HTMLDivElement;
 
   onMount(() => {
+    setRTLTextPlugin('/scripts/maplibre-gl-rtl-text.min.js', true);
     $map = new Map({
       center: [17.66809, 6.89908],
       container: mapContainer,

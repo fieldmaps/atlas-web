@@ -1,16 +1,18 @@
 <script lang="ts">
-  import Map from '$lib/components/Map.svelte';
-  import Sidebar from '$lib/components/Sidebar.svelte';
+  import { page } from '$app/stores';
+  import Country from '$lib/components/Country.svelte';
+  import CountrySearch from '$lib/components/CountrySearch.svelte';
 
-  const url = 'https://atlas.fieldmaps.io/';
+  const pageName = $page.params.slug.toUpperCase();
+  const url = `https://atlas.fieldmaps.io/${$page.params.slug}`;
   const img = 'https://atlas.fieldmaps.io/img/atlas-preview.png';
-  const title = 'FieldMaps — Atlas';
+  const title = `${pageName} FieldMaps — Atlas`;
   const description = 'Reference maps for humanitarian use.';
 </script>
 
 <svelte:head>
-  <link rel="manifest" href="/manifest.json" />
-  <title>Atlas | Fieldmaps.io</title>
+  <link rel="manifest" href={`/data/${$page.params.slug}/manifest.json`} />
+  <title>{pageName} Atlas | Fieldmaps.io</title>
   <meta name="title" content={title} />
   <meta name="description" content={description} />
   <meta property="og:type" content="website" />
@@ -26,8 +28,8 @@
 </svelte:head>
 
 <main>
-  <Sidebar />
-  <Map />
+  <Country />
+  <CountrySearch />
 </main>
 
 <style>
