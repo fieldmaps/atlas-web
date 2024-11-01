@@ -26,7 +26,7 @@
         <button
           class="button is-white is-fullwidth justify-content-start"
           type="button"
-          on:mousedown={() => onClick(settlement)}
+          onmousedown={() => onClick(settlement)}
         >
           {settlement.name}
         </button>
@@ -52,7 +52,7 @@
   button:hover {
     background-color: #eee;
   }
-  input:not(:focus-within) + .list {
+  input:not(:global(:focus-within)) + .list {
     display: none;
   }
   .list {

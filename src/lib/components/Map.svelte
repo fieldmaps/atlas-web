@@ -7,7 +7,7 @@
   import { onMount } from 'svelte';
 
   const { Map, NavigationControl, setRTLTextPlugin } = MapLibreGL;
-  let mapContainer: HTMLDivElement;
+  let mapContainer: HTMLDivElement = $state();
 
   onMount(() => {
     setRTLTextPlugin('/scripts/maplibre-gl-rtl-text.min.js', true);
@@ -23,7 +23,7 @@
   });
 </script>
 
-<div class="map" id="map" bind:this={mapContainer} />
+<div class="map" id="map" bind:this={mapContainer}></div>
 
 <style>
   .map {

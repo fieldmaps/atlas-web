@@ -1,6 +1,11 @@
 <script lang="ts">
   import 'normalize.css';
   import { onMount } from 'svelte';
+  interface Props {
+    children?: import('svelte').Snippet;
+  }
+
+  let { children }: Props = $props();
 
   onMount(() => {
     if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
@@ -13,7 +18,7 @@
   });
 </script>
 
-<slot />
+{@render children?.()}
 
 <style>
   @media only screen and (max-width: 768px) {

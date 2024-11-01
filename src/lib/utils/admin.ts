@@ -17,6 +17,7 @@ function getlvl() {
 
 export function onInteraction() {
   const $map = get(map);
+  $map.setProjection({ type: 'globe' });
   addOverlay();
   $map.on('mousemove', 'admx', onMouseMove);
   $map.on('mouseleave', 'admx', onMouseLeave);
