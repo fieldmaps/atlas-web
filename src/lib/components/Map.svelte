@@ -12,7 +12,7 @@
   onMount(() => {
     setRTLTextPlugin('/scripts/maplibre-gl-rtl-text.min.js', true);
     $map = new Map({
-      center: [17.66809, 6.89908],
+      bounds: [-17.5316266, -34.8335451, 51.4150688, 37.3473421],
       container: mapContainer,
       hash: true,
       minZoom: 3,
