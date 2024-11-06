@@ -6,7 +6,7 @@
   import 'maplibre-gl/dist/maplibre-gl.css';
   import { onMount } from 'svelte';
 
-  const { Map, NavigationControl, setRTLTextPlugin } = MapLibreGL;
+  const { Map, NavigationControl, setRTLTextPlugin, GlobeControl } = MapLibreGL;
   let mapContainer: HTMLDivElement = $state();
 
   onMount(() => {
@@ -18,7 +18,8 @@
       minZoom: 3,
       style: `${PUBLIC_DATA}/styles/light/style.json`,
     });
-    $map.addControl(new NavigationControl(), 'top-right');
+    $map.addControl(new NavigationControl());
+    $map.addControl(new GlobeControl());
     $map.once('styledata', () => onInteraction());
   });
 </script>
