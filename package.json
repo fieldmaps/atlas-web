@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "d3-dsv": "^3.0.1",
-    "maplibre-gl": "^5.0.0-pre.9",
+    "maplibre-gl": "5.0.0-pre.8",
     "normalize.css": "^8.0.1"
   }
 }
