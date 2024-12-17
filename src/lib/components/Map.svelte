@@ -15,7 +15,7 @@
       bounds: [-17.5316266, -34.8335451, 51.4150688, 37.3473421],
       container: mapContainer,
       hash: true,
-      minZoom: 3,
+      minZoom: 3.1,
       style: `${PUBLIC_DATA}/styles/light/style.json`,
     });
     $map.addControl(new NavigationControl());
